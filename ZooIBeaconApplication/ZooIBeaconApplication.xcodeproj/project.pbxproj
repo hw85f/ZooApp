@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BC5710D18EDFCC900019738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5710C18EDFCC900019738 /* Foundation.framework */; };
+		3BC5710F18EDFCC900019738 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5710E18EDFCC900019738 /* CoreGraphics.framework */; };
+		3BC5711118EDFCC900019738 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5711018EDFCC900019738 /* UIKit.framework */; };
+		3BC5711718EDFCC900019738 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BC5711518EDFCC900019738 /* InfoPlist.strings */; };
+		3BC5711918EDFCC900019738 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5711818EDFCC900019738 /* main.m */; };
+		3BC5711D18EDFCC900019738 /* ZOOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5711C18EDFCC900019738 /* ZOOAppDelegate.m */; };
+		3BC5712018EDFCC900019738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC5711E18EDFCC900019738 /* Main.storyboard */; };
+		3BC5712818EDFCC900019738 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC5712718EDFCC900019738 /* Images.xcassets */; };
+		3BC5712F18EDFCCA00019738 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5712E18EDFCCA00019738 /* XCTest.framework */; };
+		3BC5713018EDFCCA00019738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5710C18EDFCC900019738 /* Foundation.framework */; };
+		3BC5713118EDFCCA00019738 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5711018EDFCC900019738 /* UIKit.framework */; };
+		3BC5713918EDFCCA00019738 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BC5713718EDFCCA00019738 /* InfoPlist.strings */; };
+		3BC5713B18EDFCCA00019738 /* ZooIBeaconApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5713A18EDFCCA00019738 /* ZooIBeaconApplicationTests.m */; };
+		DD3159B018F64FCE00247B44 /* connectController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159AF18F64FCE00247B44 /* connectController.m */; };
+		DD3159B418F652EF00247B44 /* collectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159B318F652EF00247B44 /* collectionView.m */; };
+		DD3E512318F1ED0100DB9200 /* TableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3E512218F1ED0100DB9200 /* TableTableViewController.m */; };
+		DD3E512918F1F2D500DB9200 /* AnimalDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3E512818F1F2D500DB9200 /* AnimalDetailsViewController.m */; };
+		DD3E51B518F47ECF00DB9200 /* icon-map-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3E51B418F47ECF00DB9200 /* icon-map-30x30.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BC5713218EDFCCA00019738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BC5710118EDFCC900019738 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BC5710818EDFCC900019738;
+			remoteInfo = ZooIBeaconApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BC5710918EDFCC900019738 /* ZooIBeaconApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooIBeaconApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC5710C18EDFCC900019738 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BC5710E18EDFCC900019738 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BC5711018EDFCC900019738 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BC5711418EDFCC900019738 /* ZooIBeaconApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZooIBeaconApplication-Info.plist"; sourceTree = "<group>"; };
+		3BC5711618EDFCC900019738 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BC5711818EDFCC900019738 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BC5711A18EDFCC900019738 /* ZooIBeaconApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZooIBeaconApplication-Prefix.pch"; sourceTree = "<group>"; };
+		3BC5711B18EDFCC900019738 /* ZOOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZOOAppDelegate.h; sourceTree = "<group>"; };
+		3BC5711C18EDFCC900019738 /* ZOOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZOOAppDelegate.m; sourceTree = "<group>"; };
+		3BC5711F18EDFCC900019738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BC5712718EDFCC900019738 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BC5712D18EDFCCA00019738 /* ZooIBeaconApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooIBeaconApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC5712E18EDFCCA00019738 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3BC5713618EDFCCA00019738 /* ZooIBeaconApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZooIBeaconApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		3BC5713818EDFCCA00019738 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BC5713A18EDFCCA00019738 /* ZooIBeaconApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZooIBeaconApplicationTests.m; sourceTree = "<group>"; };
+		DD3159AE18F64FCE00247B44 /* connectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connectController.h; sourceTree = "<group>"; };
+		DD3159AF18F64FCE00247B44 /* connectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = connectController.m; sourceTree = "<group>"; };
+		DD3159B218F652EF00247B44 /* collectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = collectionView.h; path = "Collection View Controllers/collectionView.h"; sourceTree = "<group>"; };
+		DD3159B318F652EF00247B44 /* collectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = collectionView.m; path = "Collection View Controllers/collectionView.m"; sourceTree = "<group>"; };
+		DD3E512118F1ED0100DB9200 /* TableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableTableViewController.h; path = "TableView Controller/TableTableViewController.h"; sourceTree = "<group>"; };
+		DD3E512218F1ED0100DB9200 /* TableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableTableViewController.m; path = "TableView Controller/TableTableViewController.m"; sourceTree = "<group>"; };
+		DD3E512718F1F2D500DB9200 /* AnimalDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalDetailsViewController.h; sourceTree = "<group>"; };
+		DD3E512818F1F2D500DB9200 /* AnimalDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalDetailsViewController.m; sourceTree = "<group>"; };
+		DD3E51B418F47ECF00DB9200 /* icon-map-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-map-30x30.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BC5710618EDFCC900019738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC5710F18EDFCC900019738 /* CoreGraphics.framework in Frameworks */,
+				3BC5711118EDFCC900019738 /* UIKit.framework in Frameworks */,
+				3BC5710D18EDFCC900019738 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC5712A18EDFCCA00019738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC5712F18EDFCCA00019738 /* XCTest.framework in Frameworks */,
+				3BC5713118EDFCCA00019738 /* UIKit.framework in Frameworks */,
+				3BC5713018EDFCCA00019738 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BC5710018EDFCC900019738 = {
+			isa = PBXGroup;
+			children = (
+				3BC5711218EDFCC900019738 /* ZooIBeaconApplication */,
+				3BC5713418EDFCCA00019738 /* ZooIBeaconApplicationTests */,
+				3BC5710B18EDFCC900019738 /* Frameworks */,
+				3BC5710A18EDFCC900019738 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BC5710A18EDFCC900019738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BC5710918EDFCC900019738 /* ZooIBeaconApplication.app */,
+				3BC5712D18EDFCCA00019738 /* ZooIBeaconApplicationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BC5710B18EDFCC900019738 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BC5710C18EDFCC900019738 /* Foundation.framework */,
+				3BC5710E18EDFCC900019738 /* CoreGraphics.framework */,
+				3BC5711018EDFCC900019738 /* UIKit.framework */,
+				3BC5712E18EDFCCA00019738 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BC5711218EDFCC900019738 /* ZooIBeaconApplication */ = {
+			isa = PBXGroup;
+			children = (
+				DD3159B118F651B300247B44 /* Collection View Controller */,
+				DD3159AD18F64F8700247B44 /* Connect Controllers */,
+				DD3E51B418F47ECF00DB9200 /* icon-map-30x30.png */,
+				DD3E511F18F1EC8500DB9200 /* TableView Controllers */,
+				3BC5711B18EDFCC900019738 /* ZOOAppDelegate.h */,
+				3BC5711C18EDFCC900019738 /* ZOOAppDelegate.m */,
+				3BC5711E18EDFCC900019738 /* Main.storyboard */,
+				3BC5712718EDFCC900019738 /* Images.xcassets */,
+				3BC5711318EDFCC900019738 /* Supporting Files */,
+			);
+			path = ZooIBeaconApplication;
+			sourceTree = "<group>";
+		};
+		3BC5711318EDFCC900019738 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BC5711418EDFCC900019738 /* ZooIBeaconApplication-Info.plist */,
+				3BC5711518EDFCC900019738 /* InfoPlist.strings */,
+				3BC5711818EDFCC900019738 /* main.m */,
+				3BC5711A18EDFCC900019738 /* ZooIBeaconApplication-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BC5713418EDFCCA00019738 /* ZooIBeaconApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BC5713A18EDFCCA00019738 /* ZooIBeaconApplicationTests.m */,
+				3BC5713518EDFCCA00019738 /* Supporting Files */,
+			);
+			path = ZooIBeaconApplicationTests;
+			sourceTree = "<group>";
+		};
+		3BC5713518EDFCCA00019738 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BC5713618EDFCCA00019738 /* ZooIBeaconApplicationTests-Info.plist */,
+				3BC5713718EDFCCA00019738 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD3159AD18F64F8700247B44 /* Connect Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD3159AE18F64FCE00247B44 /* connectController.h */,
+				DD3159AF18F64FCE00247B44 /* connectController.m */,
+			);
+			name = "Connect Controllers";
+			sourceTree = "<group>";
+		};
+		DD3159B118F651B300247B44 /* Collection View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD3159B218F652EF00247B44 /* collectionView.h */,
+				DD3159B318F652EF00247B44 /* collectionView.m */,
+			);
+			name = "Collection View Controller";
+			sourceTree = "<group>";
+		};
+		DD3E511F18F1EC8500DB9200 /* TableView Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD3E512118F1ED0100DB9200 /* TableTableViewController.h */,
+				DD3E512218F1ED0100DB9200 /* TableTableViewController.m */,
+				DD3E512718F1F2D500DB9200 /* AnimalDetailsViewController.h */,
+				DD3E512818F1F2D500DB9200 /* AnimalDetailsViewController.m */,
+			);
+			name = "TableView Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BC5710818EDFCC900019738 /* ZooIBeaconApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC5713E18EDFCCA00019738 /* Build configuration list for PBXNativeTarget "ZooIBeaconApplication" */;
+			buildPhases = (
+				3BC5710518EDFCC900019738 /* Sources */,
+				3BC5710618EDFCC900019738 /* Frameworks */,
+				3BC5710718EDFCC900019738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZooIBeaconApplication;
+			productName = ZooIBeaconApplication;
+			productReference = 3BC5710918EDFCC900019738 /* ZooIBeaconApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BC5712C18EDFCCA00019738 /* ZooIBeaconApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC5714118EDFCCA00019738 /* Build configuration list for PBXNativeTarget "ZooIBeaconApplicationTests" */;
+			buildPhases = (
+				3BC5712918EDFCCA00019738 /* Sources */,
+				3BC5712A18EDFCCA00019738 /* Frameworks */,
+				3BC5712B18EDFCCA00019738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BC5713318EDFCCA00019738 /* PBXTargetDependency */,
+			);
+			name = ZooIBeaconApplicationTests;
+			productName = ZooIBeaconApplicationTests;
+			productReference = 3BC5712D18EDFCCA00019738 /* ZooIBeaconApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BC5710118EDFCC900019738 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZOO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mizzou IT";
+				TargetAttributes = {
+					3BC5712C18EDFCCA00019738 = {
+						TestTargetID = 3BC5710818EDFCC900019738;
+					};
+				};
+			};
+			buildConfigurationList = 3BC5710418EDFCC900019738 /* Build configuration list for PBXProject "ZooIBeaconApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BC5710018EDFCC900019738;
+			productRefGroup = 3BC5710A18EDFCC900019738 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BC5710818EDFCC900019738 /* ZooIBeaconApplication */,
+				3BC5712C18EDFCCA00019738 /* ZooIBeaconApplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BC5710718EDFCC900019738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC5712818EDFCC900019738 /* Images.xcassets in Resources */,
+				3BC5711718EDFCC900019738 /* InfoPlist.strings in Resources */,
+				DD3E51B518F47ECF00DB9200 /* icon-map-30x30.png in Resources */,
+				3BC5712018EDFCC900019738 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC5712B18EDFCCA00019738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC5713918EDFCCA00019738 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BC5710518EDFCC900019738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3159B018F64FCE00247B44 /* connectController.m in Sources */,
+				3BC5711918EDFCC900019738 /* main.m in Sources */,
+				DD3159B418F652EF00247B44 /* collectionView.m in Sources */,
+				3BC5711D18EDFCC900019738 /* ZOOAppDelegate.m in Sources */,
+				DD3E512318F1ED0100DB9200 /* TableTableViewController.m in Sources */,
+				DD3E512918F1F2D500DB9200 /* AnimalDetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC5712918EDFCCA00019738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC5713B18EDFCCA00019738 /* ZooIBeaconApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BC5713318EDFCCA00019738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BC5710818EDFCC900019738 /* ZooIBeaconApplication */;
+			targetProxy = 3BC5713218EDFCCA00019738 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BC5711518EDFCC900019738 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BC5711618EDFCC900019738 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BC5711E18EDFCC900019738 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BC5711F18EDFCC900019738 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BC5713718EDFCCA00019738 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BC5713818EDFCCA00019738 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BC5713C18EDFCCA00019738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BC5713D18EDFCCA00019738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BC5713F18EDFCCA00019738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZooIBeaconApplication/ZooIBeaconApplication-Prefix.pch";
+				INFOPLIST_FILE = "ZooIBeaconApplication/ZooIBeaconApplication-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BC5714018EDFCCA00019738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZooIBeaconApplication/ZooIBeaconApplication-Prefix.pch";
+				INFOPLIST_FILE = "ZooIBeaconApplication/ZooIBeaconApplication-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3BC5714218EDFCCA00019738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZooIBeaconApplication.app/ZooIBeaconApplication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZooIBeaconApplication/ZooIBeaconApplication-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZooIBeaconApplicationTests/ZooIBeaconApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3BC5714318EDFCCA00019738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZooIBeaconApplication.app/ZooIBeaconApplication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZooIBeaconApplication/ZooIBeaconApplication-Prefix.pch";
+				INFOPLIST_FILE = "ZooIBeaconApplicationTests/ZooIBeaconApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BC5710418EDFCC900019738 /* Build configuration list for PBXProject "ZooIBeaconApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC5713C18EDFCCA00019738 /* Debug */,
+				3BC5713D18EDFCCA00019738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC5713E18EDFCCA00019738 /* Build configuration list for PBXNativeTarget "ZooIBeaconApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC5713F18EDFCCA00019738 /* Debug */,
+				3BC5714018EDFCCA00019738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC5714118EDFCCA00019738 /* Build configuration list for PBXNativeTarget "ZooIBeaconApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC5714218EDFCCA00019738 /* Debug */,
+				3BC5714318EDFCCA00019738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BC5710118EDFCC900019738 /* Project object */;
+}
