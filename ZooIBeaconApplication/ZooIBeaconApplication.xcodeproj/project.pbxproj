@@ -21,7 +21,8 @@
 		3BC5713918EDFCCA00019738 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BC5713718EDFCCA00019738 /* InfoPlist.strings */; };
 		3BC5713B18EDFCCA00019738 /* ZooIBeaconApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5713A18EDFCCA00019738 /* ZooIBeaconApplicationTests.m */; };
 		DD3159B018F64FCE00247B44 /* connectController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159AF18F64FCE00247B44 /* connectController.m */; };
-		DD3159B418F652EF00247B44 /* collectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159B318F652EF00247B44 /* collectionView.m */; };
+		DD3159BA18F9AC5900247B44 /* collectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159B918F9AC5900247B44 /* collectionViewController.m */; };
+		DD3159BD18F9B3CB00247B44 /* collectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159BC18F9B3CB00247B44 /* collectionViewCell.m */; };
 		DD3E512318F1ED0100DB9200 /* TableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3E512218F1ED0100DB9200 /* TableTableViewController.m */; };
 		DD3E512918F1F2D500DB9200 /* AnimalDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3E512818F1F2D500DB9200 /* AnimalDetailsViewController.m */; };
 		DD3E51B518F47ECF00DB9200 /* icon-map-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3E51B418F47ECF00DB9200 /* icon-map-30x30.png */; };
@@ -57,8 +58,10 @@
 		3BC5713A18EDFCCA00019738 /* ZooIBeaconApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZooIBeaconApplicationTests.m; sourceTree = "<group>"; };
 		DD3159AE18F64FCE00247B44 /* connectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connectController.h; sourceTree = "<group>"; };
 		DD3159AF18F64FCE00247B44 /* connectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = connectController.m; sourceTree = "<group>"; };
-		DD3159B218F652EF00247B44 /* collectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = collectionView.h; path = "Collection View Controllers/collectionView.h"; sourceTree = "<group>"; };
-		DD3159B318F652EF00247B44 /* collectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = collectionView.m; path = "Collection View Controllers/collectionView.m"; sourceTree = "<group>"; };
+		DD3159B818F9AC5900247B44 /* collectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionViewController.h; sourceTree = "<group>"; };
+		DD3159B918F9AC5900247B44 /* collectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = collectionViewController.m; sourceTree = "<group>"; };
+		DD3159BB18F9B3CB00247B44 /* collectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionViewCell.h; sourceTree = "<group>"; };
+		DD3159BC18F9B3CB00247B44 /* collectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = collectionViewCell.m; sourceTree = "<group>"; };
 		DD3E512118F1ED0100DB9200 /* TableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableTableViewController.h; path = "TableView Controller/TableTableViewController.h"; sourceTree = "<group>"; };
 		DD3E512218F1ED0100DB9200 /* TableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableTableViewController.m; path = "TableView Controller/TableTableViewController.m"; sourceTree = "<group>"; };
 		DD3E512718F1F2D500DB9200 /* AnimalDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalDetailsViewController.h; sourceTree = "<group>"; };
@@ -177,8 +180,10 @@
 		DD3159B118F651B300247B44 /* Collection View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DD3159B218F652EF00247B44 /* collectionView.h */,
-				DD3159B318F652EF00247B44 /* collectionView.m */,
+				DD3159B818F9AC5900247B44 /* collectionViewController.h */,
+				DD3159B918F9AC5900247B44 /* collectionViewController.m */,
+				DD3159BB18F9B3CB00247B44 /* collectionViewCell.h */,
+				DD3159BC18F9B3CB00247B44 /* collectionViewCell.m */,
 			);
 			name = "Collection View Controller";
 			sourceTree = "<group>";
@@ -294,10 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD3159B018F64FCE00247B44 /* connectController.m in Sources */,
+				DD3159BD18F9B3CB00247B44 /* collectionViewCell.m in Sources */,
 				3BC5711918EDFCC900019738 /* main.m in Sources */,
-				DD3159B418F652EF00247B44 /* collectionView.m in Sources */,
 				3BC5711D18EDFCC900019738 /* ZOOAppDelegate.m in Sources */,
 				DD3E512318F1ED0100DB9200 /* TableTableViewController.m in Sources */,
+				DD3159BA18F9AC5900247B44 /* collectionViewController.m in Sources */,
 				DD3E512918F1F2D500DB9200 /* AnimalDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

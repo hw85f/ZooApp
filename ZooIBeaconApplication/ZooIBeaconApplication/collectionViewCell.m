@@ -1,14 +1,14 @@
 //
-//  collectionView.m
+//  collectionViewCell.m
 //  ZooIBeaconApplication
 //
-//  Created by Haidong Wang on 4/9/14.
+//  Created by Haidong Wang on 4/12/14.
 //  Copyright (c) 2014 Mizzou IT. All rights reserved.
 //
 
-#import "collectionView.h"
+#import "collectionViewCell.h"
 
-@implementation collectionView
+@implementation collectionViewCell
 
 - (id)initWithFrame:(CGRect)frame
 {
