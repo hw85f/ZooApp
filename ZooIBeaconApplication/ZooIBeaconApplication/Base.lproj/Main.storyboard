@@ -8,7 +8,7 @@
         <scene sceneID="jBG-ot-p1E">
             <objects>
                 <navigationController definesPresentationContext="YES" id="Sll-Rr-Gdx" userLabel="Map Navigation Controller - Item" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Map" image="icon-map-30x30.png" id="Vec-Zr-MOT"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="icon-map-30x27.png" id="Vec-Zr-MOT"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UfG-SI-TJa">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.55294117649999996" green="0.77647058820000003" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
@@ -44,7 +44,7 @@
         <scene sceneID="4LA-Xi-1FW">
             <objects>
                 <navigationController definesPresentationContext="YES" id="Mfd-Dr-uFo" userLabel="Animals Navigation Controller - Item" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Animals" image="first" id="P6D-0U-IHF"/>
+                    <tabBarItem key="tabBarItem" title="Animals" image="icon-animals-30x27.png" id="P6D-0U-IHF"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Oh5-hV-YT5">
                         <autoresizingMask key="autoresizingMask"/>
@@ -167,7 +167,7 @@
         <scene sceneID="BXF-Bk-Rxq">
             <objects>
                 <navigationController definesPresentationContext="YES" id="tA8-tp-uJE" userLabel="Connect Navigation Controller - Item" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Connect" image="first" id="tJ7-pP-y0f"/>
+                    <tabBarItem key="tabBarItem" title="Connect" image="icon-connect-30x27.png" id="tJ7-pP-y0f"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="BTj-2m-XtT">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.55294117649999996" green="0.77647058820000003" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
@@ -187,7 +187,7 @@
         <scene sceneID="fGP-Y1-qvI">
             <objects>
                 <navigationController definesPresentationContext="YES" id="hlv-j0-fdK" userLabel="Badges Navigation Controller - Item" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Badges" image="first" id="2cY-BT-J7A"/>
+                    <tabBarItem key="tabBarItem" title="Badges" image="icon-badges-30x27.png" id="2cY-BT-J7A"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZqI-pF-96N">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.55294117647058827" green="0.77647058823529413" blue="0.24705882352941178" alpha="1" colorSpace="calibratedRGB"/>
@@ -380,7 +380,10 @@
     </scenes>
     <resources>
         <image name="first" width="30" height="30"/>
-        <image name="icon-map-30x30.png" width="30" height="30"/>
+        <image name="icon-animals-30x27.png" width="30" height="27"/>
+        <image name="icon-badges-30x27.png" width="30" height="27"/>
+        <image name="icon-connect-30x27.png" width="30" height="27"/>
+        <image name="icon-map-30x27.png" width="30" height="27"/>
     </resources>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
