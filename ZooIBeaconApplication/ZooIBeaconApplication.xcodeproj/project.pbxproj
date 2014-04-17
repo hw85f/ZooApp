@@ -25,6 +25,8 @@
 		DD3159BD18F9B3CB00247B44 /* collectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159BC18F9B3CB00247B44 /* collectionViewCell.m */; };
 		DD3E512318F1ED0100DB9200 /* TableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3E512218F1ED0100DB9200 /* TableTableViewController.m */; };
 		DD3E512918F1F2D500DB9200 /* AnimalDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3E512818F1F2D500DB9200 /* AnimalDetailsViewController.m */; };
+		DD9867BB19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9867BA19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png */; };
+		DD9867BE19005040000FD05D /* ZOOMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9867BD19005040000FD05D /* ZOOMapViewController.m */; };
 		DDF9E96E18FCF50E0032ED1E /* icon-animals-30x27.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF9E96518FCF50E0032ED1E /* icon-animals-30x27.png */; };
 		DDF9E96F18FCF50E0032ED1E /* icon-animals-60x54.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF9E96618FCF50E0032ED1E /* icon-animals-60x54.png */; };
 		DDF9E97018FCF50E0032ED1E /* icon-badges-30x27.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF9E96718FCF50E0032ED1E /* icon-badges-30x27.png */; };
@@ -74,6 +76,9 @@
 		DD3E512218F1ED0100DB9200 /* TableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableTableViewController.m; path = "TableView Controller/TableTableViewController.m"; sourceTree = "<group>"; };
 		DD3E512718F1F2D500DB9200 /* AnimalDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalDetailsViewController.h; sourceTree = "<group>"; };
 		DD3E512818F1F2D500DB9200 /* AnimalDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalDetailsViewController.m; sourceTree = "<group>"; };
+		DD9867BA19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-04-08 at 2.09.59 PM.png"; sourceTree = "<group>"; };
+		DD9867BC19005040000FD05D /* ZOOMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOOMapViewController.h; sourceTree = "<group>"; };
+		DD9867BD19005040000FD05D /* ZOOMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOOMapViewController.m; sourceTree = "<group>"; };
 		DDF9E96518FCF50E0032ED1E /* icon-animals-30x27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-animals-30x27.png"; sourceTree = "<group>"; };
 		DDF9E96618FCF50E0032ED1E /* icon-animals-60x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-animals-60x54.png"; sourceTree = "<group>"; };
 		DDF9E96718FCF50E0032ED1E /* icon-badges-30x27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-badges-30x27.png"; sourceTree = "<group>"; };
@@ -143,6 +148,8 @@
 		3BC5711218EDFCC900019738 /* ZooIBeaconApplication */ = {
 			isa = PBXGroup;
 			children = (
+				DD9867BC19005040000FD05D /* ZOOMapViewController.h */,
+				DD9867BD19005040000FD05D /* ZOOMapViewController.m */,
 				DDFDED3619004B100070E009 /* ZOOTabBarViewController.h */,
 				DDFDED3719004B100070E009 /* ZOOTabBarViewController.m */,
 				DDF9E96318FCF4BD0032ED1E /* Images */,
@@ -221,6 +228,7 @@
 		DDF9E96318FCF4BD0032ED1E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DD9867BA19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png */,
 				DDF9E96418FCF50E0032ED1E /* tabBarIcons-60x54-30x27 */,
 			);
 			name = Images;
@@ -327,6 +335,7 @@
 				DDF9E96E18FCF50E0032ED1E /* icon-animals-30x27.png in Resources */,
 				3BC5711718EDFCC900019738 /* InfoPlist.strings in Resources */,
 				3BC5712018EDFCC900019738 /* Main.storyboard in Resources */,
+				DD9867BB19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png in Resources */,
 				DDF9E97518FCF50E0032ED1E /* icon-map-60x54.png in Resources */,
 				DDF9E97118FCF50E0032ED1E /* icon-badges-60x54.png in Resources */,
 			);
@@ -353,6 +362,7 @@
 				3BC5711D18EDFCC900019738 /* ZOOAppDelegate.m in Sources */,
 				DD3E512318F1ED0100DB9200 /* TableTableViewController.m in Sources */,
 				DD3159BA18F9AC5900247B44 /* collectionViewController.m in Sources */,
+				DD9867BE19005040000FD05D /* ZOOMapViewController.m in Sources */,
 				DD3E512918F1F2D500DB9200 /* AnimalDetailsViewController.m in Sources */,
 				DDFDED3819004B100070E009 /* ZOOTabBarViewController.m in Sources */,
 			);
