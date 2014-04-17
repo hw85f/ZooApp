@@ -33,7 +33,7 @@
 		DDF9E97318FCF50E0032ED1E /* icon-connect-60x54.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF9E96A18FCF50E0032ED1E /* icon-connect-60x54.png */; };
 		DDF9E97418FCF50E0032ED1E /* icon-map-30x27.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF9E96B18FCF50E0032ED1E /* icon-map-30x27.png */; };
 		DDF9E97518FCF50E0032ED1E /* icon-map-60x54.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF9E96C18FCF50E0032ED1E /* icon-map-60x54.png */; };
-		DDFDED35190048830070E009 /* ZOOTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFDED34190048830070E009 /* ZOOTabBarViewController.m */; };
+		DDFDED3819004B100070E009 /* ZOOTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFDED3719004B100070E009 /* ZOOTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,8 +82,8 @@
 		DDF9E96A18FCF50E0032ED1E /* icon-connect-60x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-connect-60x54.png"; sourceTree = "<group>"; };
 		DDF9E96B18FCF50E0032ED1E /* icon-map-30x27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-map-30x27.png"; sourceTree = "<group>"; };
 		DDF9E96C18FCF50E0032ED1E /* icon-map-60x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-map-60x54.png"; sourceTree = "<group>"; };
-		DDFDED33190048830070E009 /* ZOOTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZOOTabBarViewController.h; path = ../ZOOTabBarViewController.h; sourceTree = "<group>"; };
-		DDFDED34190048830070E009 /* ZOOTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZOOTabBarViewController.m; path = ../ZOOTabBarViewController.m; sourceTree = "<group>"; };
+		DDFDED3619004B100070E009 /* ZOOTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOOTabBarViewController.h; sourceTree = "<group>"; };
+		DDFDED3719004B100070E009 /* ZOOTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOOTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +143,8 @@
 		3BC5711218EDFCC900019738 /* ZooIBeaconApplication */ = {
 			isa = PBXGroup;
 			children = (
-				DDFDED33190048830070E009 /* ZOOTabBarViewController.h */,
-				DDFDED34190048830070E009 /* ZOOTabBarViewController.m */,
+				DDFDED3619004B100070E009 /* ZOOTabBarViewController.h */,
+				DDFDED3719004B100070E009 /* ZOOTabBarViewController.m */,
 				DDF9E96318FCF4BD0032ED1E /* Images */,
 				DD3159B118F651B300247B44 /* Collection View Controller */,
 				DD3159AD18F64F8700247B44 /* Connect Controllers */,
@@ -354,7 +354,7 @@
 				DD3E512318F1ED0100DB9200 /* TableTableViewController.m in Sources */,
 				DD3159BA18F9AC5900247B44 /* collectionViewController.m in Sources */,
 				DD3E512918F1F2D500DB9200 /* AnimalDetailsViewController.m in Sources */,
-				DDFDED35190048830070E009 /* ZOOTabBarViewController.m in Sources */,
+				DDFDED3819004B100070E009 /* ZOOTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
