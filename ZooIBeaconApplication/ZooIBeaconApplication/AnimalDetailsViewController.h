@@ -13,6 +13,7 @@
 @property (strong, nonatomic) IBOutlet UIImageView *AnimalIamge;
 @property (strong, nonatomic) IBOutlet UITextView *content;
 @property (strong, nonatomic) IBOutlet UIScrollView *myScrollView;
-@property (strong, nonatomic) NSString *test;
+@property (strong, nonatomic) NSDictionary *animal;
+@property (strong, nonatomic) IBOutlet UIImageView *badge;
 
 @end

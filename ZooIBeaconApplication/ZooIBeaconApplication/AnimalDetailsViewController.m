@@ -27,7 +27,8 @@
 {
     [super viewDidLoad];
     
-    self.Name.text = self.test;
+    self.Name.text = [self.animal objectForKey:@"name"];
+    self.badge.image = [UIImage imageNamed: [self.animal objectForKey:@"badge"]];
     
     [self.myScrollView setScrollEnabled:YES];
     [self.myScrollView setContentSize:CGSizeMake(300, 915)];

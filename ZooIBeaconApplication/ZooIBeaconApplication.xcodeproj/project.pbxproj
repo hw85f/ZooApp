@@ -20,6 +20,33 @@
 		3BC5713118EDFCCA00019738 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5711018EDFCC900019738 /* UIKit.framework */; };
 		3BC5713918EDFCCA00019738 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BC5713718EDFCCA00019738 /* InfoPlist.strings */; };
 		3BC5713B18EDFCCA00019738 /* ZooIBeaconApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5713A18EDFCCA00019738 /* ZooIBeaconApplicationTests.m */; };
+		DD15E1F8190C6AFB00E3EB39 /* zooApp-bear-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1DD190C6AFB00E3EB39 /* zooApp-bear-120x120.png */; };
+		DD15E1F9190C6AFB00E3EB39 /* zooApp-bear-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1DE190C6AFB00E3EB39 /* zooApp-bear-30x30.png */; };
+		DD15E1FA190C6AFB00E3EB39 /* zooApp-bear-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1DF190C6AFB00E3EB39 /* zooApp-bear-60x60.png */; };
+		DD15E1FB190C6AFB00E3EB39 /* zooApp-crocodile-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E0190C6AFB00E3EB39 /* zooApp-crocodile-120x120.png */; };
+		DD15E1FC190C6AFB00E3EB39 /* zooApp-crocodile-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E1190C6AFB00E3EB39 /* zooApp-crocodile-30x30.png */; };
+		DD15E1FD190C6AFB00E3EB39 /* zooApp-crocodile-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E2190C6AFB00E3EB39 /* zooApp-crocodile-60x60.png */; };
+		DD15E1FE190C6AFB00E3EB39 /* zooApp-elephant-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E3190C6AFB00E3EB39 /* zooApp-elephant-120x120.png */; };
+		DD15E1FF190C6AFB00E3EB39 /* zooApp-elephant-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E4190C6AFB00E3EB39 /* zooApp-elephant-30x30.png */; };
+		DD15E200190C6AFB00E3EB39 /* zooApp-elephant-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E5190C6AFB00E3EB39 /* zooApp-elephant-60x60.png */; };
+		DD15E201190C6AFB00E3EB39 /* zooApp-flamingo-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E6190C6AFB00E3EB39 /* zooApp-flamingo-120x120.png */; };
+		DD15E202190C6AFB00E3EB39 /* zooApp-flamingo-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E7190C6AFB00E3EB39 /* zooApp-flamingo-30x30.png */; };
+		DD15E203190C6AFB00E3EB39 /* zooApp-flamingo-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E8190C6AFB00E3EB39 /* zooApp-flamingo-60x60.png */; };
+		DD15E204190C6AFB00E3EB39 /* zooApp-gorilla-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E9190C6AFB00E3EB39 /* zooApp-gorilla-120x120.png */; };
+		DD15E205190C6AFB00E3EB39 /* zooApp-gorilla-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1EA190C6AFB00E3EB39 /* zooApp-gorilla-30x30.png */; };
+		DD15E206190C6AFB00E3EB39 /* zooApp-gorilla-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1EB190C6AFB00E3EB39 /* zooApp-gorilla-60x60.png */; };
+		DD15E207190C6AFB00E3EB39 /* zooApp-lion-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1EC190C6AFB00E3EB39 /* zooApp-lion-120x120.png */; };
+		DD15E208190C6AFB00E3EB39 /* zooApp-lion-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1ED190C6AFB00E3EB39 /* zooApp-lion-30x30.png */; };
+		DD15E209190C6AFB00E3EB39 /* zooApp-lion-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1EE190C6AFB00E3EB39 /* zooApp-lion-60x60.png */; };
+		DD15E20A190C6AFB00E3EB39 /* zooApp-shark-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1EF190C6AFB00E3EB39 /* zooApp-shark-120x120.png */; };
+		DD15E20B190C6AFB00E3EB39 /* zooApp-shark-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F0190C6AFB00E3EB39 /* zooApp-shark-30x30.png */; };
+		DD15E20C190C6AFB00E3EB39 /* zooApp-shark-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F1190C6AFB00E3EB39 /* zooApp-shark-60x60.png */; };
+		DD15E20D190C6AFB00E3EB39 /* zooApp-tiger-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F2190C6AFB00E3EB39 /* zooApp-tiger-120x120.png */; };
+		DD15E20E190C6AFB00E3EB39 /* zooApp-tiger-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F3190C6AFB00E3EB39 /* zooApp-tiger-30x30.png */; };
+		DD15E20F190C6AFB00E3EB39 /* zooApp-tiger-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F4190C6AFB00E3EB39 /* zooApp-tiger-60x60.png */; };
+		DD15E210190C6AFB00E3EB39 /* zooApp-unearned-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F5190C6AFB00E3EB39 /* zooApp-unearned-120x120.png */; };
+		DD15E211190C6AFB00E3EB39 /* zooApp-unearned-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F6190C6AFB00E3EB39 /* zooApp-unearned-30x30.png */; };
+		DD15E212190C6AFB00E3EB39 /* zooApp-unearned-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F7190C6AFB00E3EB39 /* zooApp-unearned-60x60.png */; };
 		DD3159B018F64FCE00247B44 /* connectController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159AF18F64FCE00247B44 /* connectController.m */; };
 		DD3159BA18F9AC5900247B44 /* collectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159B918F9AC5900247B44 /* collectionViewController.m */; };
 		DD3159BD18F9B3CB00247B44 /* collectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159BC18F9B3CB00247B44 /* collectionViewCell.m */; };
@@ -66,6 +93,33 @@
 		3BC5713618EDFCCA00019738 /* ZooIBeaconApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZooIBeaconApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		3BC5713818EDFCCA00019738 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3BC5713A18EDFCCA00019738 /* ZooIBeaconApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZooIBeaconApplicationTests.m; sourceTree = "<group>"; };
+		DD15E1DD190C6AFB00E3EB39 /* zooApp-bear-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-bear-120x120.png"; sourceTree = "<group>"; };
+		DD15E1DE190C6AFB00E3EB39 /* zooApp-bear-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-bear-30x30.png"; sourceTree = "<group>"; };
+		DD15E1DF190C6AFB00E3EB39 /* zooApp-bear-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-bear-60x60.png"; sourceTree = "<group>"; };
+		DD15E1E0190C6AFB00E3EB39 /* zooApp-crocodile-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-crocodile-120x120.png"; sourceTree = "<group>"; };
+		DD15E1E1190C6AFB00E3EB39 /* zooApp-crocodile-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-crocodile-30x30.png"; sourceTree = "<group>"; };
+		DD15E1E2190C6AFB00E3EB39 /* zooApp-crocodile-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-crocodile-60x60.png"; sourceTree = "<group>"; };
+		DD15E1E3190C6AFB00E3EB39 /* zooApp-elephant-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-elephant-120x120.png"; sourceTree = "<group>"; };
+		DD15E1E4190C6AFB00E3EB39 /* zooApp-elephant-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-elephant-30x30.png"; sourceTree = "<group>"; };
+		DD15E1E5190C6AFB00E3EB39 /* zooApp-elephant-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-elephant-60x60.png"; sourceTree = "<group>"; };
+		DD15E1E6190C6AFB00E3EB39 /* zooApp-flamingo-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-flamingo-120x120.png"; sourceTree = "<group>"; };
+		DD15E1E7190C6AFB00E3EB39 /* zooApp-flamingo-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-flamingo-30x30.png"; sourceTree = "<group>"; };
+		DD15E1E8190C6AFB00E3EB39 /* zooApp-flamingo-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-flamingo-60x60.png"; sourceTree = "<group>"; };
+		DD15E1E9190C6AFB00E3EB39 /* zooApp-gorilla-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-gorilla-120x120.png"; sourceTree = "<group>"; };
+		DD15E1EA190C6AFB00E3EB39 /* zooApp-gorilla-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-gorilla-30x30.png"; sourceTree = "<group>"; };
+		DD15E1EB190C6AFB00E3EB39 /* zooApp-gorilla-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-gorilla-60x60.png"; sourceTree = "<group>"; };
+		DD15E1EC190C6AFB00E3EB39 /* zooApp-lion-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-lion-120x120.png"; sourceTree = "<group>"; };
+		DD15E1ED190C6AFB00E3EB39 /* zooApp-lion-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-lion-30x30.png"; sourceTree = "<group>"; };
+		DD15E1EE190C6AFB00E3EB39 /* zooApp-lion-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-lion-60x60.png"; sourceTree = "<group>"; };
+		DD15E1EF190C6AFB00E3EB39 /* zooApp-shark-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-shark-120x120.png"; sourceTree = "<group>"; };
+		DD15E1F0190C6AFB00E3EB39 /* zooApp-shark-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-shark-30x30.png"; sourceTree = "<group>"; };
+		DD15E1F1190C6AFB00E3EB39 /* zooApp-shark-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-shark-60x60.png"; sourceTree = "<group>"; };
+		DD15E1F2190C6AFB00E3EB39 /* zooApp-tiger-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-tiger-120x120.png"; sourceTree = "<group>"; };
+		DD15E1F3190C6AFB00E3EB39 /* zooApp-tiger-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-tiger-30x30.png"; sourceTree = "<group>"; };
+		DD15E1F4190C6AFB00E3EB39 /* zooApp-tiger-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-tiger-60x60.png"; sourceTree = "<group>"; };
+		DD15E1F5190C6AFB00E3EB39 /* zooApp-unearned-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-unearned-120x120.png"; sourceTree = "<group>"; };
+		DD15E1F6190C6AFB00E3EB39 /* zooApp-unearned-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-unearned-30x30.png"; sourceTree = "<group>"; };
+		DD15E1F7190C6AFB00E3EB39 /* zooApp-unearned-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-unearned-60x60.png"; sourceTree = "<group>"; };
 		DD3159AE18F64FCE00247B44 /* connectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connectController.h; sourceTree = "<group>"; };
 		DD3159AF18F64FCE00247B44 /* connectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = connectController.m; sourceTree = "<group>"; };
 		DD3159B818F9AC5900247B44 /* collectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionViewController.h; sourceTree = "<group>"; };
@@ -194,6 +248,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DD15E1DB190C6ACB00E3EB39 /* badges */ = {
+			isa = PBXGroup;
+			children = (
+				DD15E1DC190C6AFB00E3EB39 /* zooApp-Badges */,
+			);
+			name = badges;
+			sourceTree = "<group>";
+		};
+		DD15E1DC190C6AFB00E3EB39 /* zooApp-Badges */ = {
+			isa = PBXGroup;
+			children = (
+				DD15E1DD190C6AFB00E3EB39 /* zooApp-bear-120x120.png */,
+				DD15E1DF190C6AFB00E3EB39 /* zooApp-bear-60x60.png */,
+				DD15E1DE190C6AFB00E3EB39 /* zooApp-bear-30x30.png */,
+				DD15E1E0190C6AFB00E3EB39 /* zooApp-crocodile-120x120.png */,
+				DD15E1E1190C6AFB00E3EB39 /* zooApp-crocodile-30x30.png */,
+				DD15E1E2190C6AFB00E3EB39 /* zooApp-crocodile-60x60.png */,
+				DD15E1E3190C6AFB00E3EB39 /* zooApp-elephant-120x120.png */,
+				DD15E1E4190C6AFB00E3EB39 /* zooApp-elephant-30x30.png */,
+				DD15E1E5190C6AFB00E3EB39 /* zooApp-elephant-60x60.png */,
+				DD15E1E6190C6AFB00E3EB39 /* zooApp-flamingo-120x120.png */,
+				DD15E1E7190C6AFB00E3EB39 /* zooApp-flamingo-30x30.png */,
+				DD15E1E8190C6AFB00E3EB39 /* zooApp-flamingo-60x60.png */,
+				DD15E1E9190C6AFB00E3EB39 /* zooApp-gorilla-120x120.png */,
+				DD15E1EA190C6AFB00E3EB39 /* zooApp-gorilla-30x30.png */,
+				DD15E1EB190C6AFB00E3EB39 /* zooApp-gorilla-60x60.png */,
+				DD15E1EC190C6AFB00E3EB39 /* zooApp-lion-120x120.png */,
+				DD15E1EE190C6AFB00E3EB39 /* zooApp-lion-60x60.png */,
+				DD15E1ED190C6AFB00E3EB39 /* zooApp-lion-30x30.png */,
+				DD15E1EF190C6AFB00E3EB39 /* zooApp-shark-120x120.png */,
+				DD15E1F0190C6AFB00E3EB39 /* zooApp-shark-30x30.png */,
+				DD15E1F1190C6AFB00E3EB39 /* zooApp-shark-60x60.png */,
+				DD15E1F2190C6AFB00E3EB39 /* zooApp-tiger-120x120.png */,
+				DD15E1F3190C6AFB00E3EB39 /* zooApp-tiger-30x30.png */,
+				DD15E1F4190C6AFB00E3EB39 /* zooApp-tiger-60x60.png */,
+				DD15E1F5190C6AFB00E3EB39 /* zooApp-unearned-120x120.png */,
+				DD15E1F6190C6AFB00E3EB39 /* zooApp-unearned-30x30.png */,
+				DD15E1F7190C6AFB00E3EB39 /* zooApp-unearned-60x60.png */,
+			);
+			path = "zooApp-Badges";
+			sourceTree = "<group>";
+		};
 		DD3159AD18F64F8700247B44 /* Connect Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +324,7 @@
 		DDF9E96318FCF4BD0032ED1E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DD15E1DB190C6ACB00E3EB39 /* badges */,
 				DD9867BA19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png */,
 				DDF9E96418FCF50E0032ED1E /* tabBarIcons-60x54-30x27 */,
 			);
@@ -326,18 +423,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD15E203190C6AFB00E3EB39 /* zooApp-flamingo-60x60.png in Resources */,
+				DD15E1FD190C6AFB00E3EB39 /* zooApp-crocodile-60x60.png in Resources */,
 				DDF9E96F18FCF50E0032ED1E /* icon-animals-60x54.png in Resources */,
+				DD15E20E190C6AFB00E3EB39 /* zooApp-tiger-30x30.png in Resources */,
 				DDF9E97018FCF50E0032ED1E /* icon-badges-30x27.png in Resources */,
 				DDF9E97418FCF50E0032ED1E /* icon-map-30x27.png in Resources */,
+				DD15E201190C6AFB00E3EB39 /* zooApp-flamingo-120x120.png in Resources */,
+				DD15E206190C6AFB00E3EB39 /* zooApp-gorilla-60x60.png in Resources */,
 				DDF9E97318FCF50E0032ED1E /* icon-connect-60x54.png in Resources */,
+				DD15E202190C6AFB00E3EB39 /* zooApp-flamingo-30x30.png in Resources */,
+				DD15E205190C6AFB00E3EB39 /* zooApp-gorilla-30x30.png in Resources */,
+				DD15E20F190C6AFB00E3EB39 /* zooApp-tiger-60x60.png in Resources */,
+				DD15E1FC190C6AFB00E3EB39 /* zooApp-crocodile-30x30.png in Resources */,
+				DD15E1FF190C6AFB00E3EB39 /* zooApp-elephant-30x30.png in Resources */,
+				DD15E1FB190C6AFB00E3EB39 /* zooApp-crocodile-120x120.png in Resources */,
+				DD15E207190C6AFB00E3EB39 /* zooApp-lion-120x120.png in Resources */,
+				DD15E208190C6AFB00E3EB39 /* zooApp-lion-30x30.png in Resources */,
+				DD15E20C190C6AFB00E3EB39 /* zooApp-shark-60x60.png in Resources */,
 				DDF9E97218FCF50E0032ED1E /* icon-connect-30x27.png in Resources */,
+				DD15E20D190C6AFB00E3EB39 /* zooApp-tiger-120x120.png in Resources */,
+				DD15E204190C6AFB00E3EB39 /* zooApp-gorilla-120x120.png in Resources */,
 				3BC5712818EDFCC900019738 /* Images.xcassets in Resources */,
+				DD15E200190C6AFB00E3EB39 /* zooApp-elephant-60x60.png in Resources */,
+				DD15E20B190C6AFB00E3EB39 /* zooApp-shark-30x30.png in Resources */,
+				DD15E1F8190C6AFB00E3EB39 /* zooApp-bear-120x120.png in Resources */,
 				DDF9E96E18FCF50E0032ED1E /* icon-animals-30x27.png in Resources */,
 				3BC5711718EDFCC900019738 /* InfoPlist.strings in Resources */,
 				3BC5712018EDFCC900019738 /* Main.storyboard in Resources */,
 				DD9867BB19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png in Resources */,
+				DD15E20A190C6AFB00E3EB39 /* zooApp-shark-120x120.png in Resources */,
 				DDF9E97518FCF50E0032ED1E /* icon-map-60x54.png in Resources */,
+				DD15E209190C6AFB00E3EB39 /* zooApp-lion-60x60.png in Resources */,
 				DDF9E97118FCF50E0032ED1E /* icon-badges-60x54.png in Resources */,
+				DD15E212190C6AFB00E3EB39 /* zooApp-unearned-60x60.png in Resources */,
+				DD15E210190C6AFB00E3EB39 /* zooApp-unearned-120x120.png in Resources */,
+				DD15E1FA190C6AFB00E3EB39 /* zooApp-bear-60x60.png in Resources */,
+				DD15E211190C6AFB00E3EB39 /* zooApp-unearned-30x30.png in Resources */,
+				DD15E1FE190C6AFB00E3EB39 /* zooApp-elephant-120x120.png in Resources */,
+				DD15E1F9190C6AFB00E3EB39 /* zooApp-bear-30x30.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -26,12 +26,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSDictionary *One = [NSDictionary dictionaryWithObjectsAndKeys: @"Elephant", @"name", @"icon-map-30x30.png", @"image",nil];
-    NSDictionary *Two = [NSDictionary dictionaryWithObjectsAndKeys: @"Rhinoceros", @"name", @"icon-map-30x30.png", @"image", nil];
-    NSDictionary *Three = [NSDictionary dictionaryWithObjectsAndKeys: @"Panda", @"name", @"icon-map-30x30.png", @"image",nil];
-    NSDictionary *Four = [NSDictionary dictionaryWithObjectsAndKeys: @"Tiger", @"name", @"icon-map-30x30.png", @"image",nil];
+    NSDictionary *bear = [NSDictionary dictionaryWithObjectsAndKeys: @"Bear", @"name",@"bear2", @"badge", nil];
+    NSDictionary *crocodile = [NSDictionary dictionaryWithObjectsAndKeys: @"Crocodile", @"name",@"crocodile2", @"badge", nil];
+    NSDictionary *elephant = [NSDictionary dictionaryWithObjectsAndKeys: @"Elephant", @"name",@"elephant2", @"badge", nil];
+    NSDictionary *flamingo = [NSDictionary dictionaryWithObjectsAndKeys: @"Flamingo", @"name",@"flamingo2", @"badge", nil];
+    NSDictionary *gorilla = [NSDictionary dictionaryWithObjectsAndKeys: @"Gorilla", @"name",@"gorilla2", @"badge", nil];
+    NSDictionary *lion = [NSDictionary dictionaryWithObjectsAndKeys: @"Lion", @"name",@"lion2", @"badge", nil];
+    NSDictionary *shark = [NSDictionary dictionaryWithObjectsAndKeys: @"Shark", @"name",@"shark2", @"badge", nil];
+    NSDictionary *tiger = [NSDictionary dictionaryWithObjectsAndKeys: @"Tiger", @"name",@"tiger2", @"badge", nil];
     
-    self.data = [@[One, Two, Three, Four] mutableCopy];
+    self.data = [@[bear, crocodile, elephant, flamingo, gorilla, lion, shark, tiger] mutableCopy];
     
     // Do any additional setup after loading the view.
 }
@@ -58,7 +62,7 @@
                                     forIndexPath:indexPath];
 
     myCell.label.text = [[_data objectAtIndex:indexPath.row] objectForKey:@"name"];
-    myCell.image.image = [UIImage imageNamed: [[_data objectAtIndex:indexPath.row] objectForKey:@"image"]];
+    myCell.image.image = [UIImage imageNamed: [[_data objectAtIndex:indexPath.row] objectForKey:@"badge"]];
     
     return myCell;
 }
@@ -68,7 +72,7 @@
         NSArray *indexPaths = [self.collectionView indexPathsForSelectedItems];
         AnimalDetailsViewController *detailviewcontroller = segue.destinationViewController;
         NSIndexPath *indexPath = [indexPaths objectAtIndex:0];
-        detailviewcontroller.test = [[_data objectAtIndex:[indexPath row]] objectForKey:@"name"];
+        detailviewcontroller.animal = [self.data objectAtIndex:[indexPath row]];
         [self.collectionView deselectItemAtIndexPath:indexPath animated:NO];
     }
 }

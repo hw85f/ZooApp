@@ -31,14 +31,19 @@
     [super viewDidLoad];
     
     //self.navigationController.navigationBar.barTintColor = [UIColor blueColor];
+    NSDictionary *bear = [NSDictionary dictionaryWithObjectsAndKeys: @"Bear", @"name",@"bear2", @"badge", @"bear", @"icon", nil];
+    NSDictionary *crocodile = [NSDictionary dictionaryWithObjectsAndKeys: @"Crocodile", @"name",@"crocodile2", @"badge", @"crocodile", @"icon",nil];
+    NSDictionary *elephant = [NSDictionary dictionaryWithObjectsAndKeys: @"Elephant", @"name",@"elephant2", @"badge", @"elephant", @"icon",nil];
+    NSDictionary *flamingo = [NSDictionary dictionaryWithObjectsAndKeys: @"Flamingo", @"name",@"flamingo2", @"badge", @"flamingo", @"icon",nil];
+    NSDictionary *gorilla = [NSDictionary dictionaryWithObjectsAndKeys: @"Gorilla", @"name",@"gorilla2", @"badge", @"gorilla", @"icon",nil];
+    NSDictionary *lion = [NSDictionary dictionaryWithObjectsAndKeys: @"Lion", @"name",@"lion2", @"badge", @"lion", @"icon",nil];
+    NSDictionary *shark = [NSDictionary dictionaryWithObjectsAndKeys: @"Shark", @"name",@"shark2", @"badge", @"shark", @"icon",nil];
+    NSDictionary *tiger = [NSDictionary dictionaryWithObjectsAndKeys: @"Tiger", @"name",@"tiger2", @"badge", @"tiger", @"icon",nil];
     
-    NSDictionary *One = [NSDictionary dictionaryWithObjectsAndKeys: @"Elephant", @"name", nil];
-    NSDictionary *Two = [NSDictionary dictionaryWithObjectsAndKeys: @"Rhinoceros", @"name", nil];
-    NSDictionary *Three = [NSDictionary dictionaryWithObjectsAndKeys: @"Panda", @"name", nil];
-    NSDictionary *Four = [NSDictionary dictionaryWithObjectsAndKeys: @"Tiger", @"name", nil];
     
+
     
-    self.data = [@[One, Two, Three, Four] mutableCopy];
+    self.data = [@[bear, crocodile, elephant, flamingo, gorilla, lion, shark, tiger] mutableCopy];
 
     
     // Uncomment the following line to preserve selection between presentations.
@@ -67,7 +72,7 @@
 {
 //#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return _data.count;
+    return self.data.count;
 }
 
 
@@ -76,7 +81,8 @@
     static NSString *CellIdentifier = @"cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    cell.textLabel.text = [[_data objectAtIndex:indexPath.row] objectForKey:@"name"];
+    cell.textLabel.text = [[self.data objectAtIndex:indexPath.row] objectForKey:@"name"];
+    cell.imageView.image = [UIImage imageNamed: [[self.data objectAtIndex:indexPath.row] objectForKey:@"icon"]];
     // Configure the cell...
     
     return cell;
@@ -89,7 +95,7 @@
         NSIndexPath *myIndexPath = [self.tableView indexPathForSelectedRow];
         int row = [myIndexPath row];
         
-        detailviewcontroller.test = [[_data objectAtIndex:row] objectForKey:@"name"];
+        detailviewcontroller.animal = [self.data objectAtIndex:row];
     }
     
 }
