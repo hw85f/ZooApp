@@ -27,6 +27,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //[self.background addSubview:self.zooIcon];
+    self.zooIcon.image = [UIImage imageNamed: @"ziewIcon"];
     
 }
 

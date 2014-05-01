@@ -12,5 +12,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *Facebook;
 @property (strong, nonatomic) IBOutlet UIButton *Twotter;
 @property (strong, nonatomic) IBOutlet UIButton *Website;
+@property (strong, nonatomic) IBOutlet UIImageView *background;
+@property (strong, nonatomic) IBOutlet UIImageView *zooIcon;
 
 @end

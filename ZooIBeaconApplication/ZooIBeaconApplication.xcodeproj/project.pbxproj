@@ -54,6 +54,14 @@
 		DD3159BD18F9B3CB00247B44 /* collectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159BC18F9B3CB00247B44 /* collectionViewCell.m */; };
 		DD3E512318F1ED0100DB9200 /* TableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3E512218F1ED0100DB9200 /* TableTableViewController.m */; };
 		DD3E512918F1F2D500DB9200 /* AnimalDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3E512818F1F2D500DB9200 /* AnimalDetailsViewController.m */; };
+		DD537C16191201BD00F4227B /* ziewIcon-appStore-512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = DD537C0E191201BD00F4227B /* ziewIcon-appStore-512x512.png */; };
+		DD537C17191201BD00F4227B /* ziewIcon-appStoreRetina-1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = DD537C0F191201BD00F4227B /* ziewIcon-appStoreRetina-1024x1024.png */; };
+		DD537C18191201BD00F4227B /* ziewIcon-homeScreen-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD537C10191201BD00F4227B /* ziewIcon-homeScreen-60x60.png */; };
+		DD537C19191201BD00F4227B /* ziewIcon-homeScreenRetina-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD537C11191201BD00F4227B /* ziewIcon-homeScreenRetina-120x120.png */; };
+		DD537C1A191201BD00F4227B /* ziewIcon-iOS6homeScreen-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = DD537C12191201BD00F4227B /* ziewIcon-iOS6homeScreen-57x57.png */; };
+		DD537C1B191201BD00F4227B /* ziewIcon-iOS6homeScreenRetina-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = DD537C13191201BD00F4227B /* ziewIcon-iOS6homeScreenRetina-114x114.png */; };
+		DD537C1C191201BD00F4227B /* ziewIcon-settings-29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = DD537C14191201BD00F4227B /* ziewIcon-settings-29x29.png */; };
+		DD537C1D191201BD00F4227B /* ziewIcon-settingsRetina-58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = DD537C15191201BD00F4227B /* ziewIcon-settingsRetina-58x58.png */; };
 		DD9867BB19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9867BA19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png */; };
 		DD9867BE19005040000FD05D /* ZOOMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9867BD19005040000FD05D /* ZOOMapViewController.m */; };
 		DDF9E96E18FCF50E0032ED1E /* icon-animals-30x27.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF9E96518FCF50E0032ED1E /* icon-animals-30x27.png */; };
@@ -134,6 +142,14 @@
 		DD3E512218F1ED0100DB9200 /* TableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableTableViewController.m; path = "TableView Controller/TableTableViewController.m"; sourceTree = "<group>"; };
 		DD3E512718F1F2D500DB9200 /* AnimalDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalDetailsViewController.h; sourceTree = "<group>"; };
 		DD3E512818F1F2D500DB9200 /* AnimalDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalDetailsViewController.m; sourceTree = "<group>"; };
+		DD537C0E191201BD00F4227B /* ziewIcon-appStore-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-appStore-512x512.png"; sourceTree = "<group>"; };
+		DD537C0F191201BD00F4227B /* ziewIcon-appStoreRetina-1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-appStoreRetina-1024x1024.png"; sourceTree = "<group>"; };
+		DD537C10191201BD00F4227B /* ziewIcon-homeScreen-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-homeScreen-60x60.png"; sourceTree = "<group>"; };
+		DD537C11191201BD00F4227B /* ziewIcon-homeScreenRetina-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-homeScreenRetina-120x120.png"; sourceTree = "<group>"; };
+		DD537C12191201BD00F4227B /* ziewIcon-iOS6homeScreen-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-iOS6homeScreen-57x57.png"; sourceTree = "<group>"; };
+		DD537C13191201BD00F4227B /* ziewIcon-iOS6homeScreenRetina-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-iOS6homeScreenRetina-114x114.png"; sourceTree = "<group>"; };
+		DD537C14191201BD00F4227B /* ziewIcon-settings-29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-settings-29x29.png"; sourceTree = "<group>"; };
+		DD537C15191201BD00F4227B /* ziewIcon-settingsRetina-58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-settingsRetina-58x58.png"; sourceTree = "<group>"; };
 		DD9867BA19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-04-08 at 2.09.59 PM.png"; sourceTree = "<group>"; };
 		DD9867BC19005040000FD05D /* ZOOMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOOMapViewController.h; sourceTree = "<group>"; };
 		DD9867BD19005040000FD05D /* ZOOMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOOMapViewController.m; sourceTree = "<group>"; };
@@ -325,9 +341,33 @@
 			name = "TableView Controllers";
 			sourceTree = "<group>";
 		};
+		DD537C0C1912019300F4227B /* appIcons */ = {
+			isa = PBXGroup;
+			children = (
+				DD537C0D191201BD00F4227B /* Ziew-Icons */,
+			);
+			name = appIcons;
+			sourceTree = "<group>";
+		};
+		DD537C0D191201BD00F4227B /* Ziew-Icons */ = {
+			isa = PBXGroup;
+			children = (
+				DD537C0E191201BD00F4227B /* ziewIcon-appStore-512x512.png */,
+				DD537C0F191201BD00F4227B /* ziewIcon-appStoreRetina-1024x1024.png */,
+				DD537C10191201BD00F4227B /* ziewIcon-homeScreen-60x60.png */,
+				DD537C11191201BD00F4227B /* ziewIcon-homeScreenRetina-120x120.png */,
+				DD537C12191201BD00F4227B /* ziewIcon-iOS6homeScreen-57x57.png */,
+				DD537C13191201BD00F4227B /* ziewIcon-iOS6homeScreenRetina-114x114.png */,
+				DD537C14191201BD00F4227B /* ziewIcon-settings-29x29.png */,
+				DD537C15191201BD00F4227B /* ziewIcon-settingsRetina-58x58.png */,
+			);
+			path = "Ziew-Icons";
+			sourceTree = "<group>";
+		};
 		DDF9E96318FCF4BD0032ED1E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DD537C0C1912019300F4227B /* appIcons */,
 				DD15E213190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png */,
 				DD15E214190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png */,
 				DD15E1DB190C6ACB00E3EB39 /* badges */,
@@ -432,14 +472,18 @@
 				DD15E203190C6AFB00E3EB39 /* zooApp-flamingo-60x60.png in Resources */,
 				DD15E1FD190C6AFB00E3EB39 /* zooApp-crocodile-60x60.png in Resources */,
 				DDF9E96F18FCF50E0032ED1E /* icon-animals-60x54.png in Resources */,
+				DD537C18191201BD00F4227B /* ziewIcon-homeScreen-60x60.png in Resources */,
 				DD15E20E190C6AFB00E3EB39 /* zooApp-tiger-30x30.png in Resources */,
 				DD15E215190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png in Resources */,
 				DDF9E97018FCF50E0032ED1E /* icon-badges-30x27.png in Resources */,
+				DD537C1D191201BD00F4227B /* ziewIcon-settingsRetina-58x58.png in Resources */,
+				DD537C16191201BD00F4227B /* ziewIcon-appStore-512x512.png in Resources */,
 				DDF9E97418FCF50E0032ED1E /* icon-map-30x27.png in Resources */,
 				DD15E201190C6AFB00E3EB39 /* zooApp-flamingo-120x120.png in Resources */,
 				DD15E206190C6AFB00E3EB39 /* zooApp-gorilla-60x60.png in Resources */,
 				DD15E216190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png in Resources */,
 				DDF9E97318FCF50E0032ED1E /* icon-connect-60x54.png in Resources */,
+				DD537C17191201BD00F4227B /* ziewIcon-appStoreRetina-1024x1024.png in Resources */,
 				DD15E202190C6AFB00E3EB39 /* zooApp-flamingo-30x30.png in Resources */,
 				DD15E205190C6AFB00E3EB39 /* zooApp-gorilla-30x30.png in Resources */,
 				DD15E20F190C6AFB00E3EB39 /* zooApp-tiger-60x60.png in Resources */,
@@ -462,6 +506,7 @@
 				DD9867BB19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png in Resources */,
 				DD15E20A190C6AFB00E3EB39 /* zooApp-shark-120x120.png in Resources */,
 				DDF9E97518FCF50E0032ED1E /* icon-map-60x54.png in Resources */,
+				DD537C19191201BD00F4227B /* ziewIcon-homeScreenRetina-120x120.png in Resources */,
 				DD15E209190C6AFB00E3EB39 /* zooApp-lion-60x60.png in Resources */,
 				DDF9E97118FCF50E0032ED1E /* icon-badges-60x54.png in Resources */,
 				DD15E212190C6AFB00E3EB39 /* zooApp-unearned-60x60.png in Resources */,
@@ -469,7 +514,10 @@
 				DD15E1FA190C6AFB00E3EB39 /* zooApp-bear-60x60.png in Resources */,
 				DD15E211190C6AFB00E3EB39 /* zooApp-unearned-30x30.png in Resources */,
 				DD15E1FE190C6AFB00E3EB39 /* zooApp-elephant-120x120.png in Resources */,
+				DD537C1A191201BD00F4227B /* ziewIcon-iOS6homeScreen-57x57.png in Resources */,
+				DD537C1B191201BD00F4227B /* ziewIcon-iOS6homeScreenRetina-114x114.png in Resources */,
 				DD15E1F9190C6AFB00E3EB39 /* zooApp-bear-30x30.png in Resources */,
+				DD537C1C191201BD00F4227B /* ziewIcon-settings-29x29.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
