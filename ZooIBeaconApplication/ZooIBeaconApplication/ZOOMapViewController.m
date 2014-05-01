@@ -18,15 +18,29 @@
 {
     [super viewDidLoad];
     
-    [self.imageView setImage:[UIImage imageNamed:@"Screen Shot 2014-04-08 at 2.09.59 PM.png"]];
+    [self.imageView setImage:[UIImage imageNamed:@"ZiewMap"]];
     
-    [self.scrollView setMaximumZoomScale:5.0f];
+    [self.scrollView setMaximumZoomScale:2.0f];
+    [self.scrollView setMinimumZoomScale:0.5f];
+   
+    
+    self.scrollView.contentSize = self.imageView.image.size;
+    self.imageView.frame = CGRectMake(0,0, self.imageView.image.size.width, self.imageView.image.size.height);
+    [self.scrollView setZoomScale:0.5f];
     [self.scrollView setClipsToBounds:YES];
+   
 }
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
 {
     return self.imageView;
+}
+
+-(void)viewDidUnload
+{
+    [self setImageView:nil];
+    [self setScrollView:nil];
+    [self viewDidUnload];
 }
 
 @end

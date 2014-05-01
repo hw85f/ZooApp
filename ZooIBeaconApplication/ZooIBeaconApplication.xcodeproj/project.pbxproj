@@ -47,6 +47,8 @@
 		DD15E210190C6AFB00E3EB39 /* zooApp-unearned-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F5190C6AFB00E3EB39 /* zooApp-unearned-120x120.png */; };
 		DD15E211190C6AFB00E3EB39 /* zooApp-unearned-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F6190C6AFB00E3EB39 /* zooApp-unearned-30x30.png */; };
 		DD15E212190C6AFB00E3EB39 /* zooApp-unearned-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F7190C6AFB00E3EB39 /* zooApp-unearned-60x60.png */; };
+		DD15E215190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E213190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png */; };
+		DD15E216190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E214190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png */; };
 		DD3159B018F64FCE00247B44 /* connectController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159AF18F64FCE00247B44 /* connectController.m */; };
 		DD3159BA18F9AC5900247B44 /* collectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159B918F9AC5900247B44 /* collectionViewController.m */; };
 		DD3159BD18F9B3CB00247B44 /* collectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159BC18F9B3CB00247B44 /* collectionViewCell.m */; };
@@ -120,6 +122,8 @@
 		DD15E1F5190C6AFB00E3EB39 /* zooApp-unearned-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-unearned-120x120.png"; sourceTree = "<group>"; };
 		DD15E1F6190C6AFB00E3EB39 /* zooApp-unearned-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-unearned-30x30.png"; sourceTree = "<group>"; };
 		DD15E1F7190C6AFB00E3EB39 /* zooApp-unearned-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-unearned-60x60.png"; sourceTree = "<group>"; };
+		DD15E213190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZiewMap-Mizzou-884x1093.png"; sourceTree = "<group>"; };
+		DD15E214190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZiewMap-Mizzou-1768x2186.png"; sourceTree = "<group>"; };
 		DD3159AE18F64FCE00247B44 /* connectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connectController.h; sourceTree = "<group>"; };
 		DD3159AF18F64FCE00247B44 /* connectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = connectController.m; sourceTree = "<group>"; };
 		DD3159B818F9AC5900247B44 /* collectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionViewController.h; sourceTree = "<group>"; };
@@ -206,7 +210,6 @@
 				DD9867BD19005040000FD05D /* ZOOMapViewController.m */,
 				DDFDED3619004B100070E009 /* ZOOTabBarViewController.h */,
 				DDFDED3719004B100070E009 /* ZOOTabBarViewController.m */,
-				DDF9E96318FCF4BD0032ED1E /* Images */,
 				DD3159B118F651B300247B44 /* Collection View Controller */,
 				DD3159AD18F64F8700247B44 /* Connect Controllers */,
 				DD3E511F18F1EC8500DB9200 /* TableView Controllers */,
@@ -222,6 +225,7 @@
 		3BC5711318EDFCC900019738 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DDF9E96318FCF4BD0032ED1E /* Images */,
 				3BC5711418EDFCC900019738 /* ZooIBeaconApplication-Info.plist */,
 				3BC5711518EDFCC900019738 /* InfoPlist.strings */,
 				3BC5711818EDFCC900019738 /* main.m */,
@@ -324,6 +328,8 @@
 		DDF9E96318FCF4BD0032ED1E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DD15E213190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png */,
+				DD15E214190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png */,
 				DD15E1DB190C6ACB00E3EB39 /* badges */,
 				DD9867BA19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png */,
 				DDF9E96418FCF50E0032ED1E /* tabBarIcons-60x54-30x27 */,
@@ -427,10 +433,12 @@
 				DD15E1FD190C6AFB00E3EB39 /* zooApp-crocodile-60x60.png in Resources */,
 				DDF9E96F18FCF50E0032ED1E /* icon-animals-60x54.png in Resources */,
 				DD15E20E190C6AFB00E3EB39 /* zooApp-tiger-30x30.png in Resources */,
+				DD15E215190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png in Resources */,
 				DDF9E97018FCF50E0032ED1E /* icon-badges-30x27.png in Resources */,
 				DDF9E97418FCF50E0032ED1E /* icon-map-30x27.png in Resources */,
 				DD15E201190C6AFB00E3EB39 /* zooApp-flamingo-120x120.png in Resources */,
 				DD15E206190C6AFB00E3EB39 /* zooApp-gorilla-60x60.png in Resources */,
+				DD15E216190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png in Resources */,
 				DDF9E97318FCF50E0032ED1E /* icon-connect-60x54.png in Resources */,
 				DD15E202190C6AFB00E3EB39 /* zooApp-flamingo-30x30.png in Resources */,
 				DD15E205190C6AFB00E3EB39 /* zooApp-gorilla-30x30.png in Resources */,
