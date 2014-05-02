@@ -87,6 +87,7 @@
                     <navigationItem key="navigationItem" title="Animals" id="F5c-wd-Y3H">
                         <barButtonItem key="backBarButtonItem" title="Back" id="KWq-UT-Xdf"/>
                     </navigationItem>
+                    <size key="freeformSize" width="320" height="568"/>
                     <connections>
                         <outlet property="navagationbar" destination="F5c-wd-Y3H" id="KUL-Ng-E6x"/>
                     </connections>
@@ -110,21 +111,39 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="f9y-OY-bi7">
-                                <rect key="frame" x="0.0" y="131" width="320" height="387"/>
+                                <rect key="frame" x="0.0" y="131" width="320" height="1039"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Dzv-M5-jq0">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Dzv-M5-jq0" userLabel="Image1">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="4bZ-iO-QL6">
-                                        <rect key="frame" x="0.0" y="97" width="320" height="800"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HLF-Cr-4dU" userLabel="Label - content2">
+                                        <rect key="frame" x="0.0" y="544" width="320" height="120"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LJG-0f-E6W" userLabel="Label - content3">
+                                        <rect key="frame" x="0.0" y="860" width="320" height="179"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fOF-TI-2Iw" userLabel="Label - content1">
+                                        <rect key="frame" x="0.0" y="197" width="320" height="151"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="JsU-ia-JZ8" userLabel="Image2">
+                                        <rect key="frame" x="0.0" y="347" width="320" height="200"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="RiV-dH-k7N" userLabel="Image3">
+                                        <rect key="frame" x="0.0" y="658" width="320" height="200"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                             </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="1Jz-oT-jYM" userLabel="badge">
@@ -135,11 +154,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Animals" id="yYq-Gw-Qk3"/>
+                    <size key="freeformSize" width="320" height="1900"/>
                     <connections>
                         <outlet property="AnimalIamge" destination="Dzv-M5-jq0" id="SlM-dr-Isg"/>
                         <outlet property="Name" destination="t7a-R9-5B0" id="mEv-oB-LnQ"/>
                         <outlet property="badge" destination="1Jz-oT-jYM" id="IwQ-8z-y7K"/>
-                        <outlet property="content" destination="4bZ-iO-QL6" id="PSK-mX-ZST"/>
+                        <outlet property="content1" destination="fOF-TI-2Iw" id="28T-7p-XuD"/>
+                        <outlet property="content2" destination="HLF-Cr-4dU" id="bDZ-ne-mV5"/>
+                        <outlet property="content3" destination="LJG-0f-E6W" id="ur2-ES-OP2"/>
+                        <outlet property="image1" destination="Dzv-M5-jq0" id="AqF-qg-gME"/>
+                        <outlet property="image2" destination="JsU-ia-JZ8" id="dMU-dY-BfN"/>
+                        <outlet property="image3" destination="RiV-dH-k7N" id="goC-zG-qgg"/>
                         <outlet property="myScrollView" destination="f9y-OY-bi7" id="fO6-zV-y9G"/>
                     </connections>
                 </viewController>
@@ -415,6 +440,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="i5r-ZP-iTV"/>
+        <segue reference="FtI-2L-LyV"/>
     </inferredMetricsTieBreakers>
 </document>

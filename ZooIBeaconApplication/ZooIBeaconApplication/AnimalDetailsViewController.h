@@ -11,9 +11,14 @@
 @interface AnimalDetailsViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *Name;
 @property (strong, nonatomic) IBOutlet UIImageView *AnimalIamge;
-@property (strong, nonatomic) IBOutlet UITextView *content;
 @property (strong, nonatomic) IBOutlet UIScrollView *myScrollView;
 @property (strong, nonatomic) NSDictionary *animal;
 @property (strong, nonatomic) IBOutlet UIImageView *badge;
+@property (strong, nonatomic) IBOutlet UILabel *content1;
+@property (strong, nonatomic) IBOutlet UILabel *content2;
+@property (strong, nonatomic) IBOutlet UILabel *content3;
+@property (strong, nonatomic) IBOutlet UIImageView *image1;
+@property (strong, nonatomic) IBOutlet UIImageView *image2;
+@property (strong, nonatomic) IBOutlet UIImageView *image3;
 
 @end

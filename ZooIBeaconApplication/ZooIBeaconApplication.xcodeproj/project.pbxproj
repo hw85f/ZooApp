@@ -20,6 +20,31 @@
 		3BC5713118EDFCCA00019738 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5711018EDFCC900019738 /* UIKit.framework */; };
 		3BC5713918EDFCCA00019738 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BC5713718EDFCCA00019738 /* InfoPlist.strings */; };
 		3BC5713B18EDFCCA00019738 /* ZooIBeaconApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5713A18EDFCCA00019738 /* ZooIBeaconApplicationTests.m */; };
+		DD13978A191441F200148DDC /* Bear-1-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139772191441F200148DDC /* Bear-1-320x200.png */; };
+		DD13978B191441F200148DDC /* Bear-2-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139773191441F200148DDC /* Bear-2-320x200.png */; };
+		DD13978C191441F200148DDC /* Bear-3-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139774191441F200148DDC /* Bear-3-320x200.png */; };
+		DD13978D191441F200148DDC /* Crocodile-1-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139775191441F200148DDC /* Crocodile-1-320x200.png */; };
+		DD13978E191441F200148DDC /* Crocodile-2-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139776191441F200148DDC /* Crocodile-2-320x200.png */; };
+		DD13978F191441F200148DDC /* Crocodile-3-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139777191441F200148DDC /* Crocodile-3-320x200.png */; };
+		DD139790191441F200148DDC /* Elephant-1-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139778191441F200148DDC /* Elephant-1-320x200.png */; };
+		DD139791191441F200148DDC /* Elephant-2-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139779191441F200148DDC /* Elephant-2-320x200.png */; };
+		DD139792191441F200148DDC /* Elephant-3-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD13977A191441F200148DDC /* Elephant-3-320x200.png */; };
+		DD139793191441F200148DDC /* Flamingo-1-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD13977B191441F200148DDC /* Flamingo-1-320x200.png */; };
+		DD139794191441F200148DDC /* Flamingo-2-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD13977C191441F200148DDC /* Flamingo-2-320x200.png */; };
+		DD139795191441F200148DDC /* Flamingo-3-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD13977D191441F200148DDC /* Flamingo-3-320x200.png */; };
+		DD139796191441F200148DDC /* Gorilla-1-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD13977E191441F200148DDC /* Gorilla-1-320x200.png */; };
+		DD139797191441F200148DDC /* Gorilla-2-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD13977F191441F200148DDC /* Gorilla-2-320x200.png */; };
+		DD139798191441F200148DDC /* Gorilla-3-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139780191441F200148DDC /* Gorilla-3-320x200.png */; };
+		DD139799191441F200148DDC /* Lion-1-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139781191441F200148DDC /* Lion-1-320x200.png */; };
+		DD13979A191441F200148DDC /* Lion-2-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139782191441F200148DDC /* Lion-2-320x200.png */; };
+		DD13979B191441F200148DDC /* Lion-3-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139783191441F200148DDC /* Lion-3-320x200.png */; };
+		DD13979C191441F200148DDC /* Shark-1-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139784191441F200148DDC /* Shark-1-320x200.png */; };
+		DD13979D191441F200148DDC /* Shark-2-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139785191441F200148DDC /* Shark-2-320x200.png */; };
+		DD13979E191441F200148DDC /* Shark-3-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139786191441F200148DDC /* Shark-3-320x200.png */; };
+		DD13979F191441F200148DDC /* Tiger-1-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139787191441F200148DDC /* Tiger-1-320x200.png */; };
+		DD1397A0191441F200148DDC /* Tiger-2-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139788191441F200148DDC /* Tiger-2-320x200.png */; };
+		DD1397A1191441F200148DDC /* Tiger-3-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139789191441F200148DDC /* Tiger-3-320x200.png */; };
+		DD1397A31914441000148DDC /* ziewIcon-80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1397A21914441000148DDC /* ziewIcon-80x80.png */; };
 		DD15E1F8190C6AFB00E3EB39 /* zooApp-bear-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1DD190C6AFB00E3EB39 /* zooApp-bear-120x120.png */; };
 		DD15E1F9190C6AFB00E3EB39 /* zooApp-bear-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1DE190C6AFB00E3EB39 /* zooApp-bear-30x30.png */; };
 		DD15E1FA190C6AFB00E3EB39 /* zooApp-bear-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1DF190C6AFB00E3EB39 /* zooApp-bear-60x60.png */; };
@@ -103,6 +128,31 @@
 		3BC5713618EDFCCA00019738 /* ZooIBeaconApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZooIBeaconApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		3BC5713818EDFCCA00019738 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3BC5713A18EDFCCA00019738 /* ZooIBeaconApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZooIBeaconApplicationTests.m; sourceTree = "<group>"; };
+		DD139772191441F200148DDC /* Bear-1-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bear-1-320x200.png"; sourceTree = "<group>"; };
+		DD139773191441F200148DDC /* Bear-2-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bear-2-320x200.png"; sourceTree = "<group>"; };
+		DD139774191441F200148DDC /* Bear-3-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bear-3-320x200.png"; sourceTree = "<group>"; };
+		DD139775191441F200148DDC /* Crocodile-1-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Crocodile-1-320x200.png"; sourceTree = "<group>"; };
+		DD139776191441F200148DDC /* Crocodile-2-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Crocodile-2-320x200.png"; sourceTree = "<group>"; };
+		DD139777191441F200148DDC /* Crocodile-3-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Crocodile-3-320x200.png"; sourceTree = "<group>"; };
+		DD139778191441F200148DDC /* Elephant-1-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elephant-1-320x200.png"; sourceTree = "<group>"; };
+		DD139779191441F200148DDC /* Elephant-2-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elephant-2-320x200.png"; sourceTree = "<group>"; };
+		DD13977A191441F200148DDC /* Elephant-3-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elephant-3-320x200.png"; sourceTree = "<group>"; };
+		DD13977B191441F200148DDC /* Flamingo-1-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flamingo-1-320x200.png"; sourceTree = "<group>"; };
+		DD13977C191441F200148DDC /* Flamingo-2-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flamingo-2-320x200.png"; sourceTree = "<group>"; };
+		DD13977D191441F200148DDC /* Flamingo-3-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flamingo-3-320x200.png"; sourceTree = "<group>"; };
+		DD13977E191441F200148DDC /* Gorilla-1-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gorilla-1-320x200.png"; sourceTree = "<group>"; };
+		DD13977F191441F200148DDC /* Gorilla-2-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gorilla-2-320x200.png"; sourceTree = "<group>"; };
+		DD139780191441F200148DDC /* Gorilla-3-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gorilla-3-320x200.png"; sourceTree = "<group>"; };
+		DD139781191441F200148DDC /* Lion-1-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lion-1-320x200.png"; sourceTree = "<group>"; };
+		DD139782191441F200148DDC /* Lion-2-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lion-2-320x200.png"; sourceTree = "<group>"; };
+		DD139783191441F200148DDC /* Lion-3-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lion-3-320x200.png"; sourceTree = "<group>"; };
+		DD139784191441F200148DDC /* Shark-1-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shark-1-320x200.png"; sourceTree = "<group>"; };
+		DD139785191441F200148DDC /* Shark-2-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shark-2-320x200.png"; sourceTree = "<group>"; };
+		DD139786191441F200148DDC /* Shark-3-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shark-3-320x200.png"; sourceTree = "<group>"; };
+		DD139787191441F200148DDC /* Tiger-1-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tiger-1-320x200.png"; sourceTree = "<group>"; };
+		DD139788191441F200148DDC /* Tiger-2-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tiger-2-320x200.png"; sourceTree = "<group>"; };
+		DD139789191441F200148DDC /* Tiger-3-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tiger-3-320x200.png"; sourceTree = "<group>"; };
+		DD1397A21914441000148DDC /* ziewIcon-80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-80x80.png"; sourceTree = "<group>"; };
 		DD15E1DD190C6AFB00E3EB39 /* zooApp-bear-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-bear-120x120.png"; sourceTree = "<group>"; };
 		DD15E1DE190C6AFB00E3EB39 /* zooApp-bear-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-bear-30x30.png"; sourceTree = "<group>"; };
 		DD15E1DF190C6AFB00E3EB39 /* zooApp-bear-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-bear-60x60.png"; sourceTree = "<group>"; };
@@ -268,6 +318,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DD139770191441F200148DDC /* 8 Animals 320x200 */ = {
+			isa = PBXGroup;
+			children = (
+				DD139772191441F200148DDC /* Bear-1-320x200.png */,
+				DD139773191441F200148DDC /* Bear-2-320x200.png */,
+				DD139774191441F200148DDC /* Bear-3-320x200.png */,
+				DD139775191441F200148DDC /* Crocodile-1-320x200.png */,
+				DD139776191441F200148DDC /* Crocodile-2-320x200.png */,
+				DD139777191441F200148DDC /* Crocodile-3-320x200.png */,
+				DD139778191441F200148DDC /* Elephant-1-320x200.png */,
+				DD139779191441F200148DDC /* Elephant-2-320x200.png */,
+				DD13977A191441F200148DDC /* Elephant-3-320x200.png */,
+				DD13977B191441F200148DDC /* Flamingo-1-320x200.png */,
+				DD13977C191441F200148DDC /* Flamingo-2-320x200.png */,
+				DD13977D191441F200148DDC /* Flamingo-3-320x200.png */,
+				DD13977E191441F200148DDC /* Gorilla-1-320x200.png */,
+				DD13977F191441F200148DDC /* Gorilla-2-320x200.png */,
+				DD139780191441F200148DDC /* Gorilla-3-320x200.png */,
+				DD139781191441F200148DDC /* Lion-1-320x200.png */,
+				DD139782191441F200148DDC /* Lion-2-320x200.png */,
+				DD139783191441F200148DDC /* Lion-3-320x200.png */,
+				DD139784191441F200148DDC /* Shark-1-320x200.png */,
+				DD139785191441F200148DDC /* Shark-2-320x200.png */,
+				DD139786191441F200148DDC /* Shark-3-320x200.png */,
+				DD139787191441F200148DDC /* Tiger-1-320x200.png */,
+				DD139788191441F200148DDC /* Tiger-2-320x200.png */,
+				DD139789191441F200148DDC /* Tiger-3-320x200.png */,
+			);
+			path = "8 Animals 320x200";
+			sourceTree = "<group>";
+		};
 		DD15E1DB190C6ACB00E3EB39 /* badges */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,6 +433,7 @@
 		DD537C0D191201BD00F4227B /* Ziew-Icons */ = {
 			isa = PBXGroup;
 			children = (
+				DD1397A21914441000148DDC /* ziewIcon-80x80.png */,
 				DD537C0E191201BD00F4227B /* ziewIcon-appStore-512x512.png */,
 				DD537C0F191201BD00F4227B /* ziewIcon-appStoreRetina-1024x1024.png */,
 				DD537C10191201BD00F4227B /* ziewIcon-homeScreen-60x60.png */,
@@ -367,6 +449,7 @@
 		DDF9E96318FCF4BD0032ED1E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DD139770191441F200148DDC /* 8 Animals 320x200 */,
 				DD537C0C1912019300F4227B /* appIcons */,
 				DD15E213190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png */,
 				DD15E214190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png */,
@@ -476,23 +559,34 @@
 				DD15E20E190C6AFB00E3EB39 /* zooApp-tiger-30x30.png in Resources */,
 				DD15E215190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png in Resources */,
 				DDF9E97018FCF50E0032ED1E /* icon-badges-30x27.png in Resources */,
+				DD13978C191441F200148DDC /* Bear-3-320x200.png in Resources */,
 				DD537C1D191201BD00F4227B /* ziewIcon-settingsRetina-58x58.png in Resources */,
 				DD537C16191201BD00F4227B /* ziewIcon-appStore-512x512.png in Resources */,
+				DD13978A191441F200148DDC /* Bear-1-320x200.png in Resources */,
 				DDF9E97418FCF50E0032ED1E /* icon-map-30x27.png in Resources */,
+				DD139790191441F200148DDC /* Elephant-1-320x200.png in Resources */,
 				DD15E201190C6AFB00E3EB39 /* zooApp-flamingo-120x120.png in Resources */,
+				DD13978D191441F200148DDC /* Crocodile-1-320x200.png in Resources */,
 				DD15E206190C6AFB00E3EB39 /* zooApp-gorilla-60x60.png in Resources */,
 				DD15E216190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png in Resources */,
+				DD1397A1191441F200148DDC /* Tiger-3-320x200.png in Resources */,
 				DDF9E97318FCF50E0032ED1E /* icon-connect-60x54.png in Resources */,
 				DD537C17191201BD00F4227B /* ziewIcon-appStoreRetina-1024x1024.png in Resources */,
 				DD15E202190C6AFB00E3EB39 /* zooApp-flamingo-30x30.png in Resources */,
+				DD13979A191441F200148DDC /* Lion-2-320x200.png in Resources */,
 				DD15E205190C6AFB00E3EB39 /* zooApp-gorilla-30x30.png in Resources */,
 				DD15E20F190C6AFB00E3EB39 /* zooApp-tiger-60x60.png in Resources */,
+				DD139793191441F200148DDC /* Flamingo-1-320x200.png in Resources */,
 				DD15E1FC190C6AFB00E3EB39 /* zooApp-crocodile-30x30.png in Resources */,
 				DD15E1FF190C6AFB00E3EB39 /* zooApp-elephant-30x30.png in Resources */,
+				DD139794191441F200148DDC /* Flamingo-2-320x200.png in Resources */,
 				DD15E1FB190C6AFB00E3EB39 /* zooApp-crocodile-120x120.png in Resources */,
 				DD15E207190C6AFB00E3EB39 /* zooApp-lion-120x120.png in Resources */,
+				DD13979E191441F200148DDC /* Shark-3-320x200.png in Resources */,
+				DD139792191441F200148DDC /* Elephant-3-320x200.png in Resources */,
 				DD15E208190C6AFB00E3EB39 /* zooApp-lion-30x30.png in Resources */,
 				DD15E20C190C6AFB00E3EB39 /* zooApp-shark-60x60.png in Resources */,
+				DD13978B191441F200148DDC /* Bear-2-320x200.png in Resources */,
 				DDF9E97218FCF50E0032ED1E /* icon-connect-30x27.png in Resources */,
 				DD15E20D190C6AFB00E3EB39 /* zooApp-tiger-120x120.png in Resources */,
 				DD15E204190C6AFB00E3EB39 /* zooApp-gorilla-120x120.png in Resources */,
@@ -500,13 +594,18 @@
 				DD15E200190C6AFB00E3EB39 /* zooApp-elephant-60x60.png in Resources */,
 				DD15E20B190C6AFB00E3EB39 /* zooApp-shark-30x30.png in Resources */,
 				DD15E1F8190C6AFB00E3EB39 /* zooApp-bear-120x120.png in Resources */,
+				DD13979F191441F200148DDC /* Tiger-1-320x200.png in Resources */,
+				DD139795191441F200148DDC /* Flamingo-3-320x200.png in Resources */,
+				DD1397A31914441000148DDC /* ziewIcon-80x80.png in Resources */,
 				DDF9E96E18FCF50E0032ED1E /* icon-animals-30x27.png in Resources */,
 				3BC5711718EDFCC900019738 /* InfoPlist.strings in Resources */,
 				3BC5712018EDFCC900019738 /* Main.storyboard in Resources */,
+				DD139799191441F200148DDC /* Lion-1-320x200.png in Resources */,
 				DD9867BB19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png in Resources */,
 				DD15E20A190C6AFB00E3EB39 /* zooApp-shark-120x120.png in Resources */,
 				DDF9E97518FCF50E0032ED1E /* icon-map-60x54.png in Resources */,
 				DD537C19191201BD00F4227B /* ziewIcon-homeScreenRetina-120x120.png in Resources */,
+				DD13978F191441F200148DDC /* Crocodile-3-320x200.png in Resources */,
 				DD15E209190C6AFB00E3EB39 /* zooApp-lion-60x60.png in Resources */,
 				DDF9E97118FCF50E0032ED1E /* icon-badges-60x54.png in Resources */,
 				DD15E212190C6AFB00E3EB39 /* zooApp-unearned-60x60.png in Resources */,
@@ -514,9 +613,18 @@
 				DD15E1FA190C6AFB00E3EB39 /* zooApp-bear-60x60.png in Resources */,
 				DD15E211190C6AFB00E3EB39 /* zooApp-unearned-30x30.png in Resources */,
 				DD15E1FE190C6AFB00E3EB39 /* zooApp-elephant-120x120.png in Resources */,
+				DD139791191441F200148DDC /* Elephant-2-320x200.png in Resources */,
+				DD13979B191441F200148DDC /* Lion-3-320x200.png in Resources */,
+				DD13978E191441F200148DDC /* Crocodile-2-320x200.png in Resources */,
 				DD537C1A191201BD00F4227B /* ziewIcon-iOS6homeScreen-57x57.png in Resources */,
+				DD139796191441F200148DDC /* Gorilla-1-320x200.png in Resources */,
 				DD537C1B191201BD00F4227B /* ziewIcon-iOS6homeScreenRetina-114x114.png in Resources */,
+				DD139797191441F200148DDC /* Gorilla-2-320x200.png in Resources */,
 				DD15E1F9190C6AFB00E3EB39 /* zooApp-bear-30x30.png in Resources */,
+				DD13979C191441F200148DDC /* Shark-1-320x200.png in Resources */,
+				DD1397A0191441F200148DDC /* Tiger-2-320x200.png in Resources */,
+				DD139798191441F200148DDC /* Gorilla-3-320x200.png in Resources */,
+				DD13979D191441F200148DDC /* Shark-2-320x200.png in Resources */,
 				DD537C1C191201BD00F4227B /* ziewIcon-settings-29x29.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

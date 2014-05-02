@@ -31,10 +31,16 @@
     self.badge.image = [UIImage imageNamed: [self.animal objectForKey:@"badge"]];
     
     [self.myScrollView setScrollEnabled:YES];
-    [self.myScrollView setContentSize:CGSizeMake(300, 915)];
-    [self.content setScrollEnabled:NO];
+    [self.myScrollView setContentSize:CGSizeMake(300, 1900)];
+    //[self.content setScrollEnabled:NO];
     
-    self.content.text = [self.animal objectForKey:@"content"];
+    self.content1.text = [self.animal objectForKey:@"content1"];
+    self.content2.text = [self.animal objectForKey:@"content2"];
+    self.content3.text = [self.animal objectForKey:@"content3"];
+    self.image1.image = [UIImage imageNamed: [self.animal objectForKey:@"image1"]];
+    self.image2.image = [UIImage imageNamed: [self.animal objectForKey:@"image2"]];
+    self.image3.image = [UIImage imageNamed: [self.animal objectForKey:@"image3"]];
+
     // Do any additional setup after loading the view.
 }
 
