@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BC5710818EDFCC900019738"
                BuildableName = "ZooIBeaconApplication.app"
-               BlueprintName = "ZooIBeaconApplication"
-               ReferencedContainer = "container:ZooIBeaconApplication.xcodeproj">
+               BlueprintName = "Ziew"
+               ReferencedContainer = "container:Ziew.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BC5712C18EDFCCA00019738"
                BuildableName = "ZooIBeaconApplicationTests.xctest"
-               BlueprintName = "ZooIBeaconApplicationTests"
-               ReferencedContainer = "container:ZooIBeaconApplication.xcodeproj">
+               BlueprintName = "ZiewTests"
+               ReferencedContainer = "container:Ziew.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BC5710818EDFCC900019738"
             BuildableName = "ZooIBeaconApplication.app"
-            BlueprintName = "ZooIBeaconApplication"
-            ReferencedContainer = "container:ZooIBeaconApplication.xcodeproj">
+            BlueprintName = "Ziew"
+            ReferencedContainer = "container:Ziew.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BC5710818EDFCC900019738"
             BuildableName = "ZooIBeaconApplication.app"
-            BlueprintName = "ZooIBeaconApplication"
-            ReferencedContainer = "container:ZooIBeaconApplication.xcodeproj">
+            BlueprintName = "Ziew"
+            ReferencedContainer = "container:Ziew.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BC5710818EDFCC900019738"
             BuildableName = "ZooIBeaconApplication.app"
-            BlueprintName = "ZooIBeaconApplication"
-            ReferencedContainer = "container:ZooIBeaconApplication.xcodeproj">
+            BlueprintName = "Ziew"
+            ReferencedContainer = "container:Ziew.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

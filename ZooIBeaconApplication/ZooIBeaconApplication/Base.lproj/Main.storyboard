@@ -105,13 +105,13 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="t7a-R9-5B0">
-                                <rect key="frame" x="85" y="77" width="195" height="46"/>
+                                <rect key="frame" x="94" y="77" width="186" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="f9y-OY-bi7">
-                                <rect key="frame" x="0.0" y="131" width="320" height="1039"/>
+                                <rect key="frame" x="0.0" y="138" width="320" height="1688"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Dzv-M5-jq0" userLabel="Image1">
@@ -119,29 +119,29 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HLF-Cr-4dU" userLabel="Label - content2">
-                                        <rect key="frame" x="0.0" y="544" width="320" height="120"/>
+                                        <rect key="frame" x="20" y="728" width="280" height="318"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LJG-0f-E6W" userLabel="Label - content3">
-                                        <rect key="frame" x="0.0" y="860" width="320" height="179"/>
+                                        <rect key="frame" x="20" y="1241" width="280" height="352"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fOF-TI-2Iw" userLabel="Label - content1">
-                                        <rect key="frame" x="0.0" y="197" width="320" height="151"/>
+                                        <rect key="frame" x="20" y="195" width="280" height="330"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="JsU-ia-JZ8" userLabel="Image2">
-                                        <rect key="frame" x="0.0" y="347" width="320" height="200"/>
+                                        <rect key="frame" x="0.0" y="525" width="320" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="RiV-dH-k7N" userLabel="Image3">
-                                        <rect key="frame" x="0.0" y="658" width="320" height="200"/>
+                                        <rect key="frame" x="0.0" y="1046" width="320" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
@@ -244,6 +244,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <inset key="contentInset" minX="15" minY="15" maxX="15" maxY="15"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="UvM-5Z-97U">
                             <size key="itemSize" width="60" height="80"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -382,6 +383,7 @@
                         <outlet property="Twotter" destination="CdS-W0-QnG" id="fR4-zX-FpS"/>
                         <outlet property="Website" destination="N9N-0N-bUc" id="JSN-lq-KSx"/>
                         <outlet property="background" destination="wBl-dk-kAv" id="Qb5-eb-Mfu"/>
+                        <outlet property="pano" destination="cuy-Zs-cdL" id="WAf-4I-Mov"/>
                         <outlet property="zooIcon" destination="Qfl-i7-XOV" id="DXf-zf-9uB"/>
                     </connections>
                 </viewController>
@@ -440,6 +442,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="FtI-2L-LyV"/>
+        <segue reference="i5r-ZP-iTV"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -28,7 +28,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     //[self.background addSubview:self.zooIcon];
+    self.background.image = [UIImage imageNamed: @"tigerDark"];
     self.zooIcon.image = [UIImage imageNamed: @"ziewIcon"];
+    self.pano.image = [UIImage imageNamed: @"pano"];
     
 }
 

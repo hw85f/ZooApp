@@ -7,7 +7,8 @@
     },
     {
       "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "zooApp-shark-120x120.png"
     }
   ],
   "info" : {

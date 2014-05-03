@@ -31,9 +31,8 @@
     self.badge.image = [UIImage imageNamed: [self.animal objectForKey:@"badge"]];
     
     [self.myScrollView setScrollEnabled:YES];
-    [self.myScrollView setContentSize:CGSizeMake(300, 1900)];
-    //[self.content setScrollEnabled:NO];
-    
+    [self.myScrollView setContentSize:CGSizeMake(320, 3000)];
+
     self.content1.text = [self.animal objectForKey:@"content1"];
     self.content2.text = [self.animal objectForKey:@"content2"];
     self.content3.text = [self.animal objectForKey:@"content3"];

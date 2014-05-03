@@ -14,5 +14,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *Website;
 @property (strong, nonatomic) IBOutlet UIImageView *background;
 @property (strong, nonatomic) IBOutlet UIImageView *zooIcon;
+@property (strong, nonatomic) IBOutlet UIImageView *pano;
+
 
 @end

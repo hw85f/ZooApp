@@ -74,6 +74,10 @@
 		DD15E212190C6AFB00E3EB39 /* zooApp-unearned-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F7190C6AFB00E3EB39 /* zooApp-unearned-60x60.png */; };
 		DD15E215190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E213190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png */; };
 		DD15E216190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E214190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png */; };
+		DD2B72B51914687E00CE2AD8 /* campus-pano-320x90.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B11914687E00CE2AD8 /* campus-pano-320x90.png */; };
+		DD2B72B61914687E00CE2AD8 /* campus-pano-640x180.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B21914687E00CE2AD8 /* campus-pano-640x180.png */; };
+		DD2B72B71914687E00CE2AD8 /* campus-tigerDark-320x225.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B31914687E00CE2AD8 /* campus-tigerDark-320x225.png */; };
+		DD2B72B81914687E00CE2AD8 /* campus-tigerDark-640x450.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B41914687E00CE2AD8 /* campus-tigerDark-640x450.png */; };
 		DD3159B018F64FCE00247B44 /* connectController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159AF18F64FCE00247B44 /* connectController.m */; };
 		DD3159BA18F9AC5900247B44 /* collectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159B918F9AC5900247B44 /* collectionViewController.m */; };
 		DD3159BD18F9B3CB00247B44 /* collectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159BC18F9B3CB00247B44 /* collectionViewCell.m */; };
@@ -111,19 +115,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3BC5710918EDFCC900019738 /* ZooIBeaconApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooIBeaconApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC5710918EDFCC900019738 /* Ziew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ziew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC5710C18EDFCC900019738 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3BC5710E18EDFCC900019738 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3BC5711018EDFCC900019738 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3BC5711418EDFCC900019738 /* ZooIBeaconApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZooIBeaconApplication-Info.plist"; sourceTree = "<group>"; };
+		3BC5711418EDFCC900019738 /* Ziew-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ziew-Info.plist"; sourceTree = "<group>"; };
 		3BC5711618EDFCC900019738 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3BC5711818EDFCC900019738 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3BC5711A18EDFCC900019738 /* ZooIBeaconApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZooIBeaconApplication-Prefix.pch"; sourceTree = "<group>"; };
+		3BC5711A18EDFCC900019738 /* Ziew-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ziew-Prefix.pch"; sourceTree = "<group>"; };
 		3BC5711B18EDFCC900019738 /* ZOOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZOOAppDelegate.h; sourceTree = "<group>"; };
 		3BC5711C18EDFCC900019738 /* ZOOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZOOAppDelegate.m; sourceTree = "<group>"; };
 		3BC5711F18EDFCC900019738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BC5712718EDFCC900019738 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3BC5712D18EDFCCA00019738 /* ZooIBeaconApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooIBeaconApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC5712D18EDFCCA00019738 /* ZiewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZiewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC5712E18EDFCCA00019738 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3BC5713618EDFCCA00019738 /* ZooIBeaconApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZooIBeaconApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		3BC5713818EDFCCA00019738 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -182,6 +186,10 @@
 		DD15E1F7190C6AFB00E3EB39 /* zooApp-unearned-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-unearned-60x60.png"; sourceTree = "<group>"; };
 		DD15E213190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZiewMap-Mizzou-884x1093.png"; sourceTree = "<group>"; };
 		DD15E214190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZiewMap-Mizzou-1768x2186.png"; sourceTree = "<group>"; };
+		DD2B72B11914687E00CE2AD8 /* campus-pano-320x90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-pano-320x90.png"; sourceTree = "<group>"; };
+		DD2B72B21914687E00CE2AD8 /* campus-pano-640x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-pano-640x180.png"; sourceTree = "<group>"; };
+		DD2B72B31914687E00CE2AD8 /* campus-tigerDark-320x225.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-tigerDark-320x225.png"; sourceTree = "<group>"; };
+		DD2B72B41914687E00CE2AD8 /* campus-tigerDark-640x450.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-tigerDark-640x450.png"; sourceTree = "<group>"; };
 		DD3159AE18F64FCE00247B44 /* connectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connectController.h; sourceTree = "<group>"; };
 		DD3159AF18F64FCE00247B44 /* connectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = connectController.m; sourceTree = "<group>"; };
 		DD3159B818F9AC5900247B44 /* collectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionViewController.h; sourceTree = "<group>"; };
@@ -252,8 +260,8 @@
 		3BC5710A18EDFCC900019738 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BC5710918EDFCC900019738 /* ZooIBeaconApplication.app */,
-				3BC5712D18EDFCCA00019738 /* ZooIBeaconApplicationTests.xctest */,
+				3BC5710918EDFCC900019738 /* Ziew.app */,
+				3BC5712D18EDFCCA00019738 /* ZiewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -292,10 +300,10 @@
 			isa = PBXGroup;
 			children = (
 				DDF9E96318FCF4BD0032ED1E /* Images */,
-				3BC5711418EDFCC900019738 /* ZooIBeaconApplication-Info.plist */,
+				3BC5711418EDFCC900019738 /* Ziew-Info.plist */,
 				3BC5711518EDFCC900019738 /* InfoPlist.strings */,
 				3BC5711818EDFCC900019738 /* main.m */,
-				3BC5711A18EDFCC900019738 /* ZooIBeaconApplication-Prefix.pch */,
+				3BC5711A18EDFCC900019738 /* Ziew-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -449,6 +457,10 @@
 		DDF9E96318FCF4BD0032ED1E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DD2B72B11914687E00CE2AD8 /* campus-pano-320x90.png */,
+				DD2B72B21914687E00CE2AD8 /* campus-pano-640x180.png */,
+				DD2B72B31914687E00CE2AD8 /* campus-tigerDark-320x225.png */,
+				DD2B72B41914687E00CE2AD8 /* campus-tigerDark-640x450.png */,
 				DD139770191441F200148DDC /* 8 Animals 320x200 */,
 				DD537C0C1912019300F4227B /* appIcons */,
 				DD15E213190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png */,
@@ -478,9 +490,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BC5710818EDFCC900019738 /* ZooIBeaconApplication */ = {
+		3BC5710818EDFCC900019738 /* Ziew */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BC5713E18EDFCCA00019738 /* Build configuration list for PBXNativeTarget "ZooIBeaconApplication" */;
+			buildConfigurationList = 3BC5713E18EDFCCA00019738 /* Build configuration list for PBXNativeTarget "Ziew" */;
 			buildPhases = (
 				3BC5710518EDFCC900019738 /* Sources */,
 				3BC5710618EDFCC900019738 /* Frameworks */,
@@ -490,14 +502,14 @@
 			);
 			dependencies = (
 			);
-			name = ZooIBeaconApplication;
+			name = Ziew;
 			productName = ZooIBeaconApplication;
-			productReference = 3BC5710918EDFCC900019738 /* ZooIBeaconApplication.app */;
+			productReference = 3BC5710918EDFCC900019738 /* Ziew.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3BC5712C18EDFCCA00019738 /* ZooIBeaconApplicationTests */ = {
+		3BC5712C18EDFCCA00019738 /* ZiewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BC5714118EDFCCA00019738 /* Build configuration list for PBXNativeTarget "ZooIBeaconApplicationTests" */;
+			buildConfigurationList = 3BC5714118EDFCCA00019738 /* Build configuration list for PBXNativeTarget "ZiewTests" */;
 			buildPhases = (
 				3BC5712918EDFCCA00019738 /* Sources */,
 				3BC5712A18EDFCCA00019738 /* Frameworks */,
@@ -508,9 +520,9 @@
 			dependencies = (
 				3BC5713318EDFCCA00019738 /* PBXTargetDependency */,
 			);
-			name = ZooIBeaconApplicationTests;
+			name = ZiewTests;
 			productName = ZooIBeaconApplicationTests;
-			productReference = 3BC5712D18EDFCCA00019738 /* ZooIBeaconApplicationTests.xctest */;
+			productReference = 3BC5712D18EDFCCA00019738 /* ZiewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -528,7 +540,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3BC5710418EDFCC900019738 /* Build configuration list for PBXProject "ZooIBeaconApplication" */;
+			buildConfigurationList = 3BC5710418EDFCC900019738 /* Build configuration list for PBXProject "Ziew" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -541,8 +553,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BC5710818EDFCC900019738 /* ZooIBeaconApplication */,
-				3BC5712C18EDFCCA00019738 /* ZooIBeaconApplicationTests */,
+				3BC5710818EDFCC900019738 /* Ziew */,
+				3BC5712C18EDFCCA00019738 /* ZiewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -559,6 +571,7 @@
 				DD15E20E190C6AFB00E3EB39 /* zooApp-tiger-30x30.png in Resources */,
 				DD15E215190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png in Resources */,
 				DDF9E97018FCF50E0032ED1E /* icon-badges-30x27.png in Resources */,
+				DD2B72B51914687E00CE2AD8 /* campus-pano-320x90.png in Resources */,
 				DD13978C191441F200148DDC /* Bear-3-320x200.png in Resources */,
 				DD537C1D191201BD00F4227B /* ziewIcon-settingsRetina-58x58.png in Resources */,
 				DD537C16191201BD00F4227B /* ziewIcon-appStore-512x512.png in Resources */,
@@ -583,18 +596,21 @@
 				DD15E1FB190C6AFB00E3EB39 /* zooApp-crocodile-120x120.png in Resources */,
 				DD15E207190C6AFB00E3EB39 /* zooApp-lion-120x120.png in Resources */,
 				DD13979E191441F200148DDC /* Shark-3-320x200.png in Resources */,
+				DD2B72B81914687E00CE2AD8 /* campus-tigerDark-640x450.png in Resources */,
 				DD139792191441F200148DDC /* Elephant-3-320x200.png in Resources */,
 				DD15E208190C6AFB00E3EB39 /* zooApp-lion-30x30.png in Resources */,
 				DD15E20C190C6AFB00E3EB39 /* zooApp-shark-60x60.png in Resources */,
 				DD13978B191441F200148DDC /* Bear-2-320x200.png in Resources */,
 				DDF9E97218FCF50E0032ED1E /* icon-connect-30x27.png in Resources */,
 				DD15E20D190C6AFB00E3EB39 /* zooApp-tiger-120x120.png in Resources */,
+				DD2B72B61914687E00CE2AD8 /* campus-pano-640x180.png in Resources */,
 				DD15E204190C6AFB00E3EB39 /* zooApp-gorilla-120x120.png in Resources */,
 				3BC5712818EDFCC900019738 /* Images.xcassets in Resources */,
 				DD15E200190C6AFB00E3EB39 /* zooApp-elephant-60x60.png in Resources */,
 				DD15E20B190C6AFB00E3EB39 /* zooApp-shark-30x30.png in Resources */,
 				DD15E1F8190C6AFB00E3EB39 /* zooApp-bear-120x120.png in Resources */,
 				DD13979F191441F200148DDC /* Tiger-1-320x200.png in Resources */,
+				DD2B72B71914687E00CE2AD8 /* campus-tigerDark-320x225.png in Resources */,
 				DD139795191441F200148DDC /* Flamingo-3-320x200.png in Resources */,
 				DD1397A31914441000148DDC /* ziewIcon-80x80.png in Resources */,
 				DDF9E96E18FCF50E0032ED1E /* icon-animals-30x27.png in Resources */,
@@ -669,7 +685,7 @@
 /* Begin PBXTargetDependency section */
 		3BC5713318EDFCCA00019738 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3BC5710818EDFCC900019738 /* ZooIBeaconApplication */;
+			target = 3BC5710818EDFCC900019738 /* Ziew */;
 			targetProxy = 3BC5713218EDFCCA00019738 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -778,9 +794,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZooIBeaconApplication/ZooIBeaconApplication-Prefix.pch";
-				INFOPLIST_FILE = "ZooIBeaconApplication/ZooIBeaconApplication-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ZooIBeaconApplication/Ziew-Prefix.pch";
+				INFOPLIST_FILE = "ZooIBeaconApplication/Ziew-Info.plist";
+				PRODUCT_NAME = Ziew;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -791,9 +807,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZooIBeaconApplication/ZooIBeaconApplication-Prefix.pch";
-				INFOPLIST_FILE = "ZooIBeaconApplication/ZooIBeaconApplication-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ZooIBeaconApplication/Ziew-Prefix.pch";
+				INFOPLIST_FILE = "ZooIBeaconApplication/Ziew-Info.plist";
+				PRODUCT_NAME = Ziew;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -814,7 +830,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "ZooIBeaconApplicationTests/ZooIBeaconApplicationTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ZiewTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -832,7 +848,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZooIBeaconApplication/ZooIBeaconApplication-Prefix.pch";
 				INFOPLIST_FILE = "ZooIBeaconApplicationTests/ZooIBeaconApplicationTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ZiewTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -841,7 +857,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BC5710418EDFCC900019738 /* Build configuration list for PBXProject "ZooIBeaconApplication" */ = {
+		3BC5710418EDFCC900019738 /* Build configuration list for PBXProject "Ziew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BC5713C18EDFCCA00019738 /* Debug */,
@@ -850,7 +866,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BC5713E18EDFCCA00019738 /* Build configuration list for PBXNativeTarget "ZooIBeaconApplication" */ = {
+		3BC5713E18EDFCCA00019738 /* Build configuration list for PBXNativeTarget "Ziew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BC5713F18EDFCCA00019738 /* Debug */,
@@ -859,7 +875,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BC5714118EDFCCA00019738 /* Build configuration list for PBXNativeTarget "ZooIBeaconApplicationTests" */ = {
+		3BC5714118EDFCCA00019738 /* Build configuration list for PBXNativeTarget "ZiewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BC5714218EDFCCA00019738 /* Debug */,
