@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BC5710818EDFCC900019738"
-               BuildableName = "ZooIBeaconApplication.app"
+               BuildableName = "Ziew.app"
                BlueprintName = "Ziew"
                ReferencedContainer = "container:Ziew.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BC5712C18EDFCCA00019738"
-               BuildableName = "ZooIBeaconApplicationTests.xctest"
+               BuildableName = "ZiewTests.xctest"
                BlueprintName = "ZiewTests"
                ReferencedContainer = "container:Ziew.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BC5710818EDFCC900019738"
-            BuildableName = "ZooIBeaconApplication.app"
+            BuildableName = "Ziew.app"
             BlueprintName = "Ziew"
             ReferencedContainer = "container:Ziew.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BC5710818EDFCC900019738"
-            BuildableName = "ZooIBeaconApplication.app"
+            BuildableName = "Ziew.app"
             BlueprintName = "Ziew"
             ReferencedContainer = "container:Ziew.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BC5710818EDFCC900019738"
-            BuildableName = "ZooIBeaconApplication.app"
+            BuildableName = "Ziew.app"
             BlueprintName = "Ziew"
             ReferencedContainer = "container:Ziew.xcodeproj">
          </BuildableReference>

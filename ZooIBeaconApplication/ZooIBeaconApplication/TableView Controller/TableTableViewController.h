@@ -11,6 +11,6 @@
 
 @interface TableTableViewController : UITableViewController
 @property (strong, nonatomic) IBOutlet UINavigationItem *navagationbar;
-@property (nonatomic, strong) NSMutableArray *data;
+@property (nonatomic, strong) NSArray *data;
 
 @end

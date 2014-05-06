@@ -12,6 +12,6 @@
 
 @interface collectionViewController : UICollectionViewController
 
-@property (nonatomic, strong) NSMutableArray *data;
+@property (nonatomic, strong) NSArray *data;
 
 @end

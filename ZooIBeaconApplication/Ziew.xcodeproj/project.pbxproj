@@ -74,6 +74,7 @@
 		DD15E212190C6AFB00E3EB39 /* zooApp-unearned-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F7190C6AFB00E3EB39 /* zooApp-unearned-60x60.png */; };
 		DD15E215190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E213190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png */; };
 		DD15E216190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E214190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png */; };
+		DD288E22191953BB004348B7 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = DD288E21191953BB004348B7 /* animals.json */; };
 		DD2B72B51914687E00CE2AD8 /* campus-pano-320x90.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B11914687E00CE2AD8 /* campus-pano-320x90.png */; };
 		DD2B72B61914687E00CE2AD8 /* campus-pano-640x180.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B21914687E00CE2AD8 /* campus-pano-640x180.png */; };
 		DD2B72B71914687E00CE2AD8 /* campus-tigerDark-320x225.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B31914687E00CE2AD8 /* campus-tigerDark-320x225.png */; };
@@ -186,6 +187,7 @@
 		DD15E1F7190C6AFB00E3EB39 /* zooApp-unearned-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-unearned-60x60.png"; sourceTree = "<group>"; };
 		DD15E213190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZiewMap-Mizzou-884x1093.png"; sourceTree = "<group>"; };
 		DD15E214190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZiewMap-Mizzou-1768x2186.png"; sourceTree = "<group>"; };
+		DD288E21191953BB004348B7 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
 		DD2B72B11914687E00CE2AD8 /* campus-pano-320x90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-pano-320x90.png"; sourceTree = "<group>"; };
 		DD2B72B21914687E00CE2AD8 /* campus-pano-640x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-pano-640x180.png"; sourceTree = "<group>"; };
 		DD2B72B31914687E00CE2AD8 /* campus-tigerDark-320x225.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-tigerDark-320x225.png"; sourceTree = "<group>"; };
@@ -299,6 +301,7 @@
 		3BC5711318EDFCC900019738 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DD288E21191953BB004348B7 /* animals.json */,
 				DDF9E96318FCF4BD0032ED1E /* Images */,
 				3BC5711418EDFCC900019738 /* Ziew-Info.plist */,
 				3BC5711518EDFCC900019738 /* InfoPlist.strings */,
@@ -579,6 +582,7 @@
 				DDF9E97418FCF50E0032ED1E /* icon-map-30x27.png in Resources */,
 				DD139790191441F200148DDC /* Elephant-1-320x200.png in Resources */,
 				DD15E201190C6AFB00E3EB39 /* zooApp-flamingo-120x120.png in Resources */,
+				DD288E22191953BB004348B7 /* animals.json in Resources */,
 				DD13978D191441F200148DDC /* Crocodile-1-320x200.png in Resources */,
 				DD15E206190C6AFB00E3EB39 /* zooApp-gorilla-60x60.png in Resources */,
 				DD15E216190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png in Resources */,
