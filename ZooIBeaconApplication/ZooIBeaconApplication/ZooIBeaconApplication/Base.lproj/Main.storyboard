@@ -144,6 +144,13 @@
                                         <rect key="frame" x="0.0" y="1046" width="320" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DPl-F5-nnA" userLabel="Label - content">
+                                        <rect key="frame" x="20" y="208" width="280" height="512"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                             </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="1Jz-oT-jYM" userLabel="badge">
@@ -159,6 +166,7 @@
                         <outlet property="AnimalIamge" destination="Dzv-M5-jq0" id="SlM-dr-Isg"/>
                         <outlet property="Name" destination="t7a-R9-5B0" id="mEv-oB-LnQ"/>
                         <outlet property="badge" destination="1Jz-oT-jYM" id="IwQ-8z-y7K"/>
+                        <outlet property="content" destination="DPl-F5-nnA" id="JQc-Jp-jTO"/>
                         <outlet property="content1" destination="fOF-TI-2Iw" id="28T-7p-XuD"/>
                         <outlet property="content2" destination="HLF-Cr-4dU" id="bDZ-ne-mV5"/>
                         <outlet property="content3" destination="LJG-0f-E6W" id="ur2-ES-OP2"/>

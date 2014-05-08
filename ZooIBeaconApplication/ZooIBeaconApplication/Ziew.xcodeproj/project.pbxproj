@@ -1,0 +1,1008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BC5710D18EDFCC900019738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5710C18EDFCC900019738 /* Foundation.framework */; };
+		3BC5710F18EDFCC900019738 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5710E18EDFCC900019738 /* CoreGraphics.framework */; };
+		3BC5711118EDFCC900019738 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5711018EDFCC900019738 /* UIKit.framework */; };
+		3BC5711718EDFCC900019738 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BC5711518EDFCC900019738 /* InfoPlist.strings */; };
+		3BC5711918EDFCC900019738 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5711818EDFCC900019738 /* main.m */; };
+		3BC5711D18EDFCC900019738 /* ZOOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5711C18EDFCC900019738 /* ZOOAppDelegate.m */; };
+		3BC5712018EDFCC900019738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC5711E18EDFCC900019738 /* Main.storyboard */; };
+		3BC5712818EDFCC900019738 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC5712718EDFCC900019738 /* Images.xcassets */; };
+		3BC5712F18EDFCCA00019738 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5712E18EDFCCA00019738 /* XCTest.framework */; };
+		3BC5713018EDFCCA00019738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5710C18EDFCC900019738 /* Foundation.framework */; };
+		3BC5713118EDFCCA00019738 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5711018EDFCC900019738 /* UIKit.framework */; };
+		3BC5713918EDFCCA00019738 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BC5713718EDFCCA00019738 /* InfoPlist.strings */; };
+		3BC5713B18EDFCCA00019738 /* ZooIBeaconApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5713A18EDFCCA00019738 /* ZooIBeaconApplicationTests.m */; };
+		DD13978A191441F200148DDC /* Bear-1-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139772191441F200148DDC /* Bear-1-320x200.png */; };
+		DD13978B191441F200148DDC /* Bear-2-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139773191441F200148DDC /* Bear-2-320x200.png */; };
+		DD13978C191441F200148DDC /* Bear-3-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139774191441F200148DDC /* Bear-3-320x200.png */; };
+		DD13978D191441F200148DDC /* Crocodile-1-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139775191441F200148DDC /* Crocodile-1-320x200.png */; };
+		DD13978E191441F200148DDC /* Crocodile-2-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139776191441F200148DDC /* Crocodile-2-320x200.png */; };
+		DD13978F191441F200148DDC /* Crocodile-3-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139777191441F200148DDC /* Crocodile-3-320x200.png */; };
+		DD139790191441F200148DDC /* Elephant-1-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139778191441F200148DDC /* Elephant-1-320x200.png */; };
+		DD139791191441F200148DDC /* Elephant-2-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139779191441F200148DDC /* Elephant-2-320x200.png */; };
+		DD139792191441F200148DDC /* Elephant-3-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD13977A191441F200148DDC /* Elephant-3-320x200.png */; };
+		DD139793191441F200148DDC /* Flamingo-1-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD13977B191441F200148DDC /* Flamingo-1-320x200.png */; };
+		DD139794191441F200148DDC /* Flamingo-2-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD13977C191441F200148DDC /* Flamingo-2-320x200.png */; };
+		DD139795191441F200148DDC /* Flamingo-3-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD13977D191441F200148DDC /* Flamingo-3-320x200.png */; };
+		DD139796191441F200148DDC /* Gorilla-1-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD13977E191441F200148DDC /* Gorilla-1-320x200.png */; };
+		DD139797191441F200148DDC /* Gorilla-2-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD13977F191441F200148DDC /* Gorilla-2-320x200.png */; };
+		DD139798191441F200148DDC /* Gorilla-3-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139780191441F200148DDC /* Gorilla-3-320x200.png */; };
+		DD139799191441F200148DDC /* Lion-1-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139781191441F200148DDC /* Lion-1-320x200.png */; };
+		DD13979A191441F200148DDC /* Lion-2-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139782191441F200148DDC /* Lion-2-320x200.png */; };
+		DD13979B191441F200148DDC /* Lion-3-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139783191441F200148DDC /* Lion-3-320x200.png */; };
+		DD13979C191441F200148DDC /* Shark-1-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139784191441F200148DDC /* Shark-1-320x200.png */; };
+		DD13979D191441F200148DDC /* Shark-2-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139785191441F200148DDC /* Shark-2-320x200.png */; };
+		DD13979E191441F200148DDC /* Shark-3-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139786191441F200148DDC /* Shark-3-320x200.png */; };
+		DD13979F191441F200148DDC /* Tiger-1-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139787191441F200148DDC /* Tiger-1-320x200.png */; };
+		DD1397A0191441F200148DDC /* Tiger-2-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139788191441F200148DDC /* Tiger-2-320x200.png */; };
+		DD1397A1191441F200148DDC /* Tiger-3-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD139789191441F200148DDC /* Tiger-3-320x200.png */; };
+		DD1397A31914441000148DDC /* ziewIcon-80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1397A21914441000148DDC /* ziewIcon-80x80.png */; };
+		DD15E1F8190C6AFB00E3EB39 /* zooApp-bear-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1DD190C6AFB00E3EB39 /* zooApp-bear-120x120.png */; };
+		DD15E1F9190C6AFB00E3EB39 /* zooApp-bear-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1DE190C6AFB00E3EB39 /* zooApp-bear-30x30.png */; };
+		DD15E1FA190C6AFB00E3EB39 /* zooApp-bear-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1DF190C6AFB00E3EB39 /* zooApp-bear-60x60.png */; };
+		DD15E1FB190C6AFB00E3EB39 /* zooApp-crocodile-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E0190C6AFB00E3EB39 /* zooApp-crocodile-120x120.png */; };
+		DD15E1FC190C6AFB00E3EB39 /* zooApp-crocodile-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E1190C6AFB00E3EB39 /* zooApp-crocodile-30x30.png */; };
+		DD15E1FD190C6AFB00E3EB39 /* zooApp-crocodile-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E2190C6AFB00E3EB39 /* zooApp-crocodile-60x60.png */; };
+		DD15E1FE190C6AFB00E3EB39 /* zooApp-elephant-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E3190C6AFB00E3EB39 /* zooApp-elephant-120x120.png */; };
+		DD15E1FF190C6AFB00E3EB39 /* zooApp-elephant-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E4190C6AFB00E3EB39 /* zooApp-elephant-30x30.png */; };
+		DD15E200190C6AFB00E3EB39 /* zooApp-elephant-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E5190C6AFB00E3EB39 /* zooApp-elephant-60x60.png */; };
+		DD15E201190C6AFB00E3EB39 /* zooApp-flamingo-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E6190C6AFB00E3EB39 /* zooApp-flamingo-120x120.png */; };
+		DD15E202190C6AFB00E3EB39 /* zooApp-flamingo-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E7190C6AFB00E3EB39 /* zooApp-flamingo-30x30.png */; };
+		DD15E203190C6AFB00E3EB39 /* zooApp-flamingo-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E8190C6AFB00E3EB39 /* zooApp-flamingo-60x60.png */; };
+		DD15E204190C6AFB00E3EB39 /* zooApp-gorilla-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1E9190C6AFB00E3EB39 /* zooApp-gorilla-120x120.png */; };
+		DD15E205190C6AFB00E3EB39 /* zooApp-gorilla-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1EA190C6AFB00E3EB39 /* zooApp-gorilla-30x30.png */; };
+		DD15E206190C6AFB00E3EB39 /* zooApp-gorilla-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1EB190C6AFB00E3EB39 /* zooApp-gorilla-60x60.png */; };
+		DD15E207190C6AFB00E3EB39 /* zooApp-lion-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1EC190C6AFB00E3EB39 /* zooApp-lion-120x120.png */; };
+		DD15E208190C6AFB00E3EB39 /* zooApp-lion-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1ED190C6AFB00E3EB39 /* zooApp-lion-30x30.png */; };
+		DD15E209190C6AFB00E3EB39 /* zooApp-lion-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1EE190C6AFB00E3EB39 /* zooApp-lion-60x60.png */; };
+		DD15E20A190C6AFB00E3EB39 /* zooApp-shark-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1EF190C6AFB00E3EB39 /* zooApp-shark-120x120.png */; };
+		DD15E20B190C6AFB00E3EB39 /* zooApp-shark-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F0190C6AFB00E3EB39 /* zooApp-shark-30x30.png */; };
+		DD15E20C190C6AFB00E3EB39 /* zooApp-shark-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F1190C6AFB00E3EB39 /* zooApp-shark-60x60.png */; };
+		DD15E20D190C6AFB00E3EB39 /* zooApp-tiger-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F2190C6AFB00E3EB39 /* zooApp-tiger-120x120.png */; };
+		DD15E20E190C6AFB00E3EB39 /* zooApp-tiger-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F3190C6AFB00E3EB39 /* zooApp-tiger-30x30.png */; };
+		DD15E20F190C6AFB00E3EB39 /* zooApp-tiger-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F4190C6AFB00E3EB39 /* zooApp-tiger-60x60.png */; };
+		DD15E210190C6AFB00E3EB39 /* zooApp-unearned-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F5190C6AFB00E3EB39 /* zooApp-unearned-120x120.png */; };
+		DD15E211190C6AFB00E3EB39 /* zooApp-unearned-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F6190C6AFB00E3EB39 /* zooApp-unearned-30x30.png */; };
+		DD15E212190C6AFB00E3EB39 /* zooApp-unearned-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E1F7190C6AFB00E3EB39 /* zooApp-unearned-60x60.png */; };
+		DD15E215190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E213190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png */; };
+		DD15E216190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E214190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png */; };
+		DD288E22191953BB004348B7 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = DD288E21191953BB004348B7 /* animals.json */; };
+		DD288E2A19195D79004348B7 /* ZOOBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = DD288E2519195D79004348B7 /* ZOOBadge.m */; };
+		DD288E2B19195D79004348B7 /* ZOOBadgeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DD288E2719195D79004348B7 /* ZOOBadgeHandler.m */; };
+		DD288E2C19195D79004348B7 /* ZOOBeaconHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DD288E2919195D79004348B7 /* ZOOBeaconHandler.m */; };
+		DD288E41191BFC20004348B7 /* antelope-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E2F191BFC20004348B7 /* antelope-320x200.png */; };
+		DD288E42191BFC20004348B7 /* dolphin-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E30191BFC20004348B7 /* dolphin-320x200.png */; };
+		DD288E43191BFC20004348B7 /* hippo-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E31191BFC20004348B7 /* hippo-320x200.png */; };
+		DD288E44191BFC20004348B7 /* iguana-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E32191BFC20004348B7 /* iguana-320x200.png */; };
+		DD288E45191BFC20004348B7 /* jaguar-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E33191BFC20004348B7 /* jaguar-320x200.png */; };
+		DD288E46191BFC20004348B7 /* kangaroo-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E34191BFC20004348B7 /* kangaroo-320x200.png */; };
+		DD288E47191BFC20004348B7 /* monkey-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E35191BFC20004348B7 /* monkey-320x200.png */; };
+		DD288E48191BFC20004348B7 /* narwhal-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E36191BFC20004348B7 /* narwhal-320x200.png */; };
+		DD288E49191BFC20004348B7 /* orangutan-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E37191BFC20004348B7 /* orangutan-320x200.png */; };
+		DD288E4A191BFC20004348B7 /* penguin-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E38191BFC20004348B7 /* penguin-320x200.png */; };
+		DD288E4B191BFC20004348B7 /* quail-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E39191BFC20004348B7 /* quail-320x200.png */; };
+		DD288E4C191BFC20004348B7 /* rhino-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E3A191BFC20004348B7 /* rhino-320x200.png */; };
+		DD288E4D191BFC20004348B7 /* uakari-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E3B191BFC20004348B7 /* uakari-320x200.png */; };
+		DD288E4E191BFC20004348B7 /* vulture-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E3C191BFC20004348B7 /* vulture-320x200.png */; };
+		DD288E4F191BFC20004348B7 /* walrus-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E3D191BFC20004348B7 /* walrus-320x200.png */; };
+		DD288E50191BFC20004348B7 /* xrayTetra-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E3E191BFC20004348B7 /* xrayTetra-320x200.png */; };
+		DD288E51191BFC20004348B7 /* yak-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E3F191BFC20004348B7 /* yak-320x200.png */; };
+		DD288E52191BFC20004348B7 /* zebra-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E40191BFC20004348B7 /* zebra-320x200.png */; };
+		DD2B72B51914687E00CE2AD8 /* campus-pano-320x90.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B11914687E00CE2AD8 /* campus-pano-320x90.png */; };
+		DD2B72B61914687E00CE2AD8 /* campus-pano-640x180.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B21914687E00CE2AD8 /* campus-pano-640x180.png */; };
+		DD2B72B71914687E00CE2AD8 /* campus-tigerDark-320x225.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B31914687E00CE2AD8 /* campus-tigerDark-320x225.png */; };
+		DD2B72B81914687E00CE2AD8 /* campus-tigerDark-640x450.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B41914687E00CE2AD8 /* campus-tigerDark-640x450.png */; };
+		DD3159B018F64FCE00247B44 /* connectController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159AF18F64FCE00247B44 /* connectController.m */; };
+		DD3159BA18F9AC5900247B44 /* collectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159B918F9AC5900247B44 /* collectionViewController.m */; };
+		DD3159BD18F9B3CB00247B44 /* collectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3159BC18F9B3CB00247B44 /* collectionViewCell.m */; };
+		DD3E512318F1ED0100DB9200 /* TableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3E512218F1ED0100DB9200 /* TableTableViewController.m */; };
+		DD3E512918F1F2D500DB9200 /* AnimalDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3E512818F1F2D500DB9200 /* AnimalDetailsViewController.m */; };
+		DD537C16191201BD00F4227B /* ziewIcon-appStore-512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = DD537C0E191201BD00F4227B /* ziewIcon-appStore-512x512.png */; };
+		DD537C17191201BD00F4227B /* ziewIcon-appStoreRetina-1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = DD537C0F191201BD00F4227B /* ziewIcon-appStoreRetina-1024x1024.png */; };
+		DD537C18191201BD00F4227B /* ziewIcon-homeScreen-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DD537C10191201BD00F4227B /* ziewIcon-homeScreen-60x60.png */; };
+		DD537C19191201BD00F4227B /* ziewIcon-homeScreenRetina-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DD537C11191201BD00F4227B /* ziewIcon-homeScreenRetina-120x120.png */; };
+		DD537C1A191201BD00F4227B /* ziewIcon-iOS6homeScreen-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = DD537C12191201BD00F4227B /* ziewIcon-iOS6homeScreen-57x57.png */; };
+		DD537C1B191201BD00F4227B /* ziewIcon-iOS6homeScreenRetina-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = DD537C13191201BD00F4227B /* ziewIcon-iOS6homeScreenRetina-114x114.png */; };
+		DD537C1C191201BD00F4227B /* ziewIcon-settings-29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = DD537C14191201BD00F4227B /* ziewIcon-settings-29x29.png */; };
+		DD537C1D191201BD00F4227B /* ziewIcon-settingsRetina-58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = DD537C15191201BD00F4227B /* ziewIcon-settingsRetina-58x58.png */; };
+		DD9867BB19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9867BA19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png */; };
+		DD9867BE19005040000FD05D /* ZOOMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9867BD19005040000FD05D /* ZOOMapViewController.m */; };
+		DDF9E96E18FCF50E0032ED1E /* icon-animals-30x27.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF9E96518FCF50E0032ED1E /* icon-animals-30x27.png */; };
+		DDF9E96F18FCF50E0032ED1E /* icon-animals-60x54.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF9E96618FCF50E0032ED1E /* icon-animals-60x54.png */; };
+		DDF9E97018FCF50E0032ED1E /* icon-badges-30x27.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF9E96718FCF50E0032ED1E /* icon-badges-30x27.png */; };
+		DDF9E97118FCF50E0032ED1E /* icon-badges-60x54.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF9E96818FCF50E0032ED1E /* icon-badges-60x54.png */; };
+		DDF9E97218FCF50E0032ED1E /* icon-connect-30x27.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF9E96918FCF50E0032ED1E /* icon-connect-30x27.png */; };
+		DDF9E97318FCF50E0032ED1E /* icon-connect-60x54.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF9E96A18FCF50E0032ED1E /* icon-connect-60x54.png */; };
+		DDF9E97418FCF50E0032ED1E /* icon-map-30x27.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF9E96B18FCF50E0032ED1E /* icon-map-30x27.png */; };
+		DDF9E97518FCF50E0032ED1E /* icon-map-60x54.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF9E96C18FCF50E0032ED1E /* icon-map-60x54.png */; };
+		DDFDED3819004B100070E009 /* ZOOTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFDED3719004B100070E009 /* ZOOTabBarViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BC5713218EDFCCA00019738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BC5710118EDFCC900019738 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BC5710818EDFCC900019738;
+			remoteInfo = ZooIBeaconApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BC5710918EDFCC900019738 /* Ziew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ziew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC5710C18EDFCC900019738 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BC5710E18EDFCC900019738 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BC5711018EDFCC900019738 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BC5711418EDFCC900019738 /* Ziew-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ziew-Info.plist"; sourceTree = "<group>"; };
+		3BC5711618EDFCC900019738 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BC5711818EDFCC900019738 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BC5711A18EDFCC900019738 /* Ziew-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ziew-Prefix.pch"; sourceTree = "<group>"; };
+		3BC5711B18EDFCC900019738 /* ZOOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZOOAppDelegate.h; sourceTree = "<group>"; };
+		3BC5711C18EDFCC900019738 /* ZOOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZOOAppDelegate.m; sourceTree = "<group>"; };
+		3BC5711F18EDFCC900019738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BC5712718EDFCC900019738 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BC5712D18EDFCCA00019738 /* ZiewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZiewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC5712E18EDFCCA00019738 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3BC5713618EDFCCA00019738 /* ZooIBeaconApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZooIBeaconApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		3BC5713818EDFCCA00019738 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BC5713A18EDFCCA00019738 /* ZooIBeaconApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZooIBeaconApplicationTests.m; sourceTree = "<group>"; };
+		DD139772191441F200148DDC /* Bear-1-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bear-1-320x200.png"; sourceTree = "<group>"; };
+		DD139773191441F200148DDC /* Bear-2-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bear-2-320x200.png"; sourceTree = "<group>"; };
+		DD139774191441F200148DDC /* Bear-3-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bear-3-320x200.png"; sourceTree = "<group>"; };
+		DD139775191441F200148DDC /* Crocodile-1-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Crocodile-1-320x200.png"; sourceTree = "<group>"; };
+		DD139776191441F200148DDC /* Crocodile-2-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Crocodile-2-320x200.png"; sourceTree = "<group>"; };
+		DD139777191441F200148DDC /* Crocodile-3-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Crocodile-3-320x200.png"; sourceTree = "<group>"; };
+		DD139778191441F200148DDC /* Elephant-1-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elephant-1-320x200.png"; sourceTree = "<group>"; };
+		DD139779191441F200148DDC /* Elephant-2-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elephant-2-320x200.png"; sourceTree = "<group>"; };
+		DD13977A191441F200148DDC /* Elephant-3-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Elephant-3-320x200.png"; sourceTree = "<group>"; };
+		DD13977B191441F200148DDC /* Flamingo-1-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flamingo-1-320x200.png"; sourceTree = "<group>"; };
+		DD13977C191441F200148DDC /* Flamingo-2-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flamingo-2-320x200.png"; sourceTree = "<group>"; };
+		DD13977D191441F200148DDC /* Flamingo-3-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flamingo-3-320x200.png"; sourceTree = "<group>"; };
+		DD13977E191441F200148DDC /* Gorilla-1-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gorilla-1-320x200.png"; sourceTree = "<group>"; };
+		DD13977F191441F200148DDC /* Gorilla-2-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gorilla-2-320x200.png"; sourceTree = "<group>"; };
+		DD139780191441F200148DDC /* Gorilla-3-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gorilla-3-320x200.png"; sourceTree = "<group>"; };
+		DD139781191441F200148DDC /* Lion-1-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lion-1-320x200.png"; sourceTree = "<group>"; };
+		DD139782191441F200148DDC /* Lion-2-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lion-2-320x200.png"; sourceTree = "<group>"; };
+		DD139783191441F200148DDC /* Lion-3-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lion-3-320x200.png"; sourceTree = "<group>"; };
+		DD139784191441F200148DDC /* Shark-1-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shark-1-320x200.png"; sourceTree = "<group>"; };
+		DD139785191441F200148DDC /* Shark-2-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shark-2-320x200.png"; sourceTree = "<group>"; };
+		DD139786191441F200148DDC /* Shark-3-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shark-3-320x200.png"; sourceTree = "<group>"; };
+		DD139787191441F200148DDC /* Tiger-1-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tiger-1-320x200.png"; sourceTree = "<group>"; };
+		DD139788191441F200148DDC /* Tiger-2-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tiger-2-320x200.png"; sourceTree = "<group>"; };
+		DD139789191441F200148DDC /* Tiger-3-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tiger-3-320x200.png"; sourceTree = "<group>"; };
+		DD1397A21914441000148DDC /* ziewIcon-80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-80x80.png"; sourceTree = "<group>"; };
+		DD15E1DD190C6AFB00E3EB39 /* zooApp-bear-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-bear-120x120.png"; sourceTree = "<group>"; };
+		DD15E1DE190C6AFB00E3EB39 /* zooApp-bear-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-bear-30x30.png"; sourceTree = "<group>"; };
+		DD15E1DF190C6AFB00E3EB39 /* zooApp-bear-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-bear-60x60.png"; sourceTree = "<group>"; };
+		DD15E1E0190C6AFB00E3EB39 /* zooApp-crocodile-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-crocodile-120x120.png"; sourceTree = "<group>"; };
+		DD15E1E1190C6AFB00E3EB39 /* zooApp-crocodile-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-crocodile-30x30.png"; sourceTree = "<group>"; };
+		DD15E1E2190C6AFB00E3EB39 /* zooApp-crocodile-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-crocodile-60x60.png"; sourceTree = "<group>"; };
+		DD15E1E3190C6AFB00E3EB39 /* zooApp-elephant-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-elephant-120x120.png"; sourceTree = "<group>"; };
+		DD15E1E4190C6AFB00E3EB39 /* zooApp-elephant-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-elephant-30x30.png"; sourceTree = "<group>"; };
+		DD15E1E5190C6AFB00E3EB39 /* zooApp-elephant-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-elephant-60x60.png"; sourceTree = "<group>"; };
+		DD15E1E6190C6AFB00E3EB39 /* zooApp-flamingo-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-flamingo-120x120.png"; sourceTree = "<group>"; };
+		DD15E1E7190C6AFB00E3EB39 /* zooApp-flamingo-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-flamingo-30x30.png"; sourceTree = "<group>"; };
+		DD15E1E8190C6AFB00E3EB39 /* zooApp-flamingo-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-flamingo-60x60.png"; sourceTree = "<group>"; };
+		DD15E1E9190C6AFB00E3EB39 /* zooApp-gorilla-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-gorilla-120x120.png"; sourceTree = "<group>"; };
+		DD15E1EA190C6AFB00E3EB39 /* zooApp-gorilla-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-gorilla-30x30.png"; sourceTree = "<group>"; };
+		DD15E1EB190C6AFB00E3EB39 /* zooApp-gorilla-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-gorilla-60x60.png"; sourceTree = "<group>"; };
+		DD15E1EC190C6AFB00E3EB39 /* zooApp-lion-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-lion-120x120.png"; sourceTree = "<group>"; };
+		DD15E1ED190C6AFB00E3EB39 /* zooApp-lion-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-lion-30x30.png"; sourceTree = "<group>"; };
+		DD15E1EE190C6AFB00E3EB39 /* zooApp-lion-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-lion-60x60.png"; sourceTree = "<group>"; };
+		DD15E1EF190C6AFB00E3EB39 /* zooApp-shark-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-shark-120x120.png"; sourceTree = "<group>"; };
+		DD15E1F0190C6AFB00E3EB39 /* zooApp-shark-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-shark-30x30.png"; sourceTree = "<group>"; };
+		DD15E1F1190C6AFB00E3EB39 /* zooApp-shark-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-shark-60x60.png"; sourceTree = "<group>"; };
+		DD15E1F2190C6AFB00E3EB39 /* zooApp-tiger-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-tiger-120x120.png"; sourceTree = "<group>"; };
+		DD15E1F3190C6AFB00E3EB39 /* zooApp-tiger-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-tiger-30x30.png"; sourceTree = "<group>"; };
+		DD15E1F4190C6AFB00E3EB39 /* zooApp-tiger-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-tiger-60x60.png"; sourceTree = "<group>"; };
+		DD15E1F5190C6AFB00E3EB39 /* zooApp-unearned-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-unearned-120x120.png"; sourceTree = "<group>"; };
+		DD15E1F6190C6AFB00E3EB39 /* zooApp-unearned-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-unearned-30x30.png"; sourceTree = "<group>"; };
+		DD15E1F7190C6AFB00E3EB39 /* zooApp-unearned-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zooApp-unearned-60x60.png"; sourceTree = "<group>"; };
+		DD15E213190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZiewMap-Mizzou-884x1093.png"; sourceTree = "<group>"; };
+		DD15E214190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZiewMap-Mizzou-1768x2186.png"; sourceTree = "<group>"; };
+		DD288E21191953BB004348B7 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		DD288E2419195D79004348B7 /* ZOOBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOOBadge.h; sourceTree = "<group>"; };
+		DD288E2519195D79004348B7 /* ZOOBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOOBadge.m; sourceTree = "<group>"; };
+		DD288E2619195D79004348B7 /* ZOOBadgeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOOBadgeHandler.h; sourceTree = "<group>"; };
+		DD288E2719195D79004348B7 /* ZOOBadgeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOOBadgeHandler.m; sourceTree = "<group>"; };
+		DD288E2819195D79004348B7 /* ZOOBeaconHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOOBeaconHandler.h; sourceTree = "<group>"; };
+		DD288E2919195D79004348B7 /* ZOOBeaconHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOOBeaconHandler.m; sourceTree = "<group>"; };
+		DD288E2F191BFC20004348B7 /* antelope-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "antelope-320x200.png"; sourceTree = "<group>"; };
+		DD288E30191BFC20004348B7 /* dolphin-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dolphin-320x200.png"; sourceTree = "<group>"; };
+		DD288E31191BFC20004348B7 /* hippo-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hippo-320x200.png"; sourceTree = "<group>"; };
+		DD288E32191BFC20004348B7 /* iguana-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iguana-320x200.png"; sourceTree = "<group>"; };
+		DD288E33191BFC20004348B7 /* jaguar-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jaguar-320x200.png"; sourceTree = "<group>"; };
+		DD288E34191BFC20004348B7 /* kangaroo-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kangaroo-320x200.png"; sourceTree = "<group>"; };
+		DD288E35191BFC20004348B7 /* monkey-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monkey-320x200.png"; sourceTree = "<group>"; };
+		DD288E36191BFC20004348B7 /* narwhal-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "narwhal-320x200.png"; sourceTree = "<group>"; };
+		DD288E37191BFC20004348B7 /* orangutan-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orangutan-320x200.png"; sourceTree = "<group>"; };
+		DD288E38191BFC20004348B7 /* penguin-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguin-320x200.png"; sourceTree = "<group>"; };
+		DD288E39191BFC20004348B7 /* quail-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quail-320x200.png"; sourceTree = "<group>"; };
+		DD288E3A191BFC20004348B7 /* rhino-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rhino-320x200.png"; sourceTree = "<group>"; };
+		DD288E3B191BFC20004348B7 /* uakari-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uakari-320x200.png"; sourceTree = "<group>"; };
+		DD288E3C191BFC20004348B7 /* vulture-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vulture-320x200.png"; sourceTree = "<group>"; };
+		DD288E3D191BFC20004348B7 /* walrus-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "walrus-320x200.png"; sourceTree = "<group>"; };
+		DD288E3E191BFC20004348B7 /* xrayTetra-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xrayTetra-320x200.png"; sourceTree = "<group>"; };
+		DD288E3F191BFC20004348B7 /* yak-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yak-320x200.png"; sourceTree = "<group>"; };
+		DD288E40191BFC20004348B7 /* zebra-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zebra-320x200.png"; sourceTree = "<group>"; };
+		DD2B72B11914687E00CE2AD8 /* campus-pano-320x90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-pano-320x90.png"; sourceTree = "<group>"; };
+		DD2B72B21914687E00CE2AD8 /* campus-pano-640x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-pano-640x180.png"; sourceTree = "<group>"; };
+		DD2B72B31914687E00CE2AD8 /* campus-tigerDark-320x225.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-tigerDark-320x225.png"; sourceTree = "<group>"; };
+		DD2B72B41914687E00CE2AD8 /* campus-tigerDark-640x450.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-tigerDark-640x450.png"; sourceTree = "<group>"; };
+		DD3159AE18F64FCE00247B44 /* connectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connectController.h; sourceTree = "<group>"; };
+		DD3159AF18F64FCE00247B44 /* connectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = connectController.m; sourceTree = "<group>"; };
+		DD3159B818F9AC5900247B44 /* collectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionViewController.h; sourceTree = "<group>"; };
+		DD3159B918F9AC5900247B44 /* collectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = collectionViewController.m; sourceTree = "<group>"; };
+		DD3159BB18F9B3CB00247B44 /* collectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionViewCell.h; sourceTree = "<group>"; };
+		DD3159BC18F9B3CB00247B44 /* collectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = collectionViewCell.m; sourceTree = "<group>"; };
+		DD3E512118F1ED0100DB9200 /* TableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableTableViewController.h; path = "TableView Controller/TableTableViewController.h"; sourceTree = "<group>"; };
+		DD3E512218F1ED0100DB9200 /* TableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableTableViewController.m; path = "TableView Controller/TableTableViewController.m"; sourceTree = "<group>"; };
+		DD3E512718F1F2D500DB9200 /* AnimalDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalDetailsViewController.h; sourceTree = "<group>"; };
+		DD3E512818F1F2D500DB9200 /* AnimalDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalDetailsViewController.m; sourceTree = "<group>"; };
+		DD537C0E191201BD00F4227B /* ziewIcon-appStore-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-appStore-512x512.png"; sourceTree = "<group>"; };
+		DD537C0F191201BD00F4227B /* ziewIcon-appStoreRetina-1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-appStoreRetina-1024x1024.png"; sourceTree = "<group>"; };
+		DD537C10191201BD00F4227B /* ziewIcon-homeScreen-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-homeScreen-60x60.png"; sourceTree = "<group>"; };
+		DD537C11191201BD00F4227B /* ziewIcon-homeScreenRetina-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-homeScreenRetina-120x120.png"; sourceTree = "<group>"; };
+		DD537C12191201BD00F4227B /* ziewIcon-iOS6homeScreen-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-iOS6homeScreen-57x57.png"; sourceTree = "<group>"; };
+		DD537C13191201BD00F4227B /* ziewIcon-iOS6homeScreenRetina-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-iOS6homeScreenRetina-114x114.png"; sourceTree = "<group>"; };
+		DD537C14191201BD00F4227B /* ziewIcon-settings-29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-settings-29x29.png"; sourceTree = "<group>"; };
+		DD537C15191201BD00F4227B /* ziewIcon-settingsRetina-58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ziewIcon-settingsRetina-58x58.png"; sourceTree = "<group>"; };
+		DD9867BA19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-04-08 at 2.09.59 PM.png"; sourceTree = "<group>"; };
+		DD9867BC19005040000FD05D /* ZOOMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOOMapViewController.h; sourceTree = "<group>"; };
+		DD9867BD19005040000FD05D /* ZOOMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOOMapViewController.m; sourceTree = "<group>"; };
+		DDF9E96518FCF50E0032ED1E /* icon-animals-30x27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-animals-30x27.png"; sourceTree = "<group>"; };
+		DDF9E96618FCF50E0032ED1E /* icon-animals-60x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-animals-60x54.png"; sourceTree = "<group>"; };
+		DDF9E96718FCF50E0032ED1E /* icon-badges-30x27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-badges-30x27.png"; sourceTree = "<group>"; };
+		DDF9E96818FCF50E0032ED1E /* icon-badges-60x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-badges-60x54.png"; sourceTree = "<group>"; };
+		DDF9E96918FCF50E0032ED1E /* icon-connect-30x27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-connect-30x27.png"; sourceTree = "<group>"; };
+		DDF9E96A18FCF50E0032ED1E /* icon-connect-60x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-connect-60x54.png"; sourceTree = "<group>"; };
+		DDF9E96B18FCF50E0032ED1E /* icon-map-30x27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-map-30x27.png"; sourceTree = "<group>"; };
+		DDF9E96C18FCF50E0032ED1E /* icon-map-60x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-map-60x54.png"; sourceTree = "<group>"; };
+		DDFDED3619004B100070E009 /* ZOOTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOOTabBarViewController.h; sourceTree = "<group>"; };
+		DDFDED3719004B100070E009 /* ZOOTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOOTabBarViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BC5710618EDFCC900019738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC5710F18EDFCC900019738 /* CoreGraphics.framework in Frameworks */,
+				3BC5711118EDFCC900019738 /* UIKit.framework in Frameworks */,
+				3BC5710D18EDFCC900019738 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC5712A18EDFCCA00019738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC5712F18EDFCCA00019738 /* XCTest.framework in Frameworks */,
+				3BC5713118EDFCCA00019738 /* UIKit.framework in Frameworks */,
+				3BC5713018EDFCCA00019738 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BC5710018EDFCC900019738 = {
+			isa = PBXGroup;
+			children = (
+				3BC5711218EDFCC900019738 /* ZooIBeaconApplication */,
+				3BC5713418EDFCCA00019738 /* ZooIBeaconApplicationTests */,
+				3BC5710B18EDFCC900019738 /* Frameworks */,
+				3BC5710A18EDFCC900019738 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BC5710A18EDFCC900019738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BC5710918EDFCC900019738 /* Ziew.app */,
+				3BC5712D18EDFCCA00019738 /* ZiewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BC5710B18EDFCC900019738 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BC5710C18EDFCC900019738 /* Foundation.framework */,
+				3BC5710E18EDFCC900019738 /* CoreGraphics.framework */,
+				3BC5711018EDFCC900019738 /* UIKit.framework */,
+				3BC5712E18EDFCCA00019738 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BC5711218EDFCC900019738 /* ZooIBeaconApplication */ = {
+			isa = PBXGroup;
+			children = (
+				DD288E2319195D32004348B7 /* iBeacon */,
+				DD9867BC19005040000FD05D /* ZOOMapViewController.h */,
+				DD9867BD19005040000FD05D /* ZOOMapViewController.m */,
+				DDFDED3619004B100070E009 /* ZOOTabBarViewController.h */,
+				DDFDED3719004B100070E009 /* ZOOTabBarViewController.m */,
+				DD3159B118F651B300247B44 /* Collection View Controller */,
+				DD3159AD18F64F8700247B44 /* Connect Controllers */,
+				DD3E511F18F1EC8500DB9200 /* TableView Controllers */,
+				3BC5711B18EDFCC900019738 /* ZOOAppDelegate.h */,
+				3BC5711C18EDFCC900019738 /* ZOOAppDelegate.m */,
+				3BC5711E18EDFCC900019738 /* Main.storyboard */,
+				3BC5712718EDFCC900019738 /* Images.xcassets */,
+				3BC5711318EDFCC900019738 /* Supporting Files */,
+			);
+			path = ZooIBeaconApplication;
+			sourceTree = "<group>";
+		};
+		3BC5711318EDFCC900019738 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD288E21191953BB004348B7 /* animals.json */,
+				DDF9E96318FCF4BD0032ED1E /* Images */,
+				3BC5711418EDFCC900019738 /* Ziew-Info.plist */,
+				3BC5711518EDFCC900019738 /* InfoPlist.strings */,
+				3BC5711818EDFCC900019738 /* main.m */,
+				3BC5711A18EDFCC900019738 /* Ziew-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BC5713418EDFCCA00019738 /* ZooIBeaconApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BC5713A18EDFCCA00019738 /* ZooIBeaconApplicationTests.m */,
+				3BC5713518EDFCCA00019738 /* Supporting Files */,
+			);
+			path = ZooIBeaconApplicationTests;
+			sourceTree = "<group>";
+		};
+		3BC5713518EDFCCA00019738 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BC5713618EDFCCA00019738 /* ZooIBeaconApplicationTests-Info.plist */,
+				3BC5713718EDFCCA00019738 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD139770191441F200148DDC /* 8 Animals 320x200 */ = {
+			isa = PBXGroup;
+			children = (
+				DD139772191441F200148DDC /* Bear-1-320x200.png */,
+				DD139773191441F200148DDC /* Bear-2-320x200.png */,
+				DD139774191441F200148DDC /* Bear-3-320x200.png */,
+				DD139775191441F200148DDC /* Crocodile-1-320x200.png */,
+				DD139776191441F200148DDC /* Crocodile-2-320x200.png */,
+				DD139777191441F200148DDC /* Crocodile-3-320x200.png */,
+				DD139778191441F200148DDC /* Elephant-1-320x200.png */,
+				DD139779191441F200148DDC /* Elephant-2-320x200.png */,
+				DD13977A191441F200148DDC /* Elephant-3-320x200.png */,
+				DD13977B191441F200148DDC /* Flamingo-1-320x200.png */,
+				DD13977C191441F200148DDC /* Flamingo-2-320x200.png */,
+				DD13977D191441F200148DDC /* Flamingo-3-320x200.png */,
+				DD13977E191441F200148DDC /* Gorilla-1-320x200.png */,
+				DD13977F191441F200148DDC /* Gorilla-2-320x200.png */,
+				DD139780191441F200148DDC /* Gorilla-3-320x200.png */,
+				DD139781191441F200148DDC /* Lion-1-320x200.png */,
+				DD139782191441F200148DDC /* Lion-2-320x200.png */,
+				DD139783191441F200148DDC /* Lion-3-320x200.png */,
+				DD139784191441F200148DDC /* Shark-1-320x200.png */,
+				DD139785191441F200148DDC /* Shark-2-320x200.png */,
+				DD139786191441F200148DDC /* Shark-3-320x200.png */,
+				DD139787191441F200148DDC /* Tiger-1-320x200.png */,
+				DD139788191441F200148DDC /* Tiger-2-320x200.png */,
+				DD139789191441F200148DDC /* Tiger-3-320x200.png */,
+			);
+			path = "8 Animals 320x200";
+			sourceTree = "<group>";
+		};
+		DD15E1DB190C6ACB00E3EB39 /* badges */ = {
+			isa = PBXGroup;
+			children = (
+				DD15E1DC190C6AFB00E3EB39 /* zooApp-Badges */,
+			);
+			name = badges;
+			sourceTree = "<group>";
+		};
+		DD15E1DC190C6AFB00E3EB39 /* zooApp-Badges */ = {
+			isa = PBXGroup;
+			children = (
+				DD15E1DD190C6AFB00E3EB39 /* zooApp-bear-120x120.png */,
+				DD15E1DF190C6AFB00E3EB39 /* zooApp-bear-60x60.png */,
+				DD15E1DE190C6AFB00E3EB39 /* zooApp-bear-30x30.png */,
+				DD15E1E0190C6AFB00E3EB39 /* zooApp-crocodile-120x120.png */,
+				DD15E1E1190C6AFB00E3EB39 /* zooApp-crocodile-30x30.png */,
+				DD15E1E2190C6AFB00E3EB39 /* zooApp-crocodile-60x60.png */,
+				DD15E1E3190C6AFB00E3EB39 /* zooApp-elephant-120x120.png */,
+				DD15E1E4190C6AFB00E3EB39 /* zooApp-elephant-30x30.png */,
+				DD15E1E5190C6AFB00E3EB39 /* zooApp-elephant-60x60.png */,
+				DD15E1E6190C6AFB00E3EB39 /* zooApp-flamingo-120x120.png */,
+				DD15E1E7190C6AFB00E3EB39 /* zooApp-flamingo-30x30.png */,
+				DD15E1E8190C6AFB00E3EB39 /* zooApp-flamingo-60x60.png */,
+				DD15E1E9190C6AFB00E3EB39 /* zooApp-gorilla-120x120.png */,
+				DD15E1EA190C6AFB00E3EB39 /* zooApp-gorilla-30x30.png */,
+				DD15E1EB190C6AFB00E3EB39 /* zooApp-gorilla-60x60.png */,
+				DD15E1EC190C6AFB00E3EB39 /* zooApp-lion-120x120.png */,
+				DD15E1EE190C6AFB00E3EB39 /* zooApp-lion-60x60.png */,
+				DD15E1ED190C6AFB00E3EB39 /* zooApp-lion-30x30.png */,
+				DD15E1EF190C6AFB00E3EB39 /* zooApp-shark-120x120.png */,
+				DD15E1F0190C6AFB00E3EB39 /* zooApp-shark-30x30.png */,
+				DD15E1F1190C6AFB00E3EB39 /* zooApp-shark-60x60.png */,
+				DD15E1F2190C6AFB00E3EB39 /* zooApp-tiger-120x120.png */,
+				DD15E1F3190C6AFB00E3EB39 /* zooApp-tiger-30x30.png */,
+				DD15E1F4190C6AFB00E3EB39 /* zooApp-tiger-60x60.png */,
+				DD15E1F5190C6AFB00E3EB39 /* zooApp-unearned-120x120.png */,
+				DD15E1F6190C6AFB00E3EB39 /* zooApp-unearned-30x30.png */,
+				DD15E1F7190C6AFB00E3EB39 /* zooApp-unearned-60x60.png */,
+			);
+			path = "zooApp-Badges";
+			sourceTree = "<group>";
+		};
+		DD288E2319195D32004348B7 /* iBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				DD288E2419195D79004348B7 /* ZOOBadge.h */,
+				DD288E2519195D79004348B7 /* ZOOBadge.m */,
+				DD288E2619195D79004348B7 /* ZOOBadgeHandler.h */,
+				DD288E2719195D79004348B7 /* ZOOBadgeHandler.m */,
+				DD288E2819195D79004348B7 /* ZOOBeaconHandler.h */,
+				DD288E2919195D79004348B7 /* ZOOBeaconHandler.m */,
+			);
+			name = iBeacon;
+			sourceTree = "<group>";
+		};
+		DD288E2D191BFBFB004348B7 /* 18 unearned animals */ = {
+			isa = PBXGroup;
+			children = (
+				DD288E2E191BFC20004348B7 /* 18 Other Animals 320x200 */,
+			);
+			name = "18 unearned animals";
+			sourceTree = "<group>";
+		};
+		DD288E2E191BFC20004348B7 /* 18 Other Animals 320x200 */ = {
+			isa = PBXGroup;
+			children = (
+				DD288E2F191BFC20004348B7 /* antelope-320x200.png */,
+				DD288E30191BFC20004348B7 /* dolphin-320x200.png */,
+				DD288E31191BFC20004348B7 /* hippo-320x200.png */,
+				DD288E32191BFC20004348B7 /* iguana-320x200.png */,
+				DD288E33191BFC20004348B7 /* jaguar-320x200.png */,
+				DD288E34191BFC20004348B7 /* kangaroo-320x200.png */,
+				DD288E35191BFC20004348B7 /* monkey-320x200.png */,
+				DD288E36191BFC20004348B7 /* narwhal-320x200.png */,
+				DD288E37191BFC20004348B7 /* orangutan-320x200.png */,
+				DD288E38191BFC20004348B7 /* penguin-320x200.png */,
+				DD288E39191BFC20004348B7 /* quail-320x200.png */,
+				DD288E3A191BFC20004348B7 /* rhino-320x200.png */,
+				DD288E3B191BFC20004348B7 /* uakari-320x200.png */,
+				DD288E3C191BFC20004348B7 /* vulture-320x200.png */,
+				DD288E3D191BFC20004348B7 /* walrus-320x200.png */,
+				DD288E3E191BFC20004348B7 /* xrayTetra-320x200.png */,
+				DD288E3F191BFC20004348B7 /* yak-320x200.png */,
+				DD288E40191BFC20004348B7 /* zebra-320x200.png */,
+			);
+			path = "18 Other Animals 320x200";
+			sourceTree = "<group>";
+		};
+		DD3159AD18F64F8700247B44 /* Connect Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD3159AE18F64FCE00247B44 /* connectController.h */,
+				DD3159AF18F64FCE00247B44 /* connectController.m */,
+			);
+			name = "Connect Controllers";
+			sourceTree = "<group>";
+		};
+		DD3159B118F651B300247B44 /* Collection View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD3159B818F9AC5900247B44 /* collectionViewController.h */,
+				DD3159B918F9AC5900247B44 /* collectionViewController.m */,
+				DD3159BB18F9B3CB00247B44 /* collectionViewCell.h */,
+				DD3159BC18F9B3CB00247B44 /* collectionViewCell.m */,
+			);
+			name = "Collection View Controller";
+			sourceTree = "<group>";
+		};
+		DD3E511F18F1EC8500DB9200 /* TableView Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD3E512118F1ED0100DB9200 /* TableTableViewController.h */,
+				DD3E512218F1ED0100DB9200 /* TableTableViewController.m */,
+				DD3E512718F1F2D500DB9200 /* AnimalDetailsViewController.h */,
+				DD3E512818F1F2D500DB9200 /* AnimalDetailsViewController.m */,
+			);
+			name = "TableView Controllers";
+			sourceTree = "<group>";
+		};
+		DD537C0C1912019300F4227B /* appIcons */ = {
+			isa = PBXGroup;
+			children = (
+				DD537C0D191201BD00F4227B /* Ziew-Icons */,
+			);
+			name = appIcons;
+			sourceTree = "<group>";
+		};
+		DD537C0D191201BD00F4227B /* Ziew-Icons */ = {
+			isa = PBXGroup;
+			children = (
+				DD1397A21914441000148DDC /* ziewIcon-80x80.png */,
+				DD537C0E191201BD00F4227B /* ziewIcon-appStore-512x512.png */,
+				DD537C0F191201BD00F4227B /* ziewIcon-appStoreRetina-1024x1024.png */,
+				DD537C10191201BD00F4227B /* ziewIcon-homeScreen-60x60.png */,
+				DD537C11191201BD00F4227B /* ziewIcon-homeScreenRetina-120x120.png */,
+				DD537C12191201BD00F4227B /* ziewIcon-iOS6homeScreen-57x57.png */,
+				DD537C13191201BD00F4227B /* ziewIcon-iOS6homeScreenRetina-114x114.png */,
+				DD537C14191201BD00F4227B /* ziewIcon-settings-29x29.png */,
+				DD537C15191201BD00F4227B /* ziewIcon-settingsRetina-58x58.png */,
+			);
+			path = "Ziew-Icons";
+			sourceTree = "<group>";
+		};
+		DDF9E96318FCF4BD0032ED1E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DD288E2D191BFBFB004348B7 /* 18 unearned animals */,
+				DD2B72B11914687E00CE2AD8 /* campus-pano-320x90.png */,
+				DD2B72B21914687E00CE2AD8 /* campus-pano-640x180.png */,
+				DD2B72B31914687E00CE2AD8 /* campus-tigerDark-320x225.png */,
+				DD2B72B41914687E00CE2AD8 /* campus-tigerDark-640x450.png */,
+				DD139770191441F200148DDC /* 8 Animals 320x200 */,
+				DD537C0C1912019300F4227B /* appIcons */,
+				DD15E213190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png */,
+				DD15E214190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png */,
+				DD15E1DB190C6ACB00E3EB39 /* badges */,
+				DD9867BA19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png */,
+				DDF9E96418FCF50E0032ED1E /* tabBarIcons-60x54-30x27 */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DDF9E96418FCF50E0032ED1E /* tabBarIcons-60x54-30x27 */ = {
+			isa = PBXGroup;
+			children = (
+				DDF9E96518FCF50E0032ED1E /* icon-animals-30x27.png */,
+				DDF9E96618FCF50E0032ED1E /* icon-animals-60x54.png */,
+				DDF9E96718FCF50E0032ED1E /* icon-badges-30x27.png */,
+				DDF9E96818FCF50E0032ED1E /* icon-badges-60x54.png */,
+				DDF9E96918FCF50E0032ED1E /* icon-connect-30x27.png */,
+				DDF9E96A18FCF50E0032ED1E /* icon-connect-60x54.png */,
+				DDF9E96B18FCF50E0032ED1E /* icon-map-30x27.png */,
+				DDF9E96C18FCF50E0032ED1E /* icon-map-60x54.png */,
+			);
+			path = "tabBarIcons-60x54-30x27";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BC5710818EDFCC900019738 /* Ziew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC5713E18EDFCCA00019738 /* Build configuration list for PBXNativeTarget "Ziew" */;
+			buildPhases = (
+				3BC5710518EDFCC900019738 /* Sources */,
+				3BC5710618EDFCC900019738 /* Frameworks */,
+				3BC5710718EDFCC900019738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ziew;
+			productName = ZooIBeaconApplication;
+			productReference = 3BC5710918EDFCC900019738 /* Ziew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BC5712C18EDFCCA00019738 /* ZiewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC5714118EDFCCA00019738 /* Build configuration list for PBXNativeTarget "ZiewTests" */;
+			buildPhases = (
+				3BC5712918EDFCCA00019738 /* Sources */,
+				3BC5712A18EDFCCA00019738 /* Frameworks */,
+				3BC5712B18EDFCCA00019738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BC5713318EDFCCA00019738 /* PBXTargetDependency */,
+			);
+			name = ZiewTests;
+			productName = ZooIBeaconApplicationTests;
+			productReference = 3BC5712D18EDFCCA00019738 /* ZiewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BC5710118EDFCC900019738 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZOO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mizzou IT";
+				TargetAttributes = {
+					3BC5712C18EDFCCA00019738 = {
+						TestTargetID = 3BC5710818EDFCC900019738;
+					};
+				};
+			};
+			buildConfigurationList = 3BC5710418EDFCC900019738 /* Build configuration list for PBXProject "Ziew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BC5710018EDFCC900019738;
+			productRefGroup = 3BC5710A18EDFCC900019738 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BC5710818EDFCC900019738 /* Ziew */,
+				3BC5712C18EDFCCA00019738 /* ZiewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BC5710718EDFCC900019738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD15E203190C6AFB00E3EB39 /* zooApp-flamingo-60x60.png in Resources */,
+				DD15E1FD190C6AFB00E3EB39 /* zooApp-crocodile-60x60.png in Resources */,
+				DDF9E96F18FCF50E0032ED1E /* icon-animals-60x54.png in Resources */,
+				DD537C18191201BD00F4227B /* ziewIcon-homeScreen-60x60.png in Resources */,
+				DD15E20E190C6AFB00E3EB39 /* zooApp-tiger-30x30.png in Resources */,
+				DD15E215190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png in Resources */,
+				DDF9E97018FCF50E0032ED1E /* icon-badges-30x27.png in Resources */,
+				DD2B72B51914687E00CE2AD8 /* campus-pano-320x90.png in Resources */,
+				DD13978C191441F200148DDC /* Bear-3-320x200.png in Resources */,
+				DD537C1D191201BD00F4227B /* ziewIcon-settingsRetina-58x58.png in Resources */,
+				DD288E47191BFC20004348B7 /* monkey-320x200.png in Resources */,
+				DD537C16191201BD00F4227B /* ziewIcon-appStore-512x512.png in Resources */,
+				DD13978A191441F200148DDC /* Bear-1-320x200.png in Resources */,
+				DDF9E97418FCF50E0032ED1E /* icon-map-30x27.png in Resources */,
+				DD139790191441F200148DDC /* Elephant-1-320x200.png in Resources */,
+				DD15E201190C6AFB00E3EB39 /* zooApp-flamingo-120x120.png in Resources */,
+				DD288E22191953BB004348B7 /* animals.json in Resources */,
+				DD288E4E191BFC20004348B7 /* vulture-320x200.png in Resources */,
+				DD13978D191441F200148DDC /* Crocodile-1-320x200.png in Resources */,
+				DD288E51191BFC20004348B7 /* yak-320x200.png in Resources */,
+				DD15E206190C6AFB00E3EB39 /* zooApp-gorilla-60x60.png in Resources */,
+				DD288E49191BFC20004348B7 /* orangutan-320x200.png in Resources */,
+				DD15E216190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png in Resources */,
+				DD1397A1191441F200148DDC /* Tiger-3-320x200.png in Resources */,
+				DDF9E97318FCF50E0032ED1E /* icon-connect-60x54.png in Resources */,
+				DD537C17191201BD00F4227B /* ziewIcon-appStoreRetina-1024x1024.png in Resources */,
+				DD288E46191BFC20004348B7 /* kangaroo-320x200.png in Resources */,
+				DD15E202190C6AFB00E3EB39 /* zooApp-flamingo-30x30.png in Resources */,
+				DD288E50191BFC20004348B7 /* xrayTetra-320x200.png in Resources */,
+				DD13979A191441F200148DDC /* Lion-2-320x200.png in Resources */,
+				DD15E205190C6AFB00E3EB39 /* zooApp-gorilla-30x30.png in Resources */,
+				DD15E20F190C6AFB00E3EB39 /* zooApp-tiger-60x60.png in Resources */,
+				DD139793191441F200148DDC /* Flamingo-1-320x200.png in Resources */,
+				DD15E1FC190C6AFB00E3EB39 /* zooApp-crocodile-30x30.png in Resources */,
+				DD15E1FF190C6AFB00E3EB39 /* zooApp-elephant-30x30.png in Resources */,
+				DD139794191441F200148DDC /* Flamingo-2-320x200.png in Resources */,
+				DD288E43191BFC20004348B7 /* hippo-320x200.png in Resources */,
+				DD15E1FB190C6AFB00E3EB39 /* zooApp-crocodile-120x120.png in Resources */,
+				DD15E207190C6AFB00E3EB39 /* zooApp-lion-120x120.png in Resources */,
+				DD13979E191441F200148DDC /* Shark-3-320x200.png in Resources */,
+				DD2B72B81914687E00CE2AD8 /* campus-tigerDark-640x450.png in Resources */,
+				DD288E4D191BFC20004348B7 /* uakari-320x200.png in Resources */,
+				DD139792191441F200148DDC /* Elephant-3-320x200.png in Resources */,
+				DD15E208190C6AFB00E3EB39 /* zooApp-lion-30x30.png in Resources */,
+				DD15E20C190C6AFB00E3EB39 /* zooApp-shark-60x60.png in Resources */,
+				DD288E42191BFC20004348B7 /* dolphin-320x200.png in Resources */,
+				DD13978B191441F200148DDC /* Bear-2-320x200.png in Resources */,
+				DDF9E97218FCF50E0032ED1E /* icon-connect-30x27.png in Resources */,
+				DD15E20D190C6AFB00E3EB39 /* zooApp-tiger-120x120.png in Resources */,
+				DD2B72B61914687E00CE2AD8 /* campus-pano-640x180.png in Resources */,
+				DD15E204190C6AFB00E3EB39 /* zooApp-gorilla-120x120.png in Resources */,
+				3BC5712818EDFCC900019738 /* Images.xcassets in Resources */,
+				DD15E200190C6AFB00E3EB39 /* zooApp-elephant-60x60.png in Resources */,
+				DD15E20B190C6AFB00E3EB39 /* zooApp-shark-30x30.png in Resources */,
+				DD288E48191BFC20004348B7 /* narwhal-320x200.png in Resources */,
+				DD15E1F8190C6AFB00E3EB39 /* zooApp-bear-120x120.png in Resources */,
+				DD13979F191441F200148DDC /* Tiger-1-320x200.png in Resources */,
+				DD2B72B71914687E00CE2AD8 /* campus-tigerDark-320x225.png in Resources */,
+				DD139795191441F200148DDC /* Flamingo-3-320x200.png in Resources */,
+				DD288E45191BFC20004348B7 /* jaguar-320x200.png in Resources */,
+				DD1397A31914441000148DDC /* ziewIcon-80x80.png in Resources */,
+				DD288E4F191BFC20004348B7 /* walrus-320x200.png in Resources */,
+				DDF9E96E18FCF50E0032ED1E /* icon-animals-30x27.png in Resources */,
+				3BC5711718EDFCC900019738 /* InfoPlist.strings in Resources */,
+				3BC5712018EDFCC900019738 /* Main.storyboard in Resources */,
+				DD139799191441F200148DDC /* Lion-1-320x200.png in Resources */,
+				DD288E44191BFC20004348B7 /* iguana-320x200.png in Resources */,
+				DD9867BB19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png in Resources */,
+				DD15E20A190C6AFB00E3EB39 /* zooApp-shark-120x120.png in Resources */,
+				DDF9E97518FCF50E0032ED1E /* icon-map-60x54.png in Resources */,
+				DD537C19191201BD00F4227B /* ziewIcon-homeScreenRetina-120x120.png in Resources */,
+				DD13978F191441F200148DDC /* Crocodile-3-320x200.png in Resources */,
+				DD15E209190C6AFB00E3EB39 /* zooApp-lion-60x60.png in Resources */,
+				DDF9E97118FCF50E0032ED1E /* icon-badges-60x54.png in Resources */,
+				DD15E212190C6AFB00E3EB39 /* zooApp-unearned-60x60.png in Resources */,
+				DD15E210190C6AFB00E3EB39 /* zooApp-unearned-120x120.png in Resources */,
+				DD15E1FA190C6AFB00E3EB39 /* zooApp-bear-60x60.png in Resources */,
+				DD15E211190C6AFB00E3EB39 /* zooApp-unearned-30x30.png in Resources */,
+				DD15E1FE190C6AFB00E3EB39 /* zooApp-elephant-120x120.png in Resources */,
+				DD288E4B191BFC20004348B7 /* quail-320x200.png in Resources */,
+				DD139791191441F200148DDC /* Elephant-2-320x200.png in Resources */,
+				DD288E52191BFC20004348B7 /* zebra-320x200.png in Resources */,
+				DD13979B191441F200148DDC /* Lion-3-320x200.png in Resources */,
+				DD288E4A191BFC20004348B7 /* penguin-320x200.png in Resources */,
+				DD13978E191441F200148DDC /* Crocodile-2-320x200.png in Resources */,
+				DD537C1A191201BD00F4227B /* ziewIcon-iOS6homeScreen-57x57.png in Resources */,
+				DD139796191441F200148DDC /* Gorilla-1-320x200.png in Resources */,
+				DD537C1B191201BD00F4227B /* ziewIcon-iOS6homeScreenRetina-114x114.png in Resources */,
+				DD139797191441F200148DDC /* Gorilla-2-320x200.png in Resources */,
+				DD15E1F9190C6AFB00E3EB39 /* zooApp-bear-30x30.png in Resources */,
+				DD13979C191441F200148DDC /* Shark-1-320x200.png in Resources */,
+				DD288E41191BFC20004348B7 /* antelope-320x200.png in Resources */,
+				DD1397A0191441F200148DDC /* Tiger-2-320x200.png in Resources */,
+				DD139798191441F200148DDC /* Gorilla-3-320x200.png in Resources */,
+				DD288E4C191BFC20004348B7 /* rhino-320x200.png in Resources */,
+				DD13979D191441F200148DDC /* Shark-2-320x200.png in Resources */,
+				DD537C1C191201BD00F4227B /* ziewIcon-settings-29x29.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC5712B18EDFCCA00019738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC5713918EDFCCA00019738 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BC5710518EDFCC900019738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD288E2B19195D79004348B7 /* ZOOBadgeHandler.m in Sources */,
+				DD3159B018F64FCE00247B44 /* connectController.m in Sources */,
+				DD3159BD18F9B3CB00247B44 /* collectionViewCell.m in Sources */,
+				DD288E2A19195D79004348B7 /* ZOOBadge.m in Sources */,
+				3BC5711918EDFCC900019738 /* main.m in Sources */,
+				3BC5711D18EDFCC900019738 /* ZOOAppDelegate.m in Sources */,
+				DD3E512318F1ED0100DB9200 /* TableTableViewController.m in Sources */,
+				DD288E2C19195D79004348B7 /* ZOOBeaconHandler.m in Sources */,
+				DD3159BA18F9AC5900247B44 /* collectionViewController.m in Sources */,
+				DD9867BE19005040000FD05D /* ZOOMapViewController.m in Sources */,
+				DD3E512918F1F2D500DB9200 /* AnimalDetailsViewController.m in Sources */,
+				DDFDED3819004B100070E009 /* ZOOTabBarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC5712918EDFCCA00019738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC5713B18EDFCCA00019738 /* ZooIBeaconApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BC5713318EDFCCA00019738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BC5710818EDFCC900019738 /* Ziew */;
+			targetProxy = 3BC5713218EDFCCA00019738 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BC5711518EDFCC900019738 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BC5711618EDFCC900019738 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BC5711E18EDFCC900019738 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BC5711F18EDFCC900019738 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BC5713718EDFCCA00019738 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BC5713818EDFCCA00019738 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BC5713C18EDFCCA00019738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BC5713D18EDFCCA00019738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BC5713F18EDFCCA00019738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZooIBeaconApplication/Ziew-Prefix.pch";
+				INFOPLIST_FILE = "ZooIBeaconApplication/Ziew-Info.plist";
+				PRODUCT_NAME = Ziew;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BC5714018EDFCCA00019738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZooIBeaconApplication/Ziew-Prefix.pch";
+				INFOPLIST_FILE = "ZooIBeaconApplication/Ziew-Info.plist";
+				PRODUCT_NAME = Ziew;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3BC5714218EDFCCA00019738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZooIBeaconApplication.app/ZooIBeaconApplication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZooIBeaconApplication/ZooIBeaconApplication-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZooIBeaconApplicationTests/ZooIBeaconApplicationTests-Info.plist";
+				PRODUCT_NAME = ZiewTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3BC5714318EDFCCA00019738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZooIBeaconApplication.app/ZooIBeaconApplication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZooIBeaconApplication/ZooIBeaconApplication-Prefix.pch";
+				INFOPLIST_FILE = "ZooIBeaconApplicationTests/ZooIBeaconApplicationTests-Info.plist";
+				PRODUCT_NAME = ZiewTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BC5710418EDFCC900019738 /* Build configuration list for PBXProject "Ziew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC5713C18EDFCCA00019738 /* Debug */,
+				3BC5713D18EDFCCA00019738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC5713E18EDFCCA00019738 /* Build configuration list for PBXNativeTarget "Ziew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC5713F18EDFCCA00019738 /* Debug */,
+				3BC5714018EDFCCA00019738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC5714118EDFCCA00019738 /* Build configuration list for PBXNativeTarget "ZiewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC5714218EDFCCA00019738 /* Debug */,
+				3BC5714318EDFCCA00019738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BC5710118EDFCC900019738 /* Project object */;
+}

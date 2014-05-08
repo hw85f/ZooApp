@@ -20,5 +20,6 @@
 @property (strong, nonatomic) IBOutlet UIImageView *image1;
 @property (strong, nonatomic) IBOutlet UIImageView *image2;
 @property (strong, nonatomic) IBOutlet UIImageView *image3;
+@property (strong, nonatomic) IBOutlet UILabel *content;
 
 @end

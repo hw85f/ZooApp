@@ -32,7 +32,8 @@
     
     [self.myScrollView setScrollEnabled:YES];
     [self.myScrollView setContentSize:CGSizeMake(320, 3000)];
-
+    
+    self.content.text = [self.animal objectForKey:@"content"];
     self.content1.text = [self.animal objectForKey:@"content1"];
     self.content2.text = [self.animal objectForKey:@"content2"];
     self.content3.text = [self.animal objectForKey:@"content3"];
