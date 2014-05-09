@@ -75,6 +75,27 @@
 		DD15E215190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E213190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png */; };
 		DD15E216190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15E214190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png */; };
 		DD288E22191953BB004348B7 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = DD288E21191953BB004348B7 /* animals.json */; };
+		DD288E2A19195D79004348B7 /* ZOOBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = DD288E2519195D79004348B7 /* ZOOBadge.m */; };
+		DD288E2B19195D79004348B7 /* ZOOBadgeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DD288E2719195D79004348B7 /* ZOOBadgeHandler.m */; };
+		DD288E2C19195D79004348B7 /* ZOOBeaconHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DD288E2919195D79004348B7 /* ZOOBeaconHandler.m */; };
+		DD288E41191BFC20004348B7 /* antelope-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E2F191BFC20004348B7 /* antelope-320x200.png */; };
+		DD288E42191BFC20004348B7 /* dolphin-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E30191BFC20004348B7 /* dolphin-320x200.png */; };
+		DD288E43191BFC20004348B7 /* hippo-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E31191BFC20004348B7 /* hippo-320x200.png */; };
+		DD288E44191BFC20004348B7 /* iguana-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E32191BFC20004348B7 /* iguana-320x200.png */; };
+		DD288E45191BFC20004348B7 /* jaguar-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E33191BFC20004348B7 /* jaguar-320x200.png */; };
+		DD288E46191BFC20004348B7 /* kangaroo-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E34191BFC20004348B7 /* kangaroo-320x200.png */; };
+		DD288E47191BFC20004348B7 /* monkey-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E35191BFC20004348B7 /* monkey-320x200.png */; };
+		DD288E48191BFC20004348B7 /* narwhal-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E36191BFC20004348B7 /* narwhal-320x200.png */; };
+		DD288E49191BFC20004348B7 /* orangutan-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E37191BFC20004348B7 /* orangutan-320x200.png */; };
+		DD288E4A191BFC20004348B7 /* penguin-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E38191BFC20004348B7 /* penguin-320x200.png */; };
+		DD288E4B191BFC20004348B7 /* quail-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E39191BFC20004348B7 /* quail-320x200.png */; };
+		DD288E4C191BFC20004348B7 /* rhino-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E3A191BFC20004348B7 /* rhino-320x200.png */; };
+		DD288E4D191BFC20004348B7 /* uakari-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E3B191BFC20004348B7 /* uakari-320x200.png */; };
+		DD288E4E191BFC20004348B7 /* vulture-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E3C191BFC20004348B7 /* vulture-320x200.png */; };
+		DD288E4F191BFC20004348B7 /* walrus-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E3D191BFC20004348B7 /* walrus-320x200.png */; };
+		DD288E50191BFC20004348B7 /* xrayTetra-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E3E191BFC20004348B7 /* xrayTetra-320x200.png */; };
+		DD288E51191BFC20004348B7 /* yak-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E3F191BFC20004348B7 /* yak-320x200.png */; };
+		DD288E52191BFC20004348B7 /* zebra-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E40191BFC20004348B7 /* zebra-320x200.png */; };
 		DD2B72B51914687E00CE2AD8 /* campus-pano-320x90.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B11914687E00CE2AD8 /* campus-pano-320x90.png */; };
 		DD2B72B61914687E00CE2AD8 /* campus-pano-640x180.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B21914687E00CE2AD8 /* campus-pano-640x180.png */; };
 		DD2B72B71914687E00CE2AD8 /* campus-tigerDark-320x225.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B31914687E00CE2AD8 /* campus-tigerDark-320x225.png */; };
@@ -188,6 +209,30 @@
 		DD15E213190DCCDC00E3EB39 /* ZiewMap-Mizzou-884x1093.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZiewMap-Mizzou-884x1093.png"; sourceTree = "<group>"; };
 		DD15E214190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZiewMap-Mizzou-1768x2186.png"; sourceTree = "<group>"; };
 		DD288E21191953BB004348B7 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		DD288E2419195D79004348B7 /* ZOOBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOOBadge.h; sourceTree = "<group>"; };
+		DD288E2519195D79004348B7 /* ZOOBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOOBadge.m; sourceTree = "<group>"; };
+		DD288E2619195D79004348B7 /* ZOOBadgeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOOBadgeHandler.h; sourceTree = "<group>"; };
+		DD288E2719195D79004348B7 /* ZOOBadgeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOOBadgeHandler.m; sourceTree = "<group>"; };
+		DD288E2819195D79004348B7 /* ZOOBeaconHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOOBeaconHandler.h; sourceTree = "<group>"; };
+		DD288E2919195D79004348B7 /* ZOOBeaconHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOOBeaconHandler.m; sourceTree = "<group>"; };
+		DD288E2F191BFC20004348B7 /* antelope-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "antelope-320x200.png"; sourceTree = "<group>"; };
+		DD288E30191BFC20004348B7 /* dolphin-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dolphin-320x200.png"; sourceTree = "<group>"; };
+		DD288E31191BFC20004348B7 /* hippo-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hippo-320x200.png"; sourceTree = "<group>"; };
+		DD288E32191BFC20004348B7 /* iguana-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iguana-320x200.png"; sourceTree = "<group>"; };
+		DD288E33191BFC20004348B7 /* jaguar-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jaguar-320x200.png"; sourceTree = "<group>"; };
+		DD288E34191BFC20004348B7 /* kangaroo-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kangaroo-320x200.png"; sourceTree = "<group>"; };
+		DD288E35191BFC20004348B7 /* monkey-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monkey-320x200.png"; sourceTree = "<group>"; };
+		DD288E36191BFC20004348B7 /* narwhal-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "narwhal-320x200.png"; sourceTree = "<group>"; };
+		DD288E37191BFC20004348B7 /* orangutan-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orangutan-320x200.png"; sourceTree = "<group>"; };
+		DD288E38191BFC20004348B7 /* penguin-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguin-320x200.png"; sourceTree = "<group>"; };
+		DD288E39191BFC20004348B7 /* quail-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quail-320x200.png"; sourceTree = "<group>"; };
+		DD288E3A191BFC20004348B7 /* rhino-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rhino-320x200.png"; sourceTree = "<group>"; };
+		DD288E3B191BFC20004348B7 /* uakari-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uakari-320x200.png"; sourceTree = "<group>"; };
+		DD288E3C191BFC20004348B7 /* vulture-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vulture-320x200.png"; sourceTree = "<group>"; };
+		DD288E3D191BFC20004348B7 /* walrus-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "walrus-320x200.png"; sourceTree = "<group>"; };
+		DD288E3E191BFC20004348B7 /* xrayTetra-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xrayTetra-320x200.png"; sourceTree = "<group>"; };
+		DD288E3F191BFC20004348B7 /* yak-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yak-320x200.png"; sourceTree = "<group>"; };
+		DD288E40191BFC20004348B7 /* zebra-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zebra-320x200.png"; sourceTree = "<group>"; };
 		DD2B72B11914687E00CE2AD8 /* campus-pano-320x90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-pano-320x90.png"; sourceTree = "<group>"; };
 		DD2B72B21914687E00CE2AD8 /* campus-pano-640x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-pano-640x180.png"; sourceTree = "<group>"; };
 		DD2B72B31914687E00CE2AD8 /* campus-tigerDark-320x225.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-tigerDark-320x225.png"; sourceTree = "<group>"; };
@@ -282,6 +327,7 @@
 		3BC5711218EDFCC900019738 /* ZooIBeaconApplication */ = {
 			isa = PBXGroup;
 			children = (
+				DD288E2319195D32004348B7 /* iBeacon */,
 				DD9867BC19005040000FD05D /* ZOOMapViewController.h */,
 				DD9867BD19005040000FD05D /* ZOOMapViewController.m */,
 				DDFDED3619004B100070E009 /* ZOOTabBarViewController.h */,
@@ -402,6 +448,52 @@
 			path = "zooApp-Badges";
 			sourceTree = "<group>";
 		};
+		DD288E2319195D32004348B7 /* iBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				DD288E2419195D79004348B7 /* ZOOBadge.h */,
+				DD288E2519195D79004348B7 /* ZOOBadge.m */,
+				DD288E2619195D79004348B7 /* ZOOBadgeHandler.h */,
+				DD288E2719195D79004348B7 /* ZOOBadgeHandler.m */,
+				DD288E2819195D79004348B7 /* ZOOBeaconHandler.h */,
+				DD288E2919195D79004348B7 /* ZOOBeaconHandler.m */,
+			);
+			name = iBeacon;
+			sourceTree = "<group>";
+		};
+		DD288E2D191BFBFB004348B7 /* 18 unearned animals */ = {
+			isa = PBXGroup;
+			children = (
+				DD288E2E191BFC20004348B7 /* 18 Other Animals 320x200 */,
+			);
+			name = "18 unearned animals";
+			sourceTree = "<group>";
+		};
+		DD288E2E191BFC20004348B7 /* 18 Other Animals 320x200 */ = {
+			isa = PBXGroup;
+			children = (
+				DD288E2F191BFC20004348B7 /* antelope-320x200.png */,
+				DD288E30191BFC20004348B7 /* dolphin-320x200.png */,
+				DD288E31191BFC20004348B7 /* hippo-320x200.png */,
+				DD288E32191BFC20004348B7 /* iguana-320x200.png */,
+				DD288E33191BFC20004348B7 /* jaguar-320x200.png */,
+				DD288E34191BFC20004348B7 /* kangaroo-320x200.png */,
+				DD288E35191BFC20004348B7 /* monkey-320x200.png */,
+				DD288E36191BFC20004348B7 /* narwhal-320x200.png */,
+				DD288E37191BFC20004348B7 /* orangutan-320x200.png */,
+				DD288E38191BFC20004348B7 /* penguin-320x200.png */,
+				DD288E39191BFC20004348B7 /* quail-320x200.png */,
+				DD288E3A191BFC20004348B7 /* rhino-320x200.png */,
+				DD288E3B191BFC20004348B7 /* uakari-320x200.png */,
+				DD288E3C191BFC20004348B7 /* vulture-320x200.png */,
+				DD288E3D191BFC20004348B7 /* walrus-320x200.png */,
+				DD288E3E191BFC20004348B7 /* xrayTetra-320x200.png */,
+				DD288E3F191BFC20004348B7 /* yak-320x200.png */,
+				DD288E40191BFC20004348B7 /* zebra-320x200.png */,
+			);
+			path = "18 Other Animals 320x200";
+			sourceTree = "<group>";
+		};
 		DD3159AD18F64F8700247B44 /* Connect Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -460,6 +552,7 @@
 		DDF9E96318FCF4BD0032ED1E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DD288E2D191BFBFB004348B7 /* 18 unearned animals */,
 				DD2B72B11914687E00CE2AD8 /* campus-pano-320x90.png */,
 				DD2B72B21914687E00CE2AD8 /* campus-pano-640x180.png */,
 				DD2B72B31914687E00CE2AD8 /* campus-tigerDark-320x225.png */,
@@ -577,19 +670,25 @@
 				DD2B72B51914687E00CE2AD8 /* campus-pano-320x90.png in Resources */,
 				DD13978C191441F200148DDC /* Bear-3-320x200.png in Resources */,
 				DD537C1D191201BD00F4227B /* ziewIcon-settingsRetina-58x58.png in Resources */,
+				DD288E47191BFC20004348B7 /* monkey-320x200.png in Resources */,
 				DD537C16191201BD00F4227B /* ziewIcon-appStore-512x512.png in Resources */,
 				DD13978A191441F200148DDC /* Bear-1-320x200.png in Resources */,
 				DDF9E97418FCF50E0032ED1E /* icon-map-30x27.png in Resources */,
 				DD139790191441F200148DDC /* Elephant-1-320x200.png in Resources */,
 				DD15E201190C6AFB00E3EB39 /* zooApp-flamingo-120x120.png in Resources */,
 				DD288E22191953BB004348B7 /* animals.json in Resources */,
+				DD288E4E191BFC20004348B7 /* vulture-320x200.png in Resources */,
 				DD13978D191441F200148DDC /* Crocodile-1-320x200.png in Resources */,
+				DD288E51191BFC20004348B7 /* yak-320x200.png in Resources */,
 				DD15E206190C6AFB00E3EB39 /* zooApp-gorilla-60x60.png in Resources */,
+				DD288E49191BFC20004348B7 /* orangutan-320x200.png in Resources */,
 				DD15E216190DCCDC00E3EB39 /* ZiewMap-Mizzou-1768x2186.png in Resources */,
 				DD1397A1191441F200148DDC /* Tiger-3-320x200.png in Resources */,
 				DDF9E97318FCF50E0032ED1E /* icon-connect-60x54.png in Resources */,
 				DD537C17191201BD00F4227B /* ziewIcon-appStoreRetina-1024x1024.png in Resources */,
+				DD288E46191BFC20004348B7 /* kangaroo-320x200.png in Resources */,
 				DD15E202190C6AFB00E3EB39 /* zooApp-flamingo-30x30.png in Resources */,
+				DD288E50191BFC20004348B7 /* xrayTetra-320x200.png in Resources */,
 				DD13979A191441F200148DDC /* Lion-2-320x200.png in Resources */,
 				DD15E205190C6AFB00E3EB39 /* zooApp-gorilla-30x30.png in Resources */,
 				DD15E20F190C6AFB00E3EB39 /* zooApp-tiger-60x60.png in Resources */,
@@ -597,13 +696,16 @@
 				DD15E1FC190C6AFB00E3EB39 /* zooApp-crocodile-30x30.png in Resources */,
 				DD15E1FF190C6AFB00E3EB39 /* zooApp-elephant-30x30.png in Resources */,
 				DD139794191441F200148DDC /* Flamingo-2-320x200.png in Resources */,
+				DD288E43191BFC20004348B7 /* hippo-320x200.png in Resources */,
 				DD15E1FB190C6AFB00E3EB39 /* zooApp-crocodile-120x120.png in Resources */,
 				DD15E207190C6AFB00E3EB39 /* zooApp-lion-120x120.png in Resources */,
 				DD13979E191441F200148DDC /* Shark-3-320x200.png in Resources */,
 				DD2B72B81914687E00CE2AD8 /* campus-tigerDark-640x450.png in Resources */,
+				DD288E4D191BFC20004348B7 /* uakari-320x200.png in Resources */,
 				DD139792191441F200148DDC /* Elephant-3-320x200.png in Resources */,
 				DD15E208190C6AFB00E3EB39 /* zooApp-lion-30x30.png in Resources */,
 				DD15E20C190C6AFB00E3EB39 /* zooApp-shark-60x60.png in Resources */,
+				DD288E42191BFC20004348B7 /* dolphin-320x200.png in Resources */,
 				DD13978B191441F200148DDC /* Bear-2-320x200.png in Resources */,
 				DDF9E97218FCF50E0032ED1E /* icon-connect-30x27.png in Resources */,
 				DD15E20D190C6AFB00E3EB39 /* zooApp-tiger-120x120.png in Resources */,
@@ -612,15 +714,19 @@
 				3BC5712818EDFCC900019738 /* Images.xcassets in Resources */,
 				DD15E200190C6AFB00E3EB39 /* zooApp-elephant-60x60.png in Resources */,
 				DD15E20B190C6AFB00E3EB39 /* zooApp-shark-30x30.png in Resources */,
+				DD288E48191BFC20004348B7 /* narwhal-320x200.png in Resources */,
 				DD15E1F8190C6AFB00E3EB39 /* zooApp-bear-120x120.png in Resources */,
 				DD13979F191441F200148DDC /* Tiger-1-320x200.png in Resources */,
 				DD2B72B71914687E00CE2AD8 /* campus-tigerDark-320x225.png in Resources */,
 				DD139795191441F200148DDC /* Flamingo-3-320x200.png in Resources */,
+				DD288E45191BFC20004348B7 /* jaguar-320x200.png in Resources */,
 				DD1397A31914441000148DDC /* ziewIcon-80x80.png in Resources */,
+				DD288E4F191BFC20004348B7 /* walrus-320x200.png in Resources */,
 				DDF9E96E18FCF50E0032ED1E /* icon-animals-30x27.png in Resources */,
 				3BC5711718EDFCC900019738 /* InfoPlist.strings in Resources */,
 				3BC5712018EDFCC900019738 /* Main.storyboard in Resources */,
 				DD139799191441F200148DDC /* Lion-1-320x200.png in Resources */,
+				DD288E44191BFC20004348B7 /* iguana-320x200.png in Resources */,
 				DD9867BB19004F9A000FD05D /* Screen Shot 2014-04-08 at 2.09.59 PM.png in Resources */,
 				DD15E20A190C6AFB00E3EB39 /* zooApp-shark-120x120.png in Resources */,
 				DDF9E97518FCF50E0032ED1E /* icon-map-60x54.png in Resources */,
@@ -633,8 +739,11 @@
 				DD15E1FA190C6AFB00E3EB39 /* zooApp-bear-60x60.png in Resources */,
 				DD15E211190C6AFB00E3EB39 /* zooApp-unearned-30x30.png in Resources */,
 				DD15E1FE190C6AFB00E3EB39 /* zooApp-elephant-120x120.png in Resources */,
+				DD288E4B191BFC20004348B7 /* quail-320x200.png in Resources */,
 				DD139791191441F200148DDC /* Elephant-2-320x200.png in Resources */,
+				DD288E52191BFC20004348B7 /* zebra-320x200.png in Resources */,
 				DD13979B191441F200148DDC /* Lion-3-320x200.png in Resources */,
+				DD288E4A191BFC20004348B7 /* penguin-320x200.png in Resources */,
 				DD13978E191441F200148DDC /* Crocodile-2-320x200.png in Resources */,
 				DD537C1A191201BD00F4227B /* ziewIcon-iOS6homeScreen-57x57.png in Resources */,
 				DD139796191441F200148DDC /* Gorilla-1-320x200.png in Resources */,
@@ -642,8 +751,10 @@
 				DD139797191441F200148DDC /* Gorilla-2-320x200.png in Resources */,
 				DD15E1F9190C6AFB00E3EB39 /* zooApp-bear-30x30.png in Resources */,
 				DD13979C191441F200148DDC /* Shark-1-320x200.png in Resources */,
+				DD288E41191BFC20004348B7 /* antelope-320x200.png in Resources */,
 				DD1397A0191441F200148DDC /* Tiger-2-320x200.png in Resources */,
 				DD139798191441F200148DDC /* Gorilla-3-320x200.png in Resources */,
+				DD288E4C191BFC20004348B7 /* rhino-320x200.png in Resources */,
 				DD13979D191441F200148DDC /* Shark-2-320x200.png in Resources */,
 				DD537C1C191201BD00F4227B /* ziewIcon-settings-29x29.png in Resources */,
 			);
@@ -664,11 +775,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD288E2B19195D79004348B7 /* ZOOBadgeHandler.m in Sources */,
 				DD3159B018F64FCE00247B44 /* connectController.m in Sources */,
 				DD3159BD18F9B3CB00247B44 /* collectionViewCell.m in Sources */,
+				DD288E2A19195D79004348B7 /* ZOOBadge.m in Sources */,
 				3BC5711918EDFCC900019738 /* main.m in Sources */,
 				3BC5711D18EDFCC900019738 /* ZOOAppDelegate.m in Sources */,
 				DD3E512318F1ED0100DB9200 /* TableTableViewController.m in Sources */,
+				DD288E2C19195D79004348B7 /* ZOOBeaconHandler.m in Sources */,
 				DD3159BA18F9AC5900247B44 /* collectionViewController.m in Sources */,
 				DD9867BE19005040000FD05D /* ZOOMapViewController.m in Sources */,
 				DD3E512918F1F2D500DB9200 /* AnimalDetailsViewController.m in Sources */,
