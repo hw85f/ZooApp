@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ESTBeacon.h"
 
 @interface ZOOTabBarViewController : UITabBarController
-//@property (strong, nonatomic) IBOutlet UITabBar *tabBar;
+
+- (id)initWithBeacon:(ESTBeacon *)beacon;
+
+@property (nonatomic, assign) BOOL showButton;
 
 @end

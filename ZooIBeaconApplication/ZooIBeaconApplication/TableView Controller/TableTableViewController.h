@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "AnimalDetailsViewController.h"
+#import "ZOOBarButton.h"
 
 @interface TableTableViewController : UITableViewController
 @property (strong, nonatomic) IBOutlet UINavigationItem *navagationbar;
 @property (nonatomic, strong) NSArray *data;
+@property (nonatomic, strong) IBOutlet ZOOBarButton *barbutton;
+
 
 @end

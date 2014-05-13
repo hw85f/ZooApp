@@ -7,6 +7,8 @@
 //
 
 #import "ZOOMapViewController.h"
+#import "ZOOTabBarViewController.h"
+
 
 @interface ZOOMapViewController ()
 
@@ -28,7 +30,32 @@
     self.imageView.frame = CGRectMake(0,0, self.imageView.image.size.width, self.imageView.image.size.height);
     [self.scrollView setZoomScale:0.5f];
     [self.scrollView setClipsToBounds:YES];
+    
+    [self toggleBarButton];
+    
+    // Do any additional setup after loading the view.
+    //    [[self barbutton] setEnabled:NO];
+    [self navigationItem].rightBarButtonItem = self.barbutton;
+    
+    //Add listener
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(toggleBarButton) name:@"Beacon Detected!!" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(toggleBarButton) name:@"Beacon UnDetected!!" object:nil];
    
+}
+
+-(void) toggleBarButton
+{
+    //Check tab bar for showbutton
+    if ([(ZOOTabBarViewController*)[[self parentViewController] parentViewController] showButton])
+    {
+        [[self barbutton] setEnabled:YES];
+        [[[self barbutton] buttonLabel] setText:@"Nearby Exhibit"];
+    }
+    else
+    {
+        [[self barbutton] setEnabled:NO];
+        [[[self barbutton] buttonLabel] setText:@""];
+    }
 }
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView

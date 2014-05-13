@@ -32,6 +32,32 @@
     self.zooIcon.image = [UIImage imageNamed: @"ziewIcon"];
     self.pano.image = [UIImage imageNamed: @"pano"];
     
+    [self toggleBarButton];
+    
+    // Do any additional setup after loading the view.
+    //    [[self barbutton] setEnabled:NO];
+    [self navigationItem].rightBarButtonItem = self.barbutton;
+    
+    //Add listener
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(toggleBarButton) name:@"Beacon Detected!!" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(toggleBarButton) name:@"Beacon UnDetected!!" object:nil];
+
+    
+}
+
+-(void) toggleBarButton
+{
+    //Check tab bar for showbutton
+    if ([(ZOOTabBarViewController*)[[self parentViewController] parentViewController] showButton])
+    {
+        [[self barbutton] setEnabled:YES];
+        [[[self barbutton] buttonLabel] setText:@"Nearby Exhibit"];
+    }
+    else
+    {
+        [[self barbutton] setEnabled:NO];
+        [[[self barbutton] buttonLabel] setText:@""];
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -43,7 +69,7 @@
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.facebook.com"]];
 }
 - (IBAction)Twitter:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.twitter.com"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.twitter.com/ziewapp"]];
 }
 - (IBAction)Website:(id)sender {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.google.com"]];

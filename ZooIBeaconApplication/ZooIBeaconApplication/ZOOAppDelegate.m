@@ -14,6 +14,15 @@
 {
     // Override point for customization after application launch.
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    UILocalNotification *localNotification = [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
+    
+    if(localNotification){
+        [application cancelAllLocalNotifications];
+    }
+    
+    
+    
     return YES;
 }
 							

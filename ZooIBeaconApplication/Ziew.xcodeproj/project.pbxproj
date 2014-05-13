@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B91CB371921B91D0060CB5D /* ZOOBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B91CB361921B91D0060CB5D /* ZOOBarButton.m */; };
 		3BC5710D18EDFCC900019738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5710C18EDFCC900019738 /* Foundation.framework */; };
 		3BC5710F18EDFCC900019738 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5710E18EDFCC900019738 /* CoreGraphics.framework */; };
 		3BC5711118EDFCC900019738 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5711018EDFCC900019738 /* UIKit.framework */; };
@@ -96,6 +97,9 @@
 		DD288E50191BFC20004348B7 /* xrayTetra-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E3E191BFC20004348B7 /* xrayTetra-320x200.png */; };
 		DD288E51191BFC20004348B7 /* yak-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E3F191BFC20004348B7 /* yak-320x200.png */; };
 		DD288E52191BFC20004348B7 /* zebra-320x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DD288E40191BFC20004348B7 /* zebra-320x200.png */; };
+		DD288E5B19200122004348B7 /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD288E5A19200122004348B7 /* libEstimoteSDK.a */; };
+		DD288E6C1921C7FA004348B7 /* AGPushNoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD288E6A1921C7FA004348B7 /* AGPushNoteView.m */; };
+		DD288E6D1921C7FA004348B7 /* AGPushNoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD288E6B1921C7FA004348B7 /* AGPushNoteView.xib */; };
 		DD2B72B51914687E00CE2AD8 /* campus-pano-320x90.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B11914687E00CE2AD8 /* campus-pano-320x90.png */; };
 		DD2B72B61914687E00CE2AD8 /* campus-pano-640x180.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B21914687E00CE2AD8 /* campus-pano-640x180.png */; };
 		DD2B72B71914687E00CE2AD8 /* campus-tigerDark-320x225.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B72B31914687E00CE2AD8 /* campus-tigerDark-320x225.png */; };
@@ -137,6 +141,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B91CB351921B91D0060CB5D /* ZOOBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZOOBarButton.h; path = Views/ZOOBarButton.h; sourceTree = "<group>"; };
+		3B91CB361921B91D0060CB5D /* ZOOBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZOOBarButton.m; path = Views/ZOOBarButton.m; sourceTree = "<group>"; };
 		3BC5710918EDFCC900019738 /* Ziew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ziew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC5710C18EDFCC900019738 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3BC5710E18EDFCC900019738 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -233,6 +239,15 @@
 		DD288E3E191BFC20004348B7 /* xrayTetra-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xrayTetra-320x200.png"; sourceTree = "<group>"; };
 		DD288E3F191BFC20004348B7 /* yak-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yak-320x200.png"; sourceTree = "<group>"; };
 		DD288E40191BFC20004348B7 /* zebra-320x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zebra-320x200.png"; sourceTree = "<group>"; };
+		DD288E5519200122004348B7 /* ESTBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeacon.h; sourceTree = "<group>"; };
+		DD288E5619200122004348B7 /* ESTBeaconDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconDefinitions.h; sourceTree = "<group>"; };
+		DD288E5719200122004348B7 /* ESTBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconManager.h; sourceTree = "<group>"; };
+		DD288E5819200122004348B7 /* ESTBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconRegion.h; sourceTree = "<group>"; };
+		DD288E5919200122004348B7 /* ESTBeaconUpdateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconUpdateInfo.h; sourceTree = "<group>"; };
+		DD288E5A19200122004348B7 /* libEstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEstimoteSDK.a; path = EstimoteSDK/libEstimoteSDK.a; sourceTree = "<group>"; };
+		DD288E691921C7FA004348B7 /* AGPushNoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPushNoteView.h; sourceTree = "<group>"; };
+		DD288E6A1921C7FA004348B7 /* AGPushNoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPushNoteView.m; sourceTree = "<group>"; };
+		DD288E6B1921C7FA004348B7 /* AGPushNoteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGPushNoteView.xib; sourceTree = "<group>"; };
 		DD2B72B11914687E00CE2AD8 /* campus-pano-320x90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-pano-320x90.png"; sourceTree = "<group>"; };
 		DD2B72B21914687E00CE2AD8 /* campus-pano-640x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-pano-640x180.png"; sourceTree = "<group>"; };
 		DD2B72B31914687E00CE2AD8 /* campus-tigerDark-320x225.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus-tigerDark-320x225.png"; sourceTree = "<group>"; };
@@ -277,6 +292,7 @@
 			files = (
 				3BC5710F18EDFCC900019738 /* CoreGraphics.framework in Frameworks */,
 				3BC5711118EDFCC900019738 /* UIKit.framework in Frameworks */,
+				DD288E5B19200122004348B7 /* libEstimoteSDK.a in Frameworks */,
 				3BC5710D18EDFCC900019738 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +332,8 @@
 		3BC5710B18EDFCC900019738 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD288E5419200122004348B7 /* Headers */,
+				DD288E5A19200122004348B7 /* libEstimoteSDK.a */,
 				3BC5710C18EDFCC900019738 /* Foundation.framework */,
 				3BC5710E18EDFCC900019738 /* CoreGraphics.framework */,
 				3BC5711018EDFCC900019738 /* UIKit.framework */,
@@ -327,6 +345,9 @@
 		3BC5711218EDFCC900019738 /* ZooIBeaconApplication */ = {
 			isa = PBXGroup;
 			children = (
+				DD288E681921C7FA004348B7 /* AGPushNote */,
+				3B91CB351921B91D0060CB5D /* ZOOBarButton.h */,
+				3B91CB361921B91D0060CB5D /* ZOOBarButton.m */,
 				DD288E2319195D32004348B7 /* iBeacon */,
 				DD9867BC19005040000FD05D /* ZOOMapViewController.h */,
 				DD9867BD19005040000FD05D /* ZOOMapViewController.m */,
@@ -492,6 +513,29 @@
 				DD288E40191BFC20004348B7 /* zebra-320x200.png */,
 			);
 			path = "18 Other Animals 320x200";
+			sourceTree = "<group>";
+		};
+		DD288E5419200122004348B7 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DD288E5519200122004348B7 /* ESTBeacon.h */,
+				DD288E5619200122004348B7 /* ESTBeaconDefinitions.h */,
+				DD288E5719200122004348B7 /* ESTBeaconManager.h */,
+				DD288E5819200122004348B7 /* ESTBeaconRegion.h */,
+				DD288E5919200122004348B7 /* ESTBeaconUpdateInfo.h */,
+			);
+			name = Headers;
+			path = EstimoteSDK/Headers;
+			sourceTree = "<group>";
+		};
+		DD288E681921C7FA004348B7 /* AGPushNote */ = {
+			isa = PBXGroup;
+			children = (
+				DD288E691921C7FA004348B7 /* AGPushNoteView.h */,
+				DD288E6A1921C7FA004348B7 /* AGPushNoteView.m */,
+				DD288E6B1921C7FA004348B7 /* AGPushNoteView.xib */,
+			);
+			path = AGPushNote;
 			sourceTree = "<group>";
 		};
 		DD3159AD18F64F8700247B44 /* Connect Controllers */ = {
@@ -756,6 +800,7 @@
 				DD139798191441F200148DDC /* Gorilla-3-320x200.png in Resources */,
 				DD288E4C191BFC20004348B7 /* rhino-320x200.png in Resources */,
 				DD13979D191441F200148DDC /* Shark-2-320x200.png in Resources */,
+				DD288E6D1921C7FA004348B7 /* AGPushNoteView.xib in Resources */,
 				DD537C1C191201BD00F4227B /* ziewIcon-settings-29x29.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -781,9 +826,11 @@
 				DD288E2A19195D79004348B7 /* ZOOBadge.m in Sources */,
 				3BC5711918EDFCC900019738 /* main.m in Sources */,
 				3BC5711D18EDFCC900019738 /* ZOOAppDelegate.m in Sources */,
+				DD288E6C1921C7FA004348B7 /* AGPushNoteView.m in Sources */,
 				DD3E512318F1ED0100DB9200 /* TableTableViewController.m in Sources */,
 				DD288E2C19195D79004348B7 /* ZOOBeaconHandler.m in Sources */,
 				DD3159BA18F9AC5900247B44 /* collectionViewController.m in Sources */,
+				3B91CB371921B91D0060CB5D /* ZOOBarButton.m in Sources */,
 				DD9867BE19005040000FD05D /* ZOOMapViewController.m in Sources */,
 				DD3E512918F1F2D500DB9200 /* AnimalDetailsViewController.m in Sources */,
 				DDFDED3819004B100070E009 /* ZOOTabBarViewController.m in Sources */,
@@ -914,6 +961,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZooIBeaconApplication/Ziew-Prefix.pch";
 				INFOPLIST_FILE = "ZooIBeaconApplication/Ziew-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+				);
 				PRODUCT_NAME = Ziew;
 				WRAPPER_EXTENSION = app;
 			};
@@ -927,6 +978,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZooIBeaconApplication/Ziew-Prefix.pch";
 				INFOPLIST_FILE = "ZooIBeaconApplication/Ziew-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+				);
 				PRODUCT_NAME = Ziew;
 				WRAPPER_EXTENSION = app;
 			};

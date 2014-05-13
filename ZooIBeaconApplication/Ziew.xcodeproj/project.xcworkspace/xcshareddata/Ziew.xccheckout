@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>8514749F-DCA9-4CA4-98BB-5C1E5CBAA87D</string>
+	<string>152E0CB5-69BC-4249-BDFD-3DB1D2EB2D20</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Ziew</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B6256596-3899-40B6-9483-B7E37B68305E</key>
-		<string>https://github.com/hw85f/ZooApp.git</string>
+		<key>6ADB7794-FDEE-4781-9A2B-8F7895E3E829</key>
+		<string>ssh://github.com/tyten/festival.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ZooIBeaconApplication/Ziew.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B6256596-3899-40B6-9483-B7E37B68305E</key>
+		<key>6ADB7794-FDEE-4781-9A2B-8F7895E3E829</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/hw85f/ZooApp.git</string>
+	<string>ssh://github.com/tyten/festival.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B6256596-3899-40B6-9483-B7E37B68305E</string>
+	<string>6ADB7794-FDEE-4781-9A2B-8F7895E3E829</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B6256596-3899-40B6-9483-B7E37B68305E</string>
+			<string>6ADB7794-FDEE-4781-9A2B-8F7895E3E829</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Git</string>
+			<string>festival</string>
 		</dict>
 	</array>
 </dict>

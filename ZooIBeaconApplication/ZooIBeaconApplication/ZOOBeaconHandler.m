@@ -33,22 +33,22 @@
     NSLog(@"Hello");
     self.locationManager = [[CLLocationManager alloc] init];
 	self.locationManager.delegate = self;
-	NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:@"B9407F30-F5F8-466E-AFF9-25556B57FE6D"];
+	//NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:@"B9407F30-F5F8-466E-AFF9-25556B57FE6D"];
     
-	CLBeaconRegion *beaconRegion = [[CLBeaconRegion alloc] initWithProximityUUID:uuid identifier:@"ZOOBeaconRegion"];
+	//CLBeaconRegion *beaconRegion = [[CLBeaconRegion alloc] initWithProximityUUID:uuid identifier:@"ZOOBeaconRegion"];
     
     //start monitoring
-	[self.locationManager startMonitoringForRegion:beaconRegion];
+	//[self.locationManager startMonitoringForRegion:beaconRegion];
 }
 
 #pragma mark - Location manager delegate
 
-- (void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region
-{
-    //NSLog(@"DID ENTER A REGION NAMED : %@", region.identifier);
-	CLBeaconRegion *beaconRegion = (CLBeaconRegion *)region;
-	[manager startRangingBeaconsInRegion:beaconRegion];
-}
+//- (void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region
+//{
+//    //NSLog(@"DID ENTER A REGION NAMED : %@", region.identifier);
+//	CLBeaconRegion *beaconRegion = (CLBeaconRegion *)region;
+//	[manager startRangingBeaconsInRegion:beaconRegion];
+//}
 
 - (void)locationManager:(CLLocationManager *)manager didExitRegion:(CLRegion *)region
 {
@@ -59,7 +59,7 @@
 
 - (void)locationManager:(CLLocationManager *)manager didRangeBeacons:(NSArray *)beacons inRegion:(CLBeaconRegion *)region
 {
-    self.nearestBeacon = nil;
+    //self.nearestBeacon = nil;
     //BOOL earnedBadge = false;
     
     //check the range of beacons
@@ -70,10 +70,10 @@
         if (proximity == CLProximityNear || proximity == CLProximityImmediate) {
             
             //Create Badge Handler object
-            ZOOBadgeHandler *badgeHandler = [ZOOBadgeHandler new];
+            //ZOOBadgeHandler *badgeHandler = [ZOOBadgeHandler new];
             //Get the badge name
-            NSNumber *beaconMinor = beacon.minor;
-            ZOOBadge *earnedBadge = [badgeHandler getBadge:@"badgeName"];
+            //NSNumber *beaconMinor = beacon.minor;
+            //ZOOBadge *earnedBadge = [badgeHandler getBadge:@"badgeName"];
         }
     }
 }

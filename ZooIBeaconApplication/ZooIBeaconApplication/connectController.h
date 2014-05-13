@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZOOTabBarViewController.h"
+#import "ZOOBarButton.h"
 
 @interface connectController : UIViewController
 @property (strong, nonatomic) IBOutlet UIButton *Facebook;
@@ -15,6 +17,7 @@
 @property (strong, nonatomic) IBOutlet UIImageView *background;
 @property (strong, nonatomic) IBOutlet UIImageView *zooIcon;
 @property (strong, nonatomic) IBOutlet UIImageView *pano;
+@property (nonatomic, strong) IBOutlet ZOOBarButton *barbutton;
 
 
 @end

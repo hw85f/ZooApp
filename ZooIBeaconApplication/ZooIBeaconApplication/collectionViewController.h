@@ -9,9 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "collectionViewCell.h"
 #import "AnimalDetailsViewController.h"
+#import "ZOOBarButton.h"
 
 @interface collectionViewController : UICollectionViewController
 
 @property (nonatomic, strong) NSArray *data;
+@property (nonatomic, strong) IBOutlet ZOOBarButton *barbutton;
+
 
 @end

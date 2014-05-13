@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZOOBarButton.h"
 
 @interface ZOOMapViewController : UIViewController <UIScrollViewDelegate>
 
 @property (nonatomic,weak) IBOutlet UIScrollView *scrollView;
 @property (nonatomic,weak) IBOutlet UIImageView *imageView;
+@property (nonatomic, strong) IBOutlet ZOOBarButton *barbutton;
 
 @end
